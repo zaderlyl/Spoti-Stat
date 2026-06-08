@@ -5,32 +5,28 @@
 // On définit nos catégories et les mots-clés qui y correspondent
 const CATEGORIES_GENRES = [
   {
-    nom: 'Animé',
-    motsClés: ['anime', 'animé', 'anison']
+    nom: 'Rap Français',
+    motsClés: ['rap français']
   },
   {
-    nom: 'J-Pop',
-    motsClés: ['j-pop', 'jpop', 'japanese pop']
+    nom: 'Hip-Hop',
+    motsClés: ['rap', 'hip hop', 'hip-hop']
   },
   {
     nom: 'Rock',
-    motsClés: ['rock', 'punk', 'metal']
+    motsClés: ['rock', 'punk', 'metal', 'alternative']
   },
   {
-    nom: 'Vocaloid',
-    motsClés: ['vocaloid']
+    nom: 'Pop',
+    motsClés: ['pop']
   },
   {
-    nom: 'Indie Japonaise',
-    motsClés: ['indie', 'shibuya', 'city pop']
+    nom: 'Chanson Française',
+    motsClés: ['chanson']
   },
   {
-    nom: 'Variété Française',
-    motsClés: ['french', 'variété', 'variete', 'french pop']
-  },
-  {
-    nom: 'Chanson',
-    motsClés: ['chanson', 'french folk']
+    nom: 'Singer & Songwriter',
+    motsClés: ['singer', 'songwriter']
   }
 ];
 
@@ -124,14 +120,13 @@ function creerGraphiqueGenres(listeMorceaux) {
 
   // On initialise le compteur avec toutes les catégories à 0
   const compteurCategories = {
-    'Animé':             0,
-    'J-Pop':             0,
-    'Rock':              0,
-    'Vocaloid':          0,
-    'Indie Japonaise':   0,
-    'Variété Française': 0,
-    'Chanson':           0,
-    'Autres':            0
+    'Rap Français':        0,
+    'Hip-Hop':             0,
+    'Rock':                0,
+    'Pop':                 0,
+    'Chanson Française':   0,
+    'Singer & Songwriter': 0,
+    'Autres':              0
   };
 
   // On parcourt chaque morceau
@@ -172,14 +167,13 @@ function creerGraphiqueGenres(listeMorceaux) {
         {
           data: valeurs,
           backgroundColor: [
-            '#f48fb1', // Animé          - rose
-            '#90caf9', // J-Pop          - bleu clair
-            '#a5d6a7', // Rock           - vert clair
-            '#fff176', // Vocaloid       - jaune
-            '#ce93d8', // Indie Japonaise- violet
-            '#ffcc80', // Variété Fr.    - orange clair
-            '#80cbc4', // Chanson        - turquoise
-            '#b0bec5'  // Autres         - gris
+            '#f48fb1', // Rap Français        - rose
+            '#f06292', // Hip-Hop             - rose foncé
+            '#a5d6a7', // Rock                - vert clair
+            '#90caf9', // Pop                 - bleu clair
+            '#ffcc80', // Chanson Française   - orange clair
+            '#ce93d8', // Singer & Songwriter - violet
+            '#b0bec5'  // Autres              - gris
           ]
         }
       ]
