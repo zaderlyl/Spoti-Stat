@@ -1,73 +1,30 @@
-// =============================================
-//  1. CATÉGORIES DE GENRES
-// =============================================
-
-// On définit nos catégories et les mots-clés qui y correspondent
 const CATEGORIES_GENRES = [
-  {
-    nom: 'Rap Français',
-    motsClés: ['rap français']
-  },
-  {
-    nom: 'Hip-Hop',
-    motsClés: ['rap', 'hip hop', 'hip-hop']
-  },
-  {
-    nom: 'Rock',
-    motsClés: ['rock', 'punk', 'metal', 'alternative']
-  },
-  {
-    nom: 'Pop',
-    motsClés: ['pop']
-  },
-  {
-    nom: 'Chanson Française',
-    motsClés: ['chanson']
-  },
-  {
-    nom: 'Singer & Songwriter',
-    motsClés: ['singer', 'songwriter']
-  }
+  { nom: 'Rap Français',        motsClés: ['rap français'] },
+  { nom: 'Hip-Hop',             motsClés: ['rap', 'hip hop', 'hip-hop'] },
+  { nom: 'Rock',                motsClés: ['rock', 'punk', 'metal', 'alternative'] },
+  { nom: 'Pop',                 motsClés: ['pop'] },
+  { nom: 'Chanson Française',   motsClés: ['chanson'] },
+  { nom: 'Singer & Songwriter', motsClés: ['singer', 'songwriter'] }
 ];
 
-// Cette fonction prend un genre brut (ex: "j-pop")
-// et retourne la catégorie correspondante (ex: "J-Pop")
-// Si aucune catégorie ne correspond, elle retourne "Autres"
 function trouverCategorie(genre) {
-
-  // On met le genre en minuscule pour comparer plus facilement
   const genreEnMinuscule = genre.toLowerCase();
-
-  // On parcourt chaque catégorie
   for (const categorie of CATEGORIES_GENRES) {
-
-    // On vérifie si le genre contient un des mots-clés de la catégorie
     for (const motCle of categorie.motsClés) {
       if (genreEnMinuscule.includes(motCle)) {
-        return categorie.nom; // On a trouvé la catégorie !
+        return categorie.nom;
       }
     }
   }
-
-  // Aucune catégorie trouvée → Autres
   return 'Autres';
 }
 
 
-// =============================================
-//  2. GRAPHIQUE TOP 10 ARTISTES
-// =============================================
-
 function creerGraphiqueArtistes(listeMorceaux) {
-
-  // On compte combien de morceaux chaque artiste a
   const compteurArtistes = {};
 
   for (const morceau of listeMorceaux) {
-
-    // Un morceau peut avoir plusieurs artistes séparés par ", "
     const artistes = morceau.artiste.split(', ');
-
     for (const artiste of artistes) {
       if (compteurArtistes[artiste] === undefined) {
         compteurArtistes[artiste] = 0;
@@ -76,49 +33,29 @@ function creerGraphiqueArtistes(listeMorceaux) {
     }
   }
 
-  // On trie les artistes du plus au moins présent
-  const artistesTries = Object.entries(compteurArtistes).sort((a, b) => b[1] - a[1]);
-
-  // On garde seulement les 10 premiers
-  const top10 = artistesTries.slice(0, 10);
-
-  // On sépare les noms et les nombres pour Chart.js
-  const noms    = top10.map(item => item[0]);
+  const top10  = Object.entries(compteurArtistes).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const noms   = top10.map(item => item[0]);
   const nombres = top10.map(item => item[1]);
 
-  // On crée le graphique
-  new Chart(document.getElementById('chartArtistes'), {
+  const canvasA = document.getElementById('chartArtistes');
+  Chart.getChart(canvasA)?.destroy();
+
+  new Chart(canvasA, {
     type: 'bar',
     data: {
       labels: noms,
-      datasets: [
-        {
-          label: 'Nombre de morceaux',
-          data: nombres,
-          backgroundColor: '#0d6efd'
-        }
-      ]
+      datasets: [{ label: 'Nombre de morceaux', data: nombres, backgroundColor: '#0d6efd' }]
     },
     options: {
-      indexAxis: 'y', // barres horizontales
-      plugins: {
-        legend: { display: false }
-      },
-      scales: {
-        x: { ticks: { stepSize: 1 } }
-      }
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: { x: { ticks: { stepSize: 1 } } }
     }
   });
 }
 
 
-// =============================================
-//  3. GRAPHIQUE DISTRIBUTION DES GENRES
-// =============================================
-
 function creerGraphiqueGenres(listeMorceaux) {
-
-  // On initialise le compteur avec toutes les catégories à 0
   const compteurCategories = {
     'Rap Français':        0,
     'Hip-Hop':             0,
@@ -129,67 +66,52 @@ function creerGraphiqueGenres(listeMorceaux) {
     'Autres':              0
   };
 
-  // On parcourt chaque morceau
   for (const morceau of listeMorceaux) {
-
-    // Si le morceau n'a pas de genre, on le met dans Autres
     if (morceau.genres.length === 0) {
       compteurCategories['Autres']++;
       continue;
     }
 
-    // On cherche la catégorie du premier genre reconnu
     let categorieFound = 'Autres';
-
     for (const genre of morceau.genres) {
       const categorie = trouverCategorie(genre);
       if (categorie !== 'Autres') {
         categorieFound = categorie;
-        break; // On s'arrête dès qu'on en trouve une
+        break;
       }
     }
-
     compteurCategories[categorieFound]++;
   }
 
-  // On garde seulement les catégories qui ont au moins 1 morceau
-  const categoriesAvecMorceaux = Object.keys(compteurCategories).filter(
-    cat => compteurCategories[cat] > 0
-  );
+  const categoriesAvecMorceaux = Object.keys(compteurCategories).filter(cat => compteurCategories[cat] > 0);
   const valeurs = categoriesAvecMorceaux.map(cat => compteurCategories[cat]);
 
-  // On crée le graphique
-  new Chart(document.getElementById('chartGenres'), {
+  const canvasG = document.getElementById('chartGenres');
+  Chart.getChart(canvasG)?.destroy();
+
+  new Chart(canvasG, {
     type: 'pie',
     data: {
       labels: categoriesAvecMorceaux,
-      datasets: [
-        {
-          data: valeurs,
-          backgroundColor: [
-            '#f48fb1', // Rap Français        - rose
-            '#f06292', // Hip-Hop             - rose foncé
-            '#a5d6a7', // Rock                - vert clair
-            '#90caf9', // Pop                 - bleu clair
-            '#ffcc80', // Chanson Française   - orange clair
-            '#ce93d8', // Singer & Songwriter - violet
-            '#b0bec5'  // Autres              - gris
-          ]
-        }
-      ]
+      datasets: [{
+        data: valeurs,
+        backgroundColor: [
+          '#f48fb1',
+          '#f06292',
+          '#a5d6a7',
+          '#90caf9',
+          '#ffcc80',
+          '#ce93d8',
+          '#b0bec5'
+        ]
+      }]
     },
     options: {
-      plugins: {
-        legend: { position: 'right' }
-      }
+      plugins: { legend: { position: 'right' } }
     }
   });
 }
 
-
-// =============================================
-//  4. COMPOSANT ALPINE
-// =============================================
 
 function formatDuree(ms) {
   const total = Math.floor(ms / 1000);
@@ -201,19 +123,16 @@ function formatDuree(ms) {
 document.addEventListener('alpine:init', () => {
   Alpine.data('app', () => ({
 
-    liste:              [],   // tous les morceaux
-    recherche:          '',   // texte dans la barre de recherche
-    morceauSelectionne: null, // morceau affiché dans la modal
+    liste:              [],
+    albums:             [],
+    recherche:          '',
+    morceauSelectionne: null,
 
-    // Appelé au chargement de la page
     async init() {
       const reponse = await fetch('data/data.json');
       const brut    = await reponse.json();
 
-      // On transforme chaque track brut en objet simple
       this.liste = brut.map(track => {
-
-        // Genres : on prend ceux des artistes, sinon ceux de l'album
         const genresArtistes = track.artists.flatMap(a => a.genres ?? []);
         const genresAlbum    = track.album.genres ?? [];
         const genres         = genresArtistes.length ? genresArtistes : genresAlbum;
@@ -226,7 +145,7 @@ document.addEventListener('alpine:init', () => {
           albumDate:   track.album.release_date ?? '',
           albumTracks: track.album.total_tracks ?? '',
           pochette:    track.album.images?.[0]?.url ?? '',
-          genres:      genres,
+          genres,
           duree:       track.duration_ms ?? 0,
           popularite:  track.popularity ?? 0,
           previewUrl:  track.preview_url ?? '',
@@ -242,7 +161,27 @@ document.addEventListener('alpine:init', () => {
         };
       });
 
-      // On attend que le DOM soit à jour avant de créer les graphiques
+      const albumsMap = {};
+      for (const track of brut) {
+        const alb = track.album;
+        if (!albumsMap[alb.id]) {
+          albumsMap[alb.id] = {
+            id:          alb.id,
+            nom:         alb.name,
+            artiste:     track.artists.map(a => a.name).join(', '),
+            date:        alb.release_date ?? '',
+            totalTracks: alb.total_tracks ?? 0,
+            pochette:    alb.images?.[0]?.url ?? '',
+            popularite:  track.popularity ?? 0
+          };
+        } else {
+          albumsMap[alb.id].popularite = Math.max(albumsMap[alb.id].popularite, track.popularity ?? 0);
+        }
+      }
+      this.albums = Object.values(albumsMap)
+        .sort((a, b) => b.popularite - a.popularite)
+        .slice(0, 12);
+
       this.$nextTick(() => {
         creerGraphiqueArtistes(this.liste);
         creerGraphiqueGenres(this.liste);
@@ -263,19 +202,14 @@ document.addEventListener('alpine:init', () => {
       return formatDuree(ms);
     },
 
-    // Retourne les morceaux filtrés selon la recherche
     filtre() {
       const q = this.recherche.toLowerCase().trim();
-
-      // Si la recherche est vide, on retourne tout
       if (!q) return this.liste;
-
-      // Sinon on filtre
-      return this.liste.filter(morceau => {
-        return morceau.titre.toLowerCase().includes(q)   ||
-               morceau.artiste.toLowerCase().includes(q) ||
-               morceau.album.toLowerCase().includes(q);
-      });
+      return this.liste.filter(morceau =>
+        morceau.titre.toLowerCase().includes(q)   ||
+        morceau.artiste.toLowerCase().includes(q) ||
+        morceau.album.toLowerCase().includes(q)
+      );
     }
 
   }));
