@@ -190,11 +190,11 @@ document.addEventListener('alpine:init', () => {
 
     ouvrirDetails(morceau) {
       this.morceauSelectionne = morceau;
-      document.getElementById('modalDetails').showModal();
+      bootstrap.Modal.getOrCreateInstance(document.getElementById('modalDetails')).show();
     },
 
     fermerDetails() {
-      document.getElementById('modalDetails').close();
+      bootstrap.Modal.getInstance(document.getElementById('modalDetails'))?.hide();
       this.morceauSelectionne = null;
     },
 
