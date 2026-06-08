@@ -191,11 +191,19 @@ function creerGraphiqueGenres(listeMorceaux) {
 //  4. COMPOSANT ALPINE
 // =============================================
 
+function formatDuree(ms) {
+  const total = Math.floor(ms / 1000);
+  const min   = Math.floor(total / 60);
+  const sec   = String(total % 60).padStart(2, '0');
+  return `${min}:${sec}`;
+}
+
 document.addEventListener('alpine:init', () => {
   Alpine.data('app', () => ({
 
-    liste: [],      // tous les morceaux
-    recherche: '',  // texte dans la barre de recherche
+    liste:              [],   // tous les morceaux
+    recherche:          '',   // texte dans la barre de recherche
+    morceauSelectionne: null, // morceau affiché dans la modal
 
     // Appelé au chargement de la page
     async init() {
@@ -211,12 +219,26 @@ document.addEventListener('alpine:init', () => {
         const genres         = genresArtistes.length ? genresArtistes : genresAlbum;
 
         return {
-          id:       track.id,
-          titre:    track.name,
-          artiste:  track.artists.map(a => a.name).join(', '),
-          album:    track.album.name,
-          pochette: track.album.images?.[0]?.url ?? '',
-          genres:   genres
+          id:          track.id,
+          titre:       track.name,
+          artiste:     track.artists.map(a => a.name).join(', '),
+          album:       track.album.name,
+          albumDate:   track.album.release_date ?? '',
+          albumTracks: track.album.total_tracks ?? '',
+          pochette:    track.album.images?.[0]?.url ?? '',
+          genres:      genres,
+          duree:       track.duration_ms ?? 0,
+          popularite:  track.popularity ?? 0,
+          previewUrl:  track.preview_url ?? '',
+          numPiste:    track.track_number ?? '',
+          explicit:    track.explicit ?? false,
+          spotifyUrl:  track.external_urls?.spotify ?? '',
+          artistes:    track.artists.map(a => ({
+            nom:        a.name,
+            popularite: a.popularity ?? 0,
+            followers:  a.followers?.total ?? 0,
+            image:      a.images?.[0]?.url ?? ''
+          }))
         };
       });
 
@@ -225,6 +247,20 @@ document.addEventListener('alpine:init', () => {
         creerGraphiqueArtistes(this.liste);
         creerGraphiqueGenres(this.liste);
       });
+    },
+
+    ouvrirDetails(morceau) {
+      this.morceauSelectionne = morceau;
+      document.getElementById('modalDetails').showModal();
+    },
+
+    fermerDetails() {
+      document.getElementById('modalDetails').close();
+      this.morceauSelectionne = null;
+    },
+
+    formatDuree(ms) {
+      return formatDuree(ms);
     },
 
     // Retourne les morceaux filtrés selon la recherche
