@@ -121,6 +121,8 @@ body {
   border-radius: 16px;
   padding: 1.5rem;
   transition: border-color .2s;
+  width: 100%;
+  box-sizing: border-box;
 }
 .chart-card:hover { border-color: var(--accent); }
 .chart-card h3 {
@@ -338,7 +340,8 @@ body {
   overflow: hidden;
   transition: transform .2s, border-color .2s;
 }
-.album-card:hover { transform: translateY(-3px); border-color: var(--accent); }
+.album-card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 8px 24px rgba(29,185,84,.18); }
+.album-card:active { transform: scale(.97); }
 .album-card img {
   width: 100%;
   aspect-ratio: 1/1;

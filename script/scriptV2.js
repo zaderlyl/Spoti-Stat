@@ -127,7 +127,7 @@ function creerChartGenres(liste) {
 }
 
 // ── CHART ÉCOUTES PAR JOUR ──────────────────────────────────
-function creerChartEcoutesParJour(joursLabels, plays, heures) {
+function creerChartEcoutesParJour(joursLabels, plays, minutes) {
   const canvas = document.getElementById('chartEcoutesJour');
   Chart.getChart(canvas)?.destroy();
 
@@ -145,36 +145,39 @@ function creerChartEcoutesParJour(joursLabels, plays, heures) {
           tension: .4,
           pointBackgroundColor: '#1db954',
           pointRadius: 4,
+          pointHoverRadius: 6,
           yAxisID: 'y'
         },
         {
-          label: 'Heures',
-          data: heures,
+          label: 'Minutes',
+          data: minutes,
           borderColor: '#60a5fa',
           backgroundColor: 'rgba(96,165,250,.08)',
           fill: true,
           tension: .4,
           pointBackgroundColor: '#60a5fa',
           pointRadius: 4,
+          pointHoverRadius: 6,
           yAxisID: 'y2'
         }
       ]
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: { labels: { color: '#e8e8e8', boxWidth: 12 } },
         tooltip: { ...TOOLTIP_DARK, callbacks: {
           label: ctx => ctx.datasetIndex === 0
             ? ` ${ctx.parsed.y} écoute${ctx.parsed.y > 1 ? 's' : ''}`
-            : ` ${formatHeures(ctx.parsed.y * 3600)}`
+            : ` ${ctx.parsed.y} min`
         }}
       },
       scales: {
         x:  { ticks: { color: '#a0a0a0', maxTicksLimit: 10 }, grid: { color: '#2e2e2e' } },
-        y:  { ticks: { color: '#1db954' }, grid: { color: '#2e2e2e' }, title: { display: true, text: 'Écoutes', color: '#1db954' } },
-        y2: { position: 'right', ticks: { color: '#60a5fa' }, grid: { display: false }, title: { display: true, text: 'Heures', color: '#60a5fa' } }
+        y:  { min: 0, ticks: { color: '#1db954', stepSize: 1 }, grid: { color: '#2e2e2e' }, title: { display: true, text: 'Écoutes', color: '#1db954' } },
+        y2: { min: 0, position: 'right', ticks: { color: '#60a5fa' }, grid: { display: false }, title: { display: true, text: 'Minutes', color: '#60a5fa' } }
       }
     }
   });
@@ -187,17 +190,28 @@ function creerChartTrackWeekly(joursLabels, plays, canvasId) {
   Chart.getChart(canvas)?.destroy();
 
   new Chart(canvas, {
-    type: 'bar',
+    type: 'line',
     data: {
       labels: joursLabels,
-      datasets: [{ label: 'Écoutes', data: plays, backgroundColor: 'rgba(29,185,84,.7)', borderColor: '#1db954', borderWidth: 1, borderRadius: 6, borderSkipped: false }]
+      datasets: [{
+        label: 'Écoutes',
+        data: plays,
+        borderColor: '#1db954',
+        backgroundColor: 'rgba(29,185,84,.1)',
+        fill: true,
+        tension: .4,
+        pointBackgroundColor: '#1db954',
+        pointRadius: 5,
+        pointHoverRadius: 7
+      }]
     },
     options: {
       responsive: true,
-      plugins: { legend: { display: false }, tooltip: TOOLTIP_DARK },
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { ...TOOLTIP_DARK, callbacks: { label: ctx => ` ${ctx.parsed.y} écoute${ctx.parsed.y > 1 ? 's' : ''}` } } },
       scales: {
         x: { ticks: { color: '#a0a0a0' }, grid: { color: '#2e2e2e' } },
-        y: { ticks: { color: '#e8e8e8', stepSize: 1 }, grid: { color: '#2e2e2e' } }
+        y: { ticks: { color: '#1db954', stepSize: 1 }, grid: { color: '#2e2e2e' }, min: 0 }
       }
     }
   });
@@ -266,9 +280,13 @@ document.addEventListener('alpine:init', () => {
     trackStatsTotalPlays: 0,
     trackStatsTotalMin:   0,
 
-    // Stats albums
+    // Stats albums global
     albumStatsVisible:  false,
     albumStatsLoading:  false,
+
+    // Popup album
+    albumSelectionne:   null,
+    albumPopupLoading:  false,
 
     async init() {
       const brut = await fetch('data/data.json').then(r => r.json());
@@ -345,40 +363,59 @@ document.addEventListener('alpine:init', () => {
       if (this.statsChargees || this.chargementStats) return;
       this.chargementStats = true;
 
-      const now    = Math.floor(Date.now() / 1000);
-      const depuis = now - 30 * 86400;
-      const tracks = await fetchRecentTracks(depuis, now, 5);
-
-      // Durée moyenne d'un morceau depuis les données locales
+      // Durée moyenne en secondes depuis les données locales
       const dureeMoyenne = this.liste.length
         ? this.liste.reduce((s, m) => s + m.duree, 0) / this.liste.length / 1000
         : 210;
 
-      // Grouper par jour
+      // Préparer les 30 derniers jours
       const parJour = {};
+      const dateKeys = {};
       for (let i = 29; i >= 0; i--) {
-        const d = new Date(); d.setDate(d.getDate() - i);
-        const key = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
-        parJour[key] = { plays: 0, sec: 0 };
+        const d   = new Date();
+        d.setHours(0, 0, 0, 0);
+        d.setDate(d.getDate() - i);
+        const label = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
+        const ts    = Math.floor(d.getTime() / 1000);
+        parJour[label] = { plays: 0, sec: 0 };
+        dateKeys[ts]   = label;
       }
 
-      for (const t of tracks) {
-        const d   = new Date(parseInt(t.date.uts) * 1000);
-        const key = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
-        if (parJour[key]) {
-          parJour[key].plays++;
-          parJour[key].sec += dureeMoyenne;
+      // Récupérer les tracks page par page sans filtre from/to
+      let page = 1, totalPages = 1;
+      const cutoff = Math.floor(Date.now() / 1000) - 30 * 86400;
+
+      do {
+        const data  = await lastfm('user.getrecenttracks', { limit: 200, page });
+        totalPages  = parseInt(data.recenttracks?.['@attr']?.totalPages ?? 1);
+        const batch = (data.recenttracks?.track ?? []).filter(t => t.date?.uts);
+
+        let stop = false;
+        for (const t of batch) {
+          const uts = parseInt(t.date.uts);
+          if (uts < cutoff) { stop = true; break; }
+
+          const d   = new Date(uts * 1000);
+          d.setHours(0, 0, 0, 0);
+          const label = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
+          if (parJour[label] !== undefined) {
+            parJour[label].plays++;
+            parJour[label].sec += dureeMoyenne;
+          }
         }
-      }
+        if (stop) break;
+        page++;
+        if (page > 8) break;
+      } while (page <= totalPages);
 
-      const labels = Object.keys(parJour);
-      const plays  = labels.map(k => parJour[k].plays);
-      const heures = labels.map(k => Math.round(parJour[k].sec / 3600 * 10) / 10);
+      const labels  = Object.keys(parJour);
+      const plays   = labels.map(k => parJour[k].plays);
+      const minutes = labels.map(k => Math.round(parJour[k].sec / 60));
 
       this.chargementStats = false;
       this.statsChargees   = true;
 
-      this.$nextTick(() => creerChartEcoutesParJour(labels, plays, heures));
+      this.$nextTick(() => creerChartEcoutesParJour(labels, plays, minutes));
     },
 
     // ── STATS PAR MORCEAU ──
@@ -449,17 +486,127 @@ document.addEventListener('alpine:init', () => {
       this.albumStatsVisible = false;
     },
 
+    async ouvrirAlbum(alb) {
+      this.albumSelectionne  = alb;
+      this.albumPopupLoading = true;
+
+      // Tracks de cet album dans le json local
+      const tracksAlbum = this.liste.filter(m => m.album === alb.nom);
+
+      // Palette de couleurs pour les lignes
+      const palette = [
+        '#1db954','#60a5fa','#f472b6','#fb923c',
+        '#a78bfa','#f43f5e','#4ade80','#fbbf24',
+        '#34d399','#818cf8','#e879f9','#f97316'
+      ];
+
+      // Préparer 7 jours
+      const jours = [];
+      for (let i = 6; i >= 0; i--) {
+        const d = new Date();
+        d.setHours(0, 0, 0, 0);
+        d.setDate(d.getDate() - i);
+        jours.push(d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' }));
+      }
+
+      // Récupérer les écoutes des 7 derniers jours
+      const now    = Math.floor(Date.now() / 1000);
+      const depuis = now - 7 * 86400;
+      let page = 1, totalPages = 1, toutesEcoutes = [];
+
+      do {
+        const data  = await lastfm('user.getrecenttracks', { limit: 200, page });
+        totalPages  = parseInt(data.recenttracks?.['@attr']?.totalPages ?? 1);
+        const batch = (data.recenttracks?.track ?? []).filter(t => t.date?.uts);
+        let stop = false;
+        for (const t of batch) {
+          if (parseInt(t.date.uts) < depuis) { stop = true; break; }
+          toutesEcoutes.push(t);
+        }
+        if (stop) break;
+        page++;
+        if (page > 3) break;
+      } while (page <= totalPages);
+
+      // Compter par track et par jour
+      const datasets = tracksAlbum.map((m, i) => {
+        const data = jours.map(jour => {
+          return toutesEcoutes.filter(t => {
+            const d   = new Date(parseInt(t.date.uts) * 1000);
+            d.setHours(0, 0, 0, 0);
+            const key = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
+            return key === jour &&
+              t.name.toLowerCase() === m.titre.toLowerCase() &&
+              t.artist['#text'].toLowerCase() === m.artiste.split(', ')[0].toLowerCase();
+          }).length;
+        });
+
+        const couleur = palette[i % palette.length];
+        return {
+          label:              m.titre.length > 25 ? m.titre.slice(0, 23) + '…' : m.titre,
+          data,
+          borderColor:        couleur,
+          backgroundColor:    couleur + '18',
+          pointBackgroundColor: couleur,
+          fill:               false,
+          tension:            .4,
+          pointRadius:        4,
+          pointHoverRadius:   6,
+          borderWidth:        2
+        };
+      }).filter(ds => ds.data.some(v => v > 0)); // n'afficher que les tracks écoutées
+
+      this.albumPopupLoading = false;
+
+      this.$nextTick(() => {
+        const canvas = document.getElementById('chartAlbumPopup');
+        if (!canvas) return;
+        Chart.getChart(canvas)?.destroy();
+
+        new Chart(canvas, {
+          type: 'line',
+          data: { labels: jours, datasets },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+              legend: {
+                labels: { color: '#e8e8e8', boxWidth: 10, font: { size: 11 }, padding: 10 }
+              },
+              tooltip: TOOLTIP_DARK
+            },
+            scales: {
+              x: { ticks: { color: '#a0a0a0' }, grid: { color: '#2e2e2e' } },
+              y: { min: 0, ticks: { color: '#e8e8e8', stepSize: 1 }, grid: { color: '#2e2e2e' } }
+            }
+          }
+        });
+      });
+    },
+
+    fermerAlbum() {
+      this.albumSelectionne = null;
+    },
+
     // ── UTILS ──
     get stats() {
       const artistes = new Set(this.liste.flatMap(m => m.artiste.split(', ')));
       const sorted   = [...this.liste].sort((a, b) => b.popularite - a.popularite);
       const genres   = {};
       for (const m of this.liste) { const c = categoriser(m.genres, m.artiste); genres[c] = (genres[c] ?? 0) + 1; }
+      // Morceau le plus écouté via Last.fm playcounts
+      let topEcoute = '—';
+      if (Object.keys(this.playcounts).length > 0) {
+        const meilleurCle = Object.entries(this.playcounts).sort((a, b) => b[1] - a[1])[0]?.[0];
+        topEcoute = meilleurCle ? meilleurCle.split('|')[0] : '—';
+      }
+
       return {
-        total:    this.liste.length,
-        artistes: artistes.size,
-        topGenre: Object.entries(genres).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '—',
-        topTrack: sorted[0]?.titre ?? '—'
+        total:     this.liste.length,
+        artistes:  artistes.size,
+        topGenre:  Object.entries(genres).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '—',
+        topEcoute
       };
     },
 

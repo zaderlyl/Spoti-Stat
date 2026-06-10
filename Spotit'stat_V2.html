@@ -50,8 +50,8 @@
       </div>
       <div class="stat-card">
         <div class="icon">🔥</div>
-        <div class="value" style="font-size:.9rem;padding-top:.3rem;" x-text="stats.topTrack"></div>
-        <div class="label">Track la + populaire</div>
+        <div class="value" style="font-size:.9rem;padding-top:.3rem;" x-text="stats.topEcoute"></div>
+        <div class="label">+ écoutée (Last.fm)</div>
       </div>
     </div>
 
@@ -98,7 +98,7 @@
         <i class="bi bi-graph-up" style="font-size:2rem;opacity:.3;"></i>
         <p style="margin-top:.5rem;font-size:.85rem;">Clique sur "Charger" pour afficher ton historique</p>
       </div>
-      <div x-show="statsChargees" style="height:280px;position:relative;">
+      <div x-show="statsChargees" style="position:relative;height:280px;">
         <canvas id="chartEcoutesJour"></canvas>
       </div>
     </div>
@@ -113,7 +113,7 @@
     </div>
     <div class="albums-grid" style="margin-bottom:2.5rem;">
       <template x-for="alb in albums" :key="alb.id">
-        <div class="album-card">
+        <div class="album-card" @click="ouvrirAlbum(alb)" style="cursor:pointer;">
           <img :src="alb.pochette" :alt="alb.nom" loading="lazy" />
           <div class="album-info">
             <div class="album-nom" x-text="alb.nom"></div>
@@ -337,6 +337,54 @@
             Vert = nombre d'écoutes · Bleu = temps estimé en minutes (écoutes × durée moyenne)
           </p>
         </div>
+      </div>
+    </div>
+  </template>
+
+  <!-- ═══ MODAL ALBUM POPUP ═══ -->
+  <template x-teleport="body">
+    <div class="modal-backdrop-custom" x-show="albumSelectionne !== null" @click.self="fermerAlbum()" x-transition>
+      <div class="modal-box" style="width:min(860px,95vw);">
+        <button class="modal-close" @click="fermerAlbum()"><i class="bi bi-x-lg"></i></button>
+        <template x-if="albumSelectionne">
+          <div class="modal-body-pad">
+
+            <!-- En-tête album -->
+            <div style="display:flex;gap:1.2rem;align-items:center;margin-bottom:1.4rem;">
+              <img :src="albumSelectionne.pochette" :alt="albumSelectionne.nom"
+                   style="width:90px;height:90px;border-radius:10px;object-fit:cover;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5);" />
+              <div>
+                <div style="font-size:1.25rem;font-weight:800;color:#fff;" x-text="albumSelectionne.nom"></div>
+                <div style="color:var(--muted);font-size:.9rem;margin-top:.25rem;" x-text="albumSelectionne.artiste"></div>
+                <div style="display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap;">
+                  <span class="badge-green" x-text="albumSelectionne.totalTracks + ' titres'"></span>
+                  <span class="badge-gray" x-text="albumSelectionne.date ? albumSelectionne.date.slice(0,4) : ''"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Titre graphique -->
+            <div style="font-size:.85rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.8rem;">
+              <i class="bi bi-graph-up" style="color:var(--accent);margin-right:.4rem;"></i>
+              Écoutes par morceau — 7 derniers jours
+            </div>
+
+            <!-- Loader -->
+            <div x-show="albumPopupLoading" style="text-align:center;padding:3rem;color:var(--muted);">
+              <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
+              <p style="margin-top:.5rem;font-size:.85rem;">Chargement depuis Last.fm…</p>
+            </div>
+
+            <!-- Graphique -->
+            <div x-show="!albumPopupLoading" style="height:340px;position:relative;">
+              <canvas id="chartAlbumPopup"></canvas>
+            </div>
+
+            <p style="font-size:.73rem;color:var(--muted);margin-top:.75rem;">
+              Seules les musiques ayant au moins une écoute sur la période sont affichées.
+            </p>
+          </div>
+        </template>
       </div>
     </div>
   </template>
