@@ -174697,5 +174697,2318 @@
         }
       ]
     }
+  },
+  {
+    "id": "440041432",
+    "name": "C'est pour",
+    "duration_ms": 311000,
+    "explicit": false,
+    "popularity": 33,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/5/2/0/a52d68b772f6f4b093bda33e776c95a9.mp3?hdnea=exp=1781101392~acl=/api/1/1/a/5/2/0/a52d68b772f6f4b093bda33e776c95a9.mp3*~data=user_id=0,application_id=42~hmac=9402e4f7e2d884944a894c42a00e0b337edb429e3925044117bf92b5d96e4a3b",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "53343922",
+      "name": "La vingtaine",
+      "release_date": "2017-12-12",
+      "total_tracks": 20,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8814f08c5c201c9c24be2c13ce8ce429/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "435595872",
+    "name": "Loubard",
+    "duration_ms": 220000,
+    "explicit": false,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/5/0/725dfe661016a5426f8bfab9db203751.mp3?hdnea=exp=1781101393~acl=/api/1/1/7/2/5/0/725dfe661016a5426f8bfab9db203751.mp3*~data=user_id=0,application_id=42~hmac=a38dbe29140cefe1a4a174d44de1416cc5654dbe739975ca36dae1f8fe0b5ed7",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "52628812",
+      "name": "Abandon Sauvage",
+      "release_date": "2018-02-02",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/f8a04f6cb353890204c9495a542930c9/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "781460672",
+    "name": "Casting",
+    "duration_ms": 263000,
+    "explicit": false,
+    "popularity": 84,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/d/9/0/0d92cb99524093f891ee3d9ed9597ae2.mp3?hdnea=exp=1781101393~acl=/api/1/1/0/d/9/0/0d92cb99524093f891ee3d9ed9597ae2.mp3*~data=user_id=0,application_id=42~hmac=b469f7925a670572dbb2626dd2a399141457dff0f35f98b18635ff2979b2ca6d",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11907",
+        "name": "Christophe Maé",
+        "type": "artist",
+        "followers": {
+          "total": 1060605
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 11,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/f371ce72486a624fd17f7860fb3d7c6f/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "115856042",
+      "name": "La vie d'artiste",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8366c42729bfb9539d23f1604389973c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "781460662",
+    "name": "Les gens",
+    "duration_ms": 184000,
+    "explicit": false,
+    "popularity": 70,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/2/0/f523a2827b6b9b374d1a0387af4b6787.mp3?hdnea=exp=1781101394~acl=/api/1/1/f/5/2/0/f523a2827b6b9b374d1a0387af4b6787.mp3*~data=user_id=0,application_id=42~hmac=c3090d4eec610301de0942513d888c3906134f9300fa3e9d34cb0bfacad9cdac",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11907",
+        "name": "Christophe Maé",
+        "type": "artist",
+        "followers": {
+          "total": 1060605
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 11,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/f371ce72486a624fd17f7860fb3d7c6f/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "115856042",
+      "name": "La vie d'artiste",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8366c42729bfb9539d23f1604389973c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "781460652",
+    "name": "À nos amours",
+    "duration_ms": 215000,
+    "explicit": false,
+    "popularity": 47,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/c/0/c2cbfc66f8cc93194ce2714fe544753b.mp3?hdnea=exp=1781101395~acl=/api/1/1/c/2/c/0/c2cbfc66f8cc93194ce2714fe544753b.mp3*~data=user_id=0,application_id=42~hmac=e2d23e668f7123a59a15d4947cf0938e7bea12d0b5ef0196355b42e1f5ffce8e",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11907",
+        "name": "Christophe Maé",
+        "type": "artist",
+        "followers": {
+          "total": 1060605
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 11,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/f371ce72486a624fd17f7860fb3d7c6f/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "115856042",
+      "name": "La vie d'artiste",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8366c42729bfb9539d23f1604389973c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "116914094",
+    "name": "Another Brick in the Wall, Pt. 2",
+    "duration_ms": 238000,
+    "explicit": false,
+    "popularity": 93,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/7/0/c37d8715fca706e00188039c717d1c9f.mp3?hdnea=exp=1781101395~acl=/api/1/1/c/3/7/0/c37d8715fca706e00188039c717d1c9f.mp3*~data=user_id=0,application_id=42~hmac=cea3c76d4f3368772a662a04bab7a8f44e367418db5947cf863b6937fe222652",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "860",
+        "name": "Pink Floyd",
+        "type": "artist",
+        "followers": {
+          "total": 6765965
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 68,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/d62a818a5de6455f17b6a992cf22b32f/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "12114248",
+      "name": "The Wall",
+      "release_date": "1979-11-30",
+      "total_tracks": 26,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/2bea643b92a8fc6b19a23756f718cbd4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2994500681",
+    "name": "Belles rimes",
+    "duration_ms": 61000,
+    "explicit": false,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/d/0/fad2845da9bc6e9789a193655063d0a0.mp3?hdnea=exp=1781101396~acl=/api/1/1/f/a/d/0/fad2845da9bc6e9789a193655063d0a0.mp3*~data=user_id=0,application_id=42~hmac=0c90cdd570f940427314291c26d4e326410392de3b075eab6c9fc28966cec009",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "206470657",
+        "name": "Dinnomo",
+        "type": "artist",
+        "followers": {
+          "total": 2703
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/94e966bef85dca14ea7f07803b5b1a6c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "643127811",
+      "name": "Belles rimes",
+      "release_date": "2023-04-10",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/9326dae622cff0aede1d60f7c16505e6/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "895161",
+    "name": "Le bilan",
+    "duration_ms": 263000,
+    "explicit": false,
+    "popularity": 90,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/9/0/b4962907abe8373495648f737643b1e1.mp3?hdnea=exp=1781101396~acl=/api/1/1/b/4/9/0/b4962907abe8373495648f737643b1e1.mp3*~data=user_id=0,application_id=42~hmac=53c845634929445078949da8df650f07361b32eb383d77cc5914f038c0442819",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "3649",
+        "name": "Nèg' Marrons",
+        "type": "artist",
+        "followers": {
+          "total": 119578
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/2bbcbede3aff378632cf43c755ef53de/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "101348",
+      "name": "Le Bilan",
+      "release_date": "2000-03-27",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8598a87be127cb19e4f22d2ed97532d2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1777301647",
+    "name": "A l'amiable",
+    "duration_ms": 201000,
+    "explicit": true,
+    "popularity": 44,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/9/0/509d5b619292bde5af7f28e484f4fec8.mp3?hdnea=exp=1781101397~acl=/api/1/1/5/0/9/0/509d5b619292bde5af7f28e484f4fec8.mp3*~data=user_id=0,application_id=42~hmac=285bc355f4fa9cf92c6c81cc2903844cf6e4e23679ad071e866abbc8c602754d",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "7024201",
+        "name": "Furax Barbarossa",
+        "type": "artist",
+        "followers": {
+          "total": 41251
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/1922ce13db6ed633a712a13ce6a0da1d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "324321267",
+      "name": "A l'amiable",
+      "release_date": "2022-06-17",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/6eede9d2db9c502cba8acb466835db51/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2710891902",
+    "name": "VIN'S",
+    "duration_ms": 175000,
+    "explicit": true,
+    "popularity": 19,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/a/0/38a128a0315ce84aca9a7fbc8d4c46c8.mp3?hdnea=exp=1781101398~acl=/api/1/1/3/8/a/0/38a128a0315ce84aca9a7fbc8d4c46c8.mp3*~data=user_id=0,application_id=42~hmac=da8102fe3f63c61261acd1acedb11971b632425c788d1b2a2a644feca988aff8",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "15231483",
+        "name": "Tha Manz",
+        "type": "artist",
+        "followers": {
+          "total": 725
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/a21265a70332ea4cc8d6c22456751a47/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "562002012",
+      "name": "SIXIÈME SAMPLE",
+      "release_date": "2024-04-12",
+      "total_tracks": 25,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4224f2a92c16ef379ef07c6f144f5337/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2940679651",
+    "name": "Si je le veux",
+    "duration_ms": 238000,
+    "explicit": true,
+    "popularity": 27,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/2/4/0/6248df0b67efb680caf388d581feaf74.mp3?hdnea=exp=1781101398~acl=/api/1/1/6/2/4/0/6248df0b67efb680caf388d581feaf74.mp3*~data=user_id=0,application_id=42~hmac=15c388ef8187479f95c6cb8897f3cbf86b3f87609cde40da5acab89b70df3415",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "266078242",
+        "name": "l’hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 729
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5ef54d62a0d68f7eb5ba57d0a9974fce/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "627173371",
+      "name": "Que La Vie Soit Louée",
+      "release_date": "2024-08-30",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874a6df143f67a4fb8b46c85c87982c3/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "502266532",
+    "name": "Punchlines qui traînent 2",
+    "duration_ms": 173000,
+    "explicit": false,
+    "popularity": 32,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/8/0/4c868952ae327cc321c804f162e7f08f.mp3?hdnea=exp=1781101399~acl=/api/1/1/4/c/8/0/4c868952ae327cc321c804f162e7f08f.mp3*~data=user_id=0,application_id=42~hmac=dd199e22372d968711b5b9104a308e9cbca80c30be7569844f624a6f6e1f60ce",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "5834180",
+        "name": "Seyté",
+        "type": "artist",
+        "followers": {
+          "total": 14907
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/99d3f9c74bcc9fca8b0b4a89a31c460a/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "63994562",
+      "name": "La vie est belle",
+      "release_date": "2018-05-18",
+      "total_tracks": 10,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/773a4d969b1baa925b1f2ce3d0c448c5/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "605615872",
+    "name": "P'tit con",
+    "duration_ms": 188000,
+    "explicit": false,
+    "popularity": 40,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/d/0/f4dc2eccb06a95ba32b9b13111a91a43.mp3?hdnea=exp=1781101399~acl=/api/1/1/f/4/d/0/f4dc2eccb06a95ba32b9b13111a91a43.mp3*~data=user_id=0,application_id=42~hmac=280370200f4468eaa5b0c22c483d180294c0492a6287a1ff19e163fbd9c2f0b8",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "4085316",
+        "name": "Lucio Bukowski",
+        "type": "artist",
+        "followers": {
+          "total": 30033
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/2b7ab76b9cce329d4cbd1f1cbc825600/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "81988152",
+      "name": "La Plume Et Le Brise Glace",
+      "release_date": "2015-04-06",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/baa7f926e6d71d3a93359c23ed7ea20e/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "91855380",
+    "name": "J'réclame",
+    "duration_ms": 238000,
+    "explicit": false,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/1/0/551160b52c72b16f95ac96805769d517.mp3?hdnea=exp=1781101400~acl=/api/1/1/5/5/1/0/551160b52c72b16f95ac96805769d517.mp3*~data=user_id=0,application_id=42~hmac=a14221f58d7661b2939910a810bfcd230c863ae93b9a8883865f09c0de1e7c7e",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "104154",
+        "name": "Scylla",
+        "type": "artist",
+        "followers": {
+          "total": 132303
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/caf4f29cbfdb63aff8c1ef0ba4feb188/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "9323568",
+      "name": "Abysses",
+      "release_date": "2014-12-29",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/2d3e868c356f553a4956125cae9a9c30/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "63255940",
+    "name": "Hécatombe",
+    "duration_ms": 259000,
+    "explicit": false,
+    "popularity": 39,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/c/0/74c591904500d9597ec521eab0820cb1.mp3?hdnea=exp=1781101400~acl=/api/1/1/7/4/c/0/74c591904500d9597ec521eab0820cb1.mp3*~data=user_id=0,application_id=42~hmac=9463364828e57cb2594ed3023a8f3507ee00c08c8832ae585d724f1eada61dcd",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1582990",
+        "name": "Swift Guad",
+        "type": "artist",
+        "followers": {
+          "total": 59423
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/7b29302727d6b28537fdfb4eb0b20c95/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "6213408",
+      "name": "Hécatombe",
+      "release_date": "2013-02-01",
+      "total_tracks": 22,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/81b01c8e3c5ceb55ae2719b45d61fc1f/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2132678367",
+    "name": "Violence",
+    "duration_ms": 246000,
+    "explicit": true,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/8/0/d98c08cb4ad708660161fb5253800a56.mp3?hdnea=exp=1781101401~acl=/api/1/1/d/9/8/0/d98c08cb4ad708660161fb5253800a56.mp3*~data=user_id=0,application_id=42~hmac=5f43960d95cb4ac2cefbcbec53d5d0b7501145b91fa1c8d4669c9575ddf51711",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1649114",
+        "name": "L'Hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 9421
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4536433d575254f1d060353319f08e8d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "402867827",
+      "name": "Lune croissante",
+      "release_date": "2023-03-31",
+      "total_tracks": 13,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/eb1589e324ca7b1376491b0d92c149e7/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3414926801",
+    "name": "Ecrans de fumée",
+    "duration_ms": 140000,
+    "explicit": false,
+    "popularity": 27,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/1/0/ae11f5d9680f5a9886d5bc20e423e288.mp3?hdnea=exp=1781101402~acl=/api/1/1/a/e/1/0/ae11f5d9680f5a9886d5bc20e423e288.mp3*~data=user_id=0,application_id=42~hmac=6222254cd78092bd84f270ae0bb901ebaa8f710c116913739c8a8210125a1799",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "506377",
+        "name": "Crown",
+        "type": "artist",
+        "followers": {
+          "total": 2964
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/7525bc40355498141131bde061bb3941/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "772644391",
+      "name": "Pieces To The Puzzle",
+      "release_date": "2014-02-17",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/fa3bd0ac9355e276fbc2fa0984f0257e/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2710891952",
+    "name": "MELAN & L'HEXALER",
+    "duration_ms": 193000,
+    "explicit": false,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/9/0/0c9bef7b65af5e8593532cf523faa608.mp3?hdnea=exp=1781101402~acl=/api/1/1/0/c/9/0/0c9bef7b65af5e8593532cf523faa608.mp3*~data=user_id=0,application_id=42~hmac=909c8244bd96470eca60ac3781c78c4608117759ba69a49dbc98c0de95795e30",
+    "track_number": 16,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "15231483",
+        "name": "Tha Manz",
+        "type": "artist",
+        "followers": {
+          "total": 725
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/a21265a70332ea4cc8d6c22456751a47/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "562002012",
+      "name": "SIXIÈME SAMPLE",
+      "release_date": "2024-04-12",
+      "total_tracks": 25,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4224f2a92c16ef379ef07c6f144f5337/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "137642379",
+    "name": "Un jour viendra",
+    "duration_ms": 212000,
+    "explicit": true,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/b/0/b4b90140324eaaa483543a9378608ee2.mp3?hdnea=exp=1781101403~acl=/api/1/1/b/4/b/0/b4b90140324eaaa483543a9378608ee2.mp3*~data=user_id=0,application_id=42~hmac=dcf831cb9e7c5881de7e88e22451cb59d3cd62e63e2fc332264a9c68ab39b001",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "89172",
+        "name": "Demi Portion",
+        "type": "artist",
+        "followers": {
+          "total": 90403
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/f3b34481c6a0b4f647b2f7294959e7d8/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "14770077",
+      "name": "2 chez moi",
+      "release_date": "2017-01-20",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/2d343358f24e56457a37d1d65c3ca58b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "91855402",
+    "name": "La sagesse d'un fou",
+    "duration_ms": 237000,
+    "explicit": false,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/a/0/b5a5f781b41fcf7b8e440db3bb84b60f.mp3?hdnea=exp=1781101403~acl=/api/1/1/b/5/a/0/b5a5f781b41fcf7b8e440db3bb84b60f.mp3*~data=user_id=0,application_id=42~hmac=7d00301d2e7c8beb145cd721d19557a4a204396238ef887cec761ebabb6d1dce",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "104154",
+        "name": "Scylla",
+        "type": "artist",
+        "followers": {
+          "total": 132303
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/caf4f29cbfdb63aff8c1ef0ba4feb188/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "9323568",
+      "name": "Abysses",
+      "release_date": "2014-12-29",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/2d3e868c356f553a4956125cae9a9c30/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3337982471",
+    "name": "Sambuca",
+    "duration_ms": 188000,
+    "explicit": true,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/e/0/b3ed61b3f9799eeff7402f69756d9529.mp3?hdnea=exp=1781101404~acl=/api/1/1/b/3/e/0/b3ed61b3f9799eeff7402f69756d9529.mp3*~data=user_id=0,application_id=42~hmac=2e30968dd2c1205f5e159a8d860230a2d587b62d86a0513a9208762e02a5dee6",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "266078242",
+        "name": "l’hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 729
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5ef54d62a0d68f7eb5ba57d0a9974fce/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "747046161",
+      "name": "Matiere grise",
+      "release_date": "2025-05-09",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/0ad57f45fb6df9e20cc6de2070b56cf1/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3694429182",
+    "name": "Équipe nationale",
+    "duration_ms": 159000,
+    "explicit": true,
+    "popularity": 45,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/2/0/f826e89e87e27f91c4dc5440664f1434.mp3?hdnea=exp=1781101405~acl=/api/1/1/f/8/2/0/f826e89e87e27f91c4dc5440664f1434.mp3*~data=user_id=0,application_id=42~hmac=8b27f8cf1a6ab441b1c154753d0a8f51746ac0fd9a3c852f7df87e92c69a3314",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "138921032",
+        "name": "Abis",
+        "type": "artist",
+        "followers": {
+          "total": 313
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5139e74563e42b5dfaa244ecffdb02b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "869606472",
+      "name": "Mon école (Vol.2)",
+      "release_date": "2025-12-19",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/d5aa27987cede891ead53622c22d2b8a/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3694429172",
+    "name": "On me cherche",
+    "duration_ms": 147000,
+    "explicit": true,
+    "popularity": 40,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/5/0/cb57beb286fdd16304864907c89a33d5.mp3?hdnea=exp=1781101405~acl=/api/1/1/c/b/5/0/cb57beb286fdd16304864907c89a33d5.mp3*~data=user_id=0,application_id=42~hmac=c1833eb33f1dccb6041b2a0388e872a3c2cffbb4f08d7849ae99450977e97f82",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "89626",
+        "name": "Ol'Kainry",
+        "type": "artist",
+        "followers": {
+          "total": 63351
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/dd5f0cb56cc0213593b1218cc0cada12/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "869606472",
+      "name": "Mon école (Vol.2)",
+      "release_date": "2025-12-19",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/d5aa27987cede891ead53622c22d2b8a/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3694429162",
+    "name": "Carré d'As",
+    "duration_ms": 186000,
+    "explicit": true,
+    "popularity": 49,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/0/0/b3074ad2d71ebd42c55379fd79b8ba82.mp3?hdnea=exp=1781101406~acl=/api/1/1/b/3/0/0/b3074ad2d71ebd42c55379fd79b8ba82.mp3*~data=user_id=0,application_id=42~hmac=4bd2ee7d0f95f57c10f64c6a5f2a964c9f94e5cb56a003d22150051843ea1687",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "254102882",
+        "name": "Psy 4 De La Rime",
+        "type": "artist",
+        "followers": {
+          "total": 38
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "869606472",
+      "name": "Mon école (Vol.2)",
+      "release_date": "2025-12-19",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/d5aa27987cede891ead53622c22d2b8a/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3694429152",
+    "name": "Salahdine P.",
+    "duration_ms": 197000,
+    "explicit": true,
+    "popularity": 62,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/f/0/7cff27ac242cd8cd282d1eb3388d629f.mp3?hdnea=exp=1781101406~acl=/api/1/1/7/c/f/0/7cff27ac242cd8cd282d1eb3388d629f.mp3*~data=user_id=0,application_id=42~hmac=8113607cdc44ad5f8c0283800990ceb0f5cb2b15ab62b525fab4c1d5f7b71bbe",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "750",
+        "name": "Rohff",
+        "type": "artist",
+        "followers": {
+          "total": 1013132
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ecc370565ea0075d56d25aebc1eb97fc/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "869606472",
+      "name": "Mon école (Vol.2)",
+      "release_date": "2025-12-19",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/d5aa27987cede891ead53622c22d2b8a/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "640751502",
+    "name": "On f'ra genre",
+    "duration_ms": 207000,
+    "explicit": true,
+    "popularity": 42,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/f/d/0/3fdf1757b1981e566b383f3d24dd6552.mp3?hdnea=exp=1781101407~acl=/api/1/1/3/f/d/0/3fdf1757b1981e566b383f3d24dd6552.mp3*~data=user_id=0,application_id=42~hmac=bf990bdf98ec91940233a249cb0e4d1641411438e61a4ff6a4a24a14d10fd409",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "88812022",
+      "name": "Pragma, Vol. A",
+      "release_date": "2019-04-05",
+      "total_tracks": 6,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/7e2ecfa2971d6d0b033bfa5591417856/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3630145522",
+    "name": "Mars",
+    "duration_ms": 200000,
+    "explicit": true,
+    "popularity": 13,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/9/0/55992bc25da303c49d61bd5364bfea0b.mp3?hdnea=exp=1781101408~acl=/api/1/1/5/5/9/0/55992bc25da303c49d61bd5364bfea0b.mp3*~data=user_id=0,application_id=42~hmac=8be23bfaa6c40722e6b6519b4f095480a7364574727d01747710bf9c7b79c759",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "14214963",
+        "name": "Holy Kidd",
+        "type": "artist",
+        "followers": {
+          "total": 6290
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/468332a276005ab50b1703fab91cab38/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "847503262",
+      "name": "Bushido, Vol. 1",
+      "release_date": "2023-06-23",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/680357d560a142a15f4506fe94103f88/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1134175212",
+    "name": "Angle mort",
+    "duration_ms": 177000,
+    "explicit": false,
+    "popularity": 35,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/8/0/2a8666b40b0d1f7be5abb3b7c912ede9.mp3?hdnea=exp=1781101408~acl=/api/1/1/2/a/8/0/2a8666b40b0d1f7be5abb3b7c912ede9.mp3*~data=user_id=0,application_id=42~hmac=9d0761647d24f4e79760316aac127c384c8395369ef4b22b885842e512bab8b6",
+    "track_number": 16,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "184632732",
+      "name": "Angle mort",
+      "release_date": "2020-11-27",
+      "total_tracks": 17,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/7bd28d75a863f6d21acc767429d371ca/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "435595762",
+    "name": "A salto de mata",
+    "duration_ms": 232000,
+    "explicit": false,
+    "popularity": 33,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/7/0/ec7099eb789c27e9b2e12e35024147be.mp3?hdnea=exp=1781101409~acl=/api/1/1/e/c/7/0/ec7099eb789c27e9b2e12e35024147be.mp3*~data=user_id=0,application_id=42~hmac=0fe662deccbc39239f0e9187d50cab599371ddc452276beb8c307c1da8b034c4",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "52628812",
+      "name": "Abandon Sauvage",
+      "release_date": "2018-02-02",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/f8a04f6cb353890204c9495a542930c9/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1073125732",
+    "name": "Nouveau départ",
+    "duration_ms": 184000,
+    "explicit": false,
+    "popularity": 17,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/e/0/17ebead11788ed6cbe6fdb3d92a90538.mp3?hdnea=exp=1781101409~acl=/api/1/1/1/7/e/0/17ebead11788ed6cbe6fdb3d92a90538.mp3*~data=user_id=0,application_id=42~hmac=8825ff71316fefbcef824bd7393d5749e01dd8979441ddf71c2bde24ac7c156e",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "171821802",
+      "name": "Nouveau départ",
+      "release_date": "2020-09-11",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/377d7c478438225f9b57675c918fd326/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "435595802",
+    "name": "Enfermé dans ma tête",
+    "duration_ms": 207000,
+    "explicit": false,
+    "popularity": 33,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/5/0/a8547707d51777e7e78d3a5f61f677dc.mp3?hdnea=exp=1781101410~acl=/api/1/1/a/8/5/0/a8547707d51777e7e78d3a5f61f677dc.mp3*~data=user_id=0,application_id=42~hmac=32664961e36081f2ff79a490cf7a0dbd236c057c743cba4864ea85799cf6c93a",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "52628812",
+      "name": "Abandon Sauvage",
+      "release_date": "2018-02-02",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/f8a04f6cb353890204c9495a542930c9/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3439929841",
+    "name": "Kennedy",
+    "duration_ms": 314000,
+    "explicit": true,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/9/0/ec99e680be8eb5a82ff339355039e945.mp3?hdnea=exp=1781101411~acl=/api/1/1/e/c/9/0/ec99e680be8eb5a82ff339355039e945.mp3*~data=user_id=0,application_id=42~hmac=f79025fa86e4db2291628f2c35acf89e10f86b27e5ac3bbbf2ec908db7d54f7a",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "781252451",
+      "name": "Kennedy",
+      "release_date": "2025-08-01",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b20dac4a3f87db4cb84c38dd4a6658d1/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2710280522",
+    "name": "VILAINE BERCEUSE",
+    "duration_ms": 362000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/0/6/0/a065a03df92d1d5099350daba3cd8376.mp3?hdnea=exp=1781101411~acl=/api/1/1/a/0/6/0/a065a03df92d1d5099350daba3cd8376.mp3*~data=user_id=0,application_id=42~hmac=cad682690c50e1450af807759edfcdc4221d8bc728f84042b14964cca203d528",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1582990",
+        "name": "Swift Guad",
+        "type": "artist",
+        "followers": {
+          "total": 59423
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/7b29302727d6b28537fdfb4eb0b20c95/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "561849602",
+      "name": "VILAINE BERCEUSE",
+      "release_date": "2024-04-19",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/d6e5f8520c7bd33844aed2cb174381f1/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "440041472",
+    "name": "Dernier appel",
+    "duration_ms": 246000,
+    "explicit": false,
+    "popularity": 28,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/d/0/cadb2fa4465ee1bc1fa1e22ea3b0da98.mp3?hdnea=exp=1781101412~acl=/api/1/1/c/a/d/0/cadb2fa4465ee1bc1fa1e22ea3b0da98.mp3*~data=user_id=0,application_id=42~hmac=b3b6aa410e5184b84a3a4929bc343f918cdae3b9ab1e448de5700aa4702ce745",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "53343922",
+      "name": "La vingtaine",
+      "release_date": "2017-12-12",
+      "total_tracks": 20,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8814f08c5c201c9c24be2c13ce8ce429/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2288758465",
+    "name": "PANSEMENT",
+    "duration_ms": 212000,
+    "explicit": true,
+    "popularity": 26,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/f/0/21f77a70a61639008a875113fcb63c18.mp3?hdnea=exp=1781101412~acl=/api/1/1/2/1/f/0/21f77a70a61639008a875113fcb63c18.mp3*~data=user_id=0,application_id=42~hmac=7d878b1185f83684096140f28b3352ebba7a86907fabc4aea281f37cf8f1ff56",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "3875741",
+        "name": "Relo",
+        "type": "artist",
+        "followers": {
+          "total": 1476
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/f350aba9d30d2688fbcfa61b37ce3c2c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "442831465",
+      "name": "DIEU MERCI",
+      "release_date": "2023-06-02",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/fa47fdae24b94e8f04905301bbe20d0f/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1740409467",
+    "name": "Au bout des choses",
+    "duration_ms": 317000,
+    "explicit": true,
+    "popularity": 41,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/e/0/b1e3e07aa348f6329b4dd4d648f8837c.mp3?hdnea=exp=1781101413~acl=/api/1/1/b/1/e/0/b1e3e07aa348f6329b4dd4d648f8837c.mp3*~data=user_id=0,application_id=42~hmac=4f8fdb9fc87fe2ec5d3e0d8c88f5ef77178c31d870b05778f604d2a81c319a7d",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1649114",
+        "name": "L'Hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 9421
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4536433d575254f1d060353319f08e8d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "315938507",
+      "name": "Solaire",
+      "release_date": "2022-05-13",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/bb1eedb435db6b9ddb81321ebb04510b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2625521302",
+    "name": "5%",
+    "duration_ms": 197000,
+    "explicit": true,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/b/0/78bd0b65163907bd66376719e1629859.mp3?hdnea=exp=1781101414~acl=/api/1/1/7/8/b/0/78bd0b65163907bd66376719e1629859.mp3*~data=user_id=0,application_id=42~hmac=0dc59a20e776cdc50aef0277992d76224b53f7eeb7150df78534a751caf14f45",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "536531282",
+      "name": "\"La trentaine l'intégrale\"",
+      "release_date": "2024-02-23",
+      "total_tracks": 30,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/ed4f37298624f0bb905b03e54c5b2ad4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1134175132",
+    "name": "Amo",
+    "duration_ms": 236000,
+    "explicit": false,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/8/0/02868bd3870992920d19a0fec34bce04.mp3?hdnea=exp=1781101414~acl=/api/1/1/0/2/8/0/02868bd3870992920d19a0fec34bce04.mp3*~data=user_id=0,application_id=42~hmac=ae4e0f84e85a442e1cd7ffe20bd5d6f546fbba54516a8c39eae6ad1bf2f25312",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "184632732",
+      "name": "Angle mort",
+      "release_date": "2020-11-27",
+      "total_tracks": 17,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/7bd28d75a863f6d21acc767429d371ca/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1417333252",
+    "name": "Inserados",
+    "duration_ms": 149000,
+    "explicit": false,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/c/0/5ccd765ef87b64172ef4b747e20857a9.mp3?hdnea=exp=1781101415~acl=/api/1/1/5/c/c/0/5ccd765ef87b64172ef4b747e20857a9.mp3*~data=user_id=0,application_id=42~hmac=b26bdf544d921e4c3d56e2afd030109aaa5d94f0f99fcf026585828ea61389e1",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "240431642",
+      "name": "La Fine Fleur (Bande originale du film)",
+      "release_date": "2021-06-30",
+      "total_tracks": 17,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/659631664c8049de716d61a9c9eace9b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2627284962",
+    "name": "Dur de marcher droit",
+    "duration_ms": 166000,
+    "explicit": true,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/2/0/d42e3cd8cdb7131c08bb545533186a4a.mp3?hdnea=exp=1781101415~acl=/api/1/1/d/4/2/0/d42e3cd8cdb7131c08bb545533186a4a.mp3*~data=user_id=0,application_id=42~hmac=85f9c6db155348ca43b417ac0885ac03602bc418434be956979767e13c30b34d",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "537018792",
+      "name": "Dur de marcher droit",
+      "release_date": "2024-01-25",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/541a03e0ce19fe5ce71f1a150a6253b8/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1740409417",
+    "name": "L'aube",
+    "duration_ms": 81000,
+    "explicit": true,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/c/0/e4c71dc9c79cb475c1fc1298404ccb7a.mp3?hdnea=exp=1781101416~acl=/api/1/1/e/4/c/0/e4c71dc9c79cb475c1fc1298404ccb7a.mp3*~data=user_id=0,application_id=42~hmac=cf3c23dff77b0c6fb2b4f09f40556b23c6b231993d8ff5441aea23bdbebadd12",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1649114",
+        "name": "L'Hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 9421
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4536433d575254f1d060353319f08e8d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "315938507",
+      "name": "Solaire",
+      "release_date": "2022-05-13",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/bb1eedb435db6b9ddb81321ebb04510b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1134175122",
+    "name": "Dose",
+    "duration_ms": 159000,
+    "explicit": true,
+    "popularity": 28,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/3/0/cb388c8deaf25631d5cbfc01866b36f5.mp3?hdnea=exp=1781101417~acl=/api/1/1/c/b/3/0/cb388c8deaf25631d5cbfc01866b36f5.mp3*~data=user_id=0,application_id=42~hmac=05ef295e04524a247d6b91f10f6e4cb6aa7d7a065622c6f6c8520b51c9ab7f3f",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "184632732",
+      "name": "Angle mort",
+      "release_date": "2020-11-27",
+      "total_tracks": 17,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/7bd28d75a863f6d21acc767429d371ca/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "435595892",
+    "name": "Mediterraneo",
+    "duration_ms": 234000,
+    "explicit": false,
+    "popularity": 33,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/c/0/24c72729139868937d88fb14bc2f0e52.mp3?hdnea=exp=1781101417~acl=/api/1/1/2/4/c/0/24c72729139868937d88fb14bc2f0e52.mp3*~data=user_id=0,application_id=42~hmac=180ca3aab52573d9f174dde8e5c8f4c88da9cf17aef98f3fc98ef0983aa0db66",
+    "track_number": 15,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22254
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "52628812",
+      "name": "Abandon Sauvage",
+      "release_date": "2018-02-02",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/f8a04f6cb353890204c9495a542930c9/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3414965661",
+    "name": "Cœur de glace",
+    "duration_ms": 169000,
+    "explicit": true,
+    "popularity": 17,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/1/0/5c1fdf6ee215c9eda5aee6155775984e.mp3?hdnea=exp=1781101418~acl=/api/1/1/5/c/1/0/5c1fdf6ee215c9eda5aee6155775984e.mp3*~data=user_id=0,application_id=42~hmac=bf78227c79ea171600aa209f0d50ff08e5437f533cd9064660d6a0b141c32a4f",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "506377",
+        "name": "Crown",
+        "type": "artist",
+        "followers": {
+          "total": 2964
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/7525bc40355498141131bde061bb3941/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "772660081",
+      "name": "Game of Crown",
+      "release_date": "2023-06-16",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/faef01fc6859c5231de8a82a6a111320/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "4603408",
+    "name": "Billie Jean",
+    "duration_ms": 293000,
+    "explicit": false,
+    "popularity": 97,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1781102030~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=e94251f1c380df9c13943098f29482821f4bcf77764b4b6343b7448c8c9b1993",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "259",
+        "name": "Michael Jackson",
+        "type": "artist",
+        "followers": {
+          "total": 12825941
+        },
+        "genres": [
+          "Pop",
+          "Pop internationale",
+          "Rock"
+        ],
+        "popularity": 100,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/97fae13b2b30e4aec2e8c9e0c7839d92/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "423368",
+      "name": "Michael Jackson's This Is It",
+      "release_date": "2009-10-26",
+      "total_tracks": 20,
+      "type": "album",
+      "genres": [
+        "Pop",
+        "Pop internationale",
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/a0ad67d1beb761f2cb9f8b60e5bcf07a/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
   }
 ]
