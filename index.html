@@ -22,7 +22,13 @@
     <div class="row g-4 mb-4">
       <div class="col-12 col-md-6">
         <div class="card shadow-sm border-0 h-100">
-          <div class="card-header bg-primary text-white fw-semibold">Top 10 des Artistes</div>
+          <div class="card-header bg-primary text-white fw-semibold d-flex justify-content-between align-items-center">
+            <span x-text="tousArtistes ? 'Tous les Artistes' : 'Top 10 des Artistes'"></span>
+            <button class="btn btn-sm btn-light fw-semibold" @click="toggleArtistes()">
+              <i class="bi me-1" :class="tousArtistes ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
+              <span x-text="tousArtistes ? 'Réduire' : 'Voir tout'"></span>
+            </button>
+          </div>
           <div class="card-body">
             <canvas id="chartArtistes"></canvas>
           </div>
@@ -40,14 +46,70 @@
 
     <!-- LISTE -->
     <div class="card shadow-sm border-0">
-      <div class="card-header bg-teal text-white d-flex align-items-center justify-content-between">
-        <span class="fw-semibold">Liste des Morceaux</span>
-        <div class="input-group input-group-sm" style="max-width:220px">
-          <span class="input-group-text bg-white border-end-0">
-            <i class="bi bi-search text-secondary"></i>
-          </span>
-          <input type="text" x-model="recherche" class="form-control border-start-0 rounded-end-pill" placeholder="Rechercher..." />
+      <!-- Titre -->
+      <div class="card-header bg-teal text-white fw-semibold d-flex align-items-center gap-2">
+        <i class="bi bi-music-note-list"></i>
+        Liste des Morceaux
+        <span class="badge bg-white text-dark ms-auto fw-normal" x-text="filtre().length + ' résultat' + (filtre().length > 1 ? 's' : '')"></span>
+      </div>
+
+      <!-- Barre de filtres -->
+      <div class="px-3 py-2 border-bottom bg-light d-flex flex-wrap align-items-center gap-2">
+
+        <!-- Recherche -->
+        <div class="input-group input-group-sm flex-grow-1" style="min-width:180px;max-width:260px;">
+          <span class="input-group-text bg-white"><i class="bi bi-search text-secondary"></i></span>
+          <input type="text" x-model="recherche" class="form-control" placeholder="Titre, artiste, album…" />
+          <button class="btn btn-outline-secondary" x-show="recherche" @click="recherche = ''" title="Effacer">
+            <i class="bi bi-x"></i>
+          </button>
         </div>
+
+        <div class="vr d-none d-md-block"></div>
+
+        <!-- Trier par -->
+        <div class="d-flex align-items-center gap-1">
+          <i class="bi bi-funnel text-secondary small"></i>
+          <select x-model="trierPar" class="form-select form-select-sm" style="width:150px;">
+            <option value="defaut">Trier par…</option>
+            <option value="titre">Titre (A→Z)</option>
+            <option value="artiste">Artiste</option>
+            <option value="album">Album</option>
+            <option value="popularite">Popularité</option>
+            <option value="genre">Genre</option>
+            <option value="duree">Durée</option>
+          </select>
+        </div>
+
+        <!-- Ordre croissant / décroissant -->
+        <button class="btn btn-sm d-flex align-items-center gap-1"
+          :class="ordreAsc ? 'btn-outline-primary' : 'btn-primary text-white'"
+          @click="toggleOrdre()" title="Inverser l'ordre">
+          <i class="bi" :class="ordreAsc ? 'bi-sort-alpha-down' : 'bi-sort-alpha-up-alt'"></i>
+          <span class="small" x-text="ordreAsc ? 'Croissant' : 'Décroissant'"></span>
+        </button>
+
+        <div class="vr d-none d-md-block"></div>
+
+        <!-- Filtre genre -->
+        <div class="d-flex align-items-center gap-1">
+          <i class="bi bi-tag text-secondary small"></i>
+          <select x-model="filtreGenre" class="form-select form-select-sm" style="width:170px;">
+            <option value="">Tous les genres</option>
+            <template x-for="g in genresDisponibles()" :key="g">
+              <option :value="g" x-text="g"></option>
+            </template>
+          </select>
+        </div>
+
+        <!-- Reset -->
+        <button class="btn btn-sm btn-outline-danger ms-auto"
+          x-show="recherche || trierPar !== 'defaut' || filtreGenre"
+          @click="recherche = ''; trierPar = 'defaut'; filtreGenre = ''; ordreAsc = true"
+          title="Réinitialiser les filtres">
+          <i class="bi bi-arrow-counterclockwise me-1"></i>Reset
+        </button>
+
       </div>
       <div class="card-body p-0">
         <div class="table-responsive">

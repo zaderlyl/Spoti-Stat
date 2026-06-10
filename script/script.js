@@ -20,7 +20,7 @@ function trouverCategorie(genre) {
 }
 
 
-function creerGraphiqueArtistes(listeMorceaux) {
+function creerGraphiqueArtistes(listeMorceaux, limite = 10) {
   const compteurArtistes = {};
 
   for (const morceau of listeMorceaux) {
@@ -33,21 +33,30 @@ function creerGraphiqueArtistes(listeMorceaux) {
     }
   }
 
-  const top10  = Object.entries(compteurArtistes).sort((a, b) => b[1] - a[1]).slice(0, 10);
-  const noms   = top10.map(item => item[0]);
-  const nombres = top10.map(item => item[1]);
+  const tousArtistes = Object.entries(compteurArtistes).sort((a, b) => b[1] - a[1]);
+  const selection    = limite === null ? tousArtistes : tousArtistes.slice(0, limite);
+  const noms         = selection.map(item => item[0]);
+  const nombres      = selection.map(item => item[1]);
 
   const canvasA = document.getElementById('chartArtistes');
+  const hauteurParBarre = 40;
+  canvasA.parentElement.style.height = (noms.length * hauteurParBarre) + 'px';
   Chart.getChart(canvasA)?.destroy();
 
   new Chart(canvasA, {
     type: 'bar',
     data: {
       labels: noms,
-      datasets: [{ label: 'Nombre de morceaux', data: nombres, backgroundColor: '#0d6efd' }]
+      datasets: [{
+        label: 'Nombre de morceaux',
+        data: nombres,
+        backgroundColor: '#0d6efd'
+      }]
     },
     options: {
       indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: { x: { ticks: { stepSize: 1 } } }
     }
@@ -55,9 +64,18 @@ function creerGraphiqueArtistes(listeMorceaux) {
 }
 
 
+const ARTISTES_ITALIENS = ['murubutu', 'claver gold', 'michele venanzoni'];
+
+function estRapItalien(morceau) {
+  const artiste = morceau.artiste.toLowerCase();
+  const aGenreRap = morceau.genres.some(g => g.toLowerCase().includes('rap') || g.toLowerCase().includes('hip'));
+  return aGenreRap && ARTISTES_ITALIENS.some(a => artiste.includes(a));
+}
+
 function creerGraphiqueGenres(listeMorceaux) {
   const compteurCategories = {
     'Rap Français':        0,
+    'Rap Italien':         0,
     'Hip-Hop':             0,
     'Rock':                0,
     'Pop':                 0,
@@ -69,6 +87,11 @@ function creerGraphiqueGenres(listeMorceaux) {
   for (const morceau of listeMorceaux) {
     if (morceau.genres.length === 0) {
       compteurCategories['Autres']++;
+      continue;
+    }
+
+    if (estRapItalien(morceau)) {
+      compteurCategories['Rap Italien']++;
       continue;
     }
 
@@ -96,13 +119,14 @@ function creerGraphiqueGenres(listeMorceaux) {
       datasets: [{
         data: valeurs,
         backgroundColor: [
-          '#f48fb1',
-          '#f06292',
-          '#a5d6a7',
-          '#90caf9',
-          '#ffcc80',
-          '#ce93d8',
-          '#b0bec5'
+          '#f48fb1', // Rap Français
+          '#4ade80', // Rap Italien        - vert (couleur du drapeau italien)
+          '#f06292', // Hip-Hop
+          '#a5d6a7', // Rock
+          '#90caf9', // Pop
+          '#ffcc80', // Chanson Française
+          '#ce93d8', // Singer & Songwriter
+          '#b0bec5'  // Autres
         ]
       }]
     },
@@ -127,6 +151,10 @@ document.addEventListener('alpine:init', () => {
     albums:             [],
     recherche:          '',
     morceauSelectionne: null,
+    tousArtistes:       false,
+    trierPar:           'defaut',
+    ordreAsc:           true,
+    filtreGenre:        '',
 
     async init() {
       const reponse = await fetch('data/data.json');
@@ -188,6 +216,11 @@ document.addEventListener('alpine:init', () => {
       });
     },
 
+    toggleArtistes() {
+      this.tousArtistes = !this.tousArtistes;
+      creerGraphiqueArtistes(this.liste, this.tousArtistes ? null : 10);
+    },
+
     ouvrirDetails(morceau) {
       this.morceauSelectionne = morceau;
       bootstrap.Modal.getOrCreateInstance(document.getElementById('modalDetails')).show();
@@ -202,14 +235,52 @@ document.addEventListener('alpine:init', () => {
       return formatDuree(ms);
     },
 
+    toggleOrdre() {
+      this.ordreAsc = !this.ordreAsc;
+    },
+
+    genresDisponibles() {
+      const genres = new Set();
+      for (const m of this.liste) {
+        for (const g of m.genres) genres.add(g);
+      }
+      return [...genres].sort();
+    },
+
     filtre() {
       const q = this.recherche.toLowerCase().trim();
-      if (!q) return this.liste;
-      return this.liste.filter(morceau =>
-        morceau.titre.toLowerCase().includes(q)   ||
-        morceau.artiste.toLowerCase().includes(q) ||
-        morceau.album.toLowerCase().includes(q)
-      );
+
+      let resultat = this.liste.filter(morceau => {
+        const matchRecherche = !q ||
+          morceau.titre.toLowerCase().includes(q)   ||
+          morceau.artiste.toLowerCase().includes(q) ||
+          morceau.album.toLowerCase().includes(q);
+
+        const matchGenre = !this.filtreGenre ||
+          morceau.genres.includes(this.filtreGenre);
+
+        return matchRecherche && matchGenre;
+      });
+
+      if (this.trierPar !== 'defaut') {
+        resultat = [...resultat].sort((a, b) => {
+          let valA, valB;
+          switch (this.trierPar) {
+            case 'titre':      valA = a.titre;      valB = b.titre;      break;
+            case 'artiste':    valA = a.artiste;    valB = b.artiste;    break;
+            case 'album':      valA = a.album;      valB = b.album;      break;
+            case 'popularite': valA = a.popularite; valB = b.popularite; break;
+            case 'genre':      valA = a.genres[0] ?? ''; valB = b.genres[0] ?? ''; break;
+            case 'duree':      valA = a.duree;      valB = b.duree;      break;
+          }
+          if (typeof valA === 'string') {
+            return this.ordreAsc ? valA.localeCompare(valB, 'fr') : valB.localeCompare(valA, 'fr');
+          }
+          return this.ordreAsc ? valA - valB : valB - valA;
+        });
+      }
+
+      return resultat;
     }
 
   }));
