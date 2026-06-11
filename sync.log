@@ -710,3 +710,7 @@ Node.js v25.5.0
 🎵 Track manquante dans un album connu : "I Wanna Be Like You - The Monkey Song"
 
 ✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 500 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed

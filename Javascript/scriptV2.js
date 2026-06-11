@@ -563,7 +563,7 @@ document.addEventListener('alpine:init', () => {
         if (!canvas) return;
         Chart.getChart(canvas)?.destroy();
 
-        canvas.parentElement.style.height = Math.max(280, tracksAlbum.length * 38) + 'px';
+        canvas.parentElement.style.height = Math.max(220, tracksAlbum.length * 54) + 'px';
 
         new Chart(canvas, {
           type: 'line',
@@ -574,25 +574,30 @@ document.addEventListener('alpine:init', () => {
                 label:               'Écoutes',
                 data:                ecoutes,
                 borderColor:         '#1db954',
-                backgroundColor:     'rgba(29,185,84,.12)',
+                backgroundColor:     'rgba(29,185,84,.0)',
                 pointBackgroundColor:'#1db954',
-                fill:                true,
-                tension:             .4,
-                pointRadius:         5,
-                pointHoverRadius:    7,
+                pointBorderColor:    '#0f0f0f',
+                pointBorderWidth:    2,
+                pointRadius:         7,
+                pointHoverRadius:    10,
+                fill:                false,
+                tension:             0,
                 borderWidth:         2,
+                borderDash:          [],
                 xAxisID:             'x'
               },
               {
-                label:               'Minutes écoutées',
+                label:               'Minutes',
                 data:                minutes,
                 borderColor:         '#60a5fa',
-                backgroundColor:     'rgba(96,165,250,.08)',
+                backgroundColor:     'rgba(96,165,250,.0)',
                 pointBackgroundColor:'#60a5fa',
-                fill:                true,
-                tension:             .4,
-                pointRadius:         5,
-                pointHoverRadius:    7,
+                pointBorderColor:    '#0f0f0f',
+                pointBorderWidth:    2,
+                pointRadius:         7,
+                pointHoverRadius:    10,
+                fill:                false,
+                tension:             0,
                 borderWidth:         2,
                 xAxisID:             'x2'
               }
@@ -605,33 +610,44 @@ document.addEventListener('alpine:init', () => {
             interaction:         { mode: 'y', intersect: false },
             plugins: {
               legend: {
-                labels: { color: '#e8e8e8', boxWidth: 12, font: { size: 12 }, padding: 16 }
+                position: 'bottom',
+                labels: {
+                  color:   '#a0a0a0',
+                  boxWidth: 10, boxHeight: 10,
+                  useBorderRadius: true, borderRadius: 5,
+                  font: { size: 12 }, padding: 20
+                }
               },
               tooltip: {
                 ...TOOLTIP_DARK,
+                padding: 12,
                 callbacks: {
                   label: ctx => ctx.datasetIndex === 0
-                    ? ` ${ctx.raw} écoute${ctx.raw > 1 ? 's' : ''}`
-                    : ` ${ctx.raw} min`
+                    ? `  🎧 ${ctx.raw} écoute${ctx.raw > 1 ? 's' : ''}`
+                    : `  ⏱ ${ctx.raw} min`
                 }
               }
             },
             scales: {
               y: {
-                ticks: { color: '#e8e8e8', font: { size: 11 } },
-                grid:  { color: '#2a2a2a' }
+                ticks:  { color: '#e0e0e0', font: { size: 12 }, padding: 10 },
+                grid:   { color: '#1e1e1e' },
+                border: { display: false }
               },
               x: {
-                min:   0,
-                ticks: { color: '#1db954', stepSize: 1, font: { size: 11 } },
-                grid:  { color: '#2a2a2a' },
-                title: { display: true, text: 'Écoutes', color: '#1db954', font: { size: 11 } }
+                min:      0,
+                position: 'bottom',
+                ticks:    { color: '#1db954', stepSize: 1, font: { size: 11 } },
+                grid:     { color: '#1e1e1e' },
+                border:   { display: false },
+                title:    { display: true, text: 'Écoutes', color: '#1db954', font: { size: 11 } }
               },
               x2: {
                 min:      0,
                 position: 'top',
                 ticks:    { color: '#60a5fa', font: { size: 11 } },
                 grid:     { display: false },
+                border:   { display: false },
                 title:    { display: true, text: 'Minutes', color: '#60a5fa', font: { size: 11 } }
               }
             }
