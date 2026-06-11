@@ -223,16 +223,27 @@ function creerChartAlbums(labels, plays, durees) {
   Chart.getChart(canvas)?.destroy();
 
   new Chart(canvas, {
-    type: 'bar',
+    type: 'line',
     data: {
       labels,
       datasets: [
-        { label: 'Écoutes', data: plays, backgroundColor: 'rgba(29,185,84,.7)', borderColor: '#1db954', borderWidth: 1, borderRadius: 4, borderSkipped: false, yAxisID: 'y' },
-        { label: 'Temps (min)', data: durees, backgroundColor: 'rgba(96,165,250,.6)', borderColor: '#60a5fa', borderWidth: 1, borderRadius: 4, borderSkipped: false, yAxisID: 'y2' }
+        {
+          label: 'Écoutes', data: plays,
+          borderColor: '#1db954', backgroundColor: 'rgba(29,185,84,.12)',
+          pointBackgroundColor: '#1db954', fill: true, tension: .4,
+          pointRadius: 4, pointHoverRadius: 6, borderWidth: 2, yAxisID: 'y'
+        },
+        {
+          label: 'Temps (min)', data: durees,
+          borderColor: '#60a5fa', backgroundColor: 'rgba(96,165,250,.08)',
+          pointBackgroundColor: '#60a5fa', fill: true, tension: .4,
+          pointRadius: 4, pointHoverRadius: 6, borderWidth: 2, yAxisID: 'y2'
+        }
       ]
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: { labels: { color: '#e8e8e8', boxWidth: 12 } },
@@ -243,9 +254,9 @@ function creerChartAlbums(labels, plays, durees) {
         }}
       },
       scales: {
-        x:  { ticks: { color: '#a0a0a0', maxRotation: 30 }, grid: { color: '#2e2e2e' } },
-        y:  { ticks: { color: '#1db954' }, grid: { color: '#2e2e2e' }, title: { display: true, text: 'Écoutes', color: '#1db954' } },
-        y2: { position: 'right', ticks: { color: '#60a5fa' }, grid: { display: false }, title: { display: true, text: 'Minutes', color: '#60a5fa' } }
+        x:  { ticks: { color: '#a0a0a0', maxRotation: 35 }, grid: { color: '#2e2e2e' } },
+        y:  { min: 0, ticks: { color: '#1db954', stepSize: 1 }, grid: { color: '#2e2e2e' }, title: { display: true, text: 'Écoutes', color: '#1db954' } },
+        y2: { min: 0, position: 'right', ticks: { color: '#60a5fa' }, grid: { display: false }, title: { display: true, text: 'Minutes', color: '#60a5fa' } }
       }
     }
   });
@@ -552,41 +563,45 @@ document.addEventListener('alpine:init', () => {
         if (!canvas) return;
         Chart.getChart(canvas)?.destroy();
 
-        // Hauteur dynamique selon le nombre de tracks
-        canvas.parentElement.style.height = Math.max(300, tracksAlbum.length * 42) + 'px';
+        canvas.parentElement.style.height = '340px';
 
         new Chart(canvas, {
-          type: 'bar',
+          type: 'line',
           data: {
             labels,
             datasets: [
               {
-                label:           'Écoutes',
-                data:            ecoutes,
-                backgroundColor: '#1db95499',
-                borderColor:     '#1db954',
-                borderWidth:     1,
-                borderRadius:    4,
-                yAxisID:         'y',
-                xAxisID:         'xEcoutes'
+                label:               'Écoutes',
+                data:                ecoutes,
+                borderColor:         '#1db954',
+                backgroundColor:     'rgba(29,185,84,.12)',
+                pointBackgroundColor:'#1db954',
+                fill:                true,
+                tension:             .4,
+                pointRadius:         5,
+                pointHoverRadius:    7,
+                borderWidth:         2,
+                yAxisID:             'y'
               },
               {
-                label:           'Minutes écoutées',
-                data:            minutes,
-                backgroundColor: '#60a5fa55',
-                borderColor:     '#60a5fa',
-                borderWidth:     1,
-                borderRadius:    4,
-                yAxisID:         'y',
-                xAxisID:         'xMinutes'
+                label:               'Minutes écoutées',
+                data:                minutes,
+                borderColor:         '#60a5fa',
+                backgroundColor:     'rgba(96,165,250,.08)',
+                pointBackgroundColor:'#60a5fa',
+                fill:                true,
+                tension:             .4,
+                pointRadius:         5,
+                pointHoverRadius:    7,
+                borderWidth:         2,
+                yAxisID:             'y2'
               }
             ]
           },
           options: {
-            indexAxis:          'y',
-            responsive:         true,
+            responsive:          true,
             maintainAspectRatio: false,
-            interaction:        { mode: 'y', intersect: false },
+            interaction:         { mode: 'index', intersect: false },
             plugins: {
               legend: {
                 labels: { color: '#e8e8e8', boxWidth: 12, font: { size: 12 }, padding: 16 }
@@ -601,22 +616,21 @@ document.addEventListener('alpine:init', () => {
               }
             },
             scales: {
+              x: {
+                ticks: { color: '#a0a0a0', maxRotation: 35, font: { size: 10 } },
+                grid:  { color: '#2a2a2a' }
+              },
               y: {
-                ticks:  { color: '#e8e8e8', font: { size: 11 } },
-                grid:   { color: '#2a2a2a' }
+                min:   0,
+                ticks: { color: '#1db954', stepSize: 1, font: { size: 11 } },
+                grid:  { color: '#2a2a2a' },
+                title: { display: true, text: 'Écoutes', color: '#1db954', font: { size: 11 } }
               },
-              xEcoutes: {
-                position: 'top',
+              y2: {
                 min:      0,
-                ticks:    { color: '#1db954', stepSize: 1, font: { size: 11 } },
-                grid:     { color: '#2a2a2a' },
-                title:    { display: true, text: 'Écoutes', color: '#1db954', font: { size: 11 } }
-              },
-              xMinutes: {
-                position: 'bottom',
-                min:      0,
+                position: 'right',
                 ticks:    { color: '#60a5fa', font: { size: 11 } },
-                grid:     { drawOnChartArea: false },
+                grid:     { display: false },
                 title:    { display: true, text: 'Minutes', color: '#60a5fa', font: { size: 11 } }
               }
             }
