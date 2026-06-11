@@ -288,6 +288,13 @@ document.addEventListener('alpine:init', () => {
     albumSelectionne:   null,
     albumPopupLoading:  false,
 
+    // Filtres morceaux
+    ongletMorceaux:     'tous',   // 'tous' | 'ecoutes'
+
+    // Filtres albums
+    rechercheAlbum:     '',
+    trierAlbumPar:      'popularite', // 'popularite' | 'nom' | 'date' | 'ecoutes'
+
     async init() {
       const brut = await fetch('data/data.json').then(r => r.json());
 
@@ -321,7 +328,7 @@ document.addEventListener('alpine:init', () => {
           albumsMap[a.id].popularite = Math.max(albumsMap[a.id].popularite, t.popularity ?? 0);
         }
       }
-      this.albums = Object.values(albumsMap).sort((a, b) => b.popularite - a.popularite).slice(0, 12);
+      this.albums = Object.values(albumsMap).sort((a, b) => b.popularite - a.popularite);
 
       this.$nextTick(() => { creerChartArtistes(this.liste); creerChartGenres(this.liste); });
 
@@ -653,7 +660,10 @@ document.addEventListener('alpine:init', () => {
       let res = this.liste.filter(m => {
         const r = !q || m.titre.toLowerCase().includes(q) || m.artiste.toLowerCase().includes(q) || m.album.toLowerCase().includes(q);
         const g = !this.filtreGenre || m.genres.includes(this.filtreGenre);
-        return r && g;
+        // Filtre onglet : 'ecoutes' = seulement les tracks avec playcount > 0
+        const cle = m.titre.toLowerCase() + '|' + m.artiste.split(', ')[0].toLowerCase();
+        const e = this.ongletMorceaux === 'tous' || (this.playcounts[cle] ?? 0) > 0;
+        return r && g && e;
       });
       if (this.trierPar !== 'defaut') {
         res = [...res].sort((a, b) => {
@@ -665,12 +675,57 @@ document.addEventListener('alpine:init', () => {
             case 'popularite': va = a.popularite;    vb = b.popularite;  break;
             case 'genre':      va = a.genres[0]??''; vb = b.genres[0]??''; break;
             case 'duree':      va = a.duree;         vb = b.duree;       break;
+            case 'ecoutes': {
+              const ca = a.titre.toLowerCase()+'|'+a.artiste.split(', ')[0].toLowerCase();
+              const cb = b.titre.toLowerCase()+'|'+b.artiste.split(', ')[0].toLowerCase();
+              va = this.playcounts[ca] ?? 0;
+              vb = this.playcounts[cb] ?? 0;
+              break;
+            }
           }
           if (typeof va === 'string') return this.ordreAsc ? va.localeCompare(vb,'fr') : vb.localeCompare(va,'fr');
           return this.ordreAsc ? va - vb : vb - va;
         });
       }
       return res;
+    },
+
+    // Albums filtrés + triés
+    albumsFiltres() {
+      const q = this.rechercheAlbum.toLowerCase().trim();
+      let res = this.albums.filter(a =>
+        !q || a.nom.toLowerCase().includes(q) || a.artiste.toLowerCase().includes(q)
+      );
+      switch (this.trierAlbumPar) {
+        case 'nom':       res = [...res].sort((a, b) => a.nom.localeCompare(b.nom, 'fr')); break;
+        case 'date':      res = [...res].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '')); break;
+        case 'ecoutes': {
+          res = [...res].sort((a, b) => {
+            const ea = this.liste.filter(m => m.album === a.nom).reduce((s, m) => {
+              const k = m.titre.toLowerCase()+'|'+m.artiste.split(', ')[0].toLowerCase();
+              return s + (this.playcounts[k] ?? 0);
+            }, 0);
+            const eb = this.liste.filter(m => m.album === b.nom).reduce((s, m) => {
+              const k = m.titre.toLowerCase()+'|'+m.artiste.split(', ')[0].toLowerCase();
+              return s + (this.playcounts[k] ?? 0);
+            }, 0);
+            return eb - ea;
+          });
+          break;
+        }
+        default: res = [...res].sort((a, b) => b.popularite - a.popularite);
+      }
+      return res;
+    },
+
+    // Nombre d'écoutes total d'un album
+    ecoutesAlbum(alb) {
+      return this.liste
+        .filter(m => m.album === alb.nom)
+        .reduce((s, m) => {
+          const k = m.titre.toLowerCase()+'|'+m.artiste.split(', ')[0].toLowerCase();
+          return s + (this.playcounts[k] ?? 0);
+        }, 0);
     }
 
   }));

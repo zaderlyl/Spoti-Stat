@@ -107,34 +107,76 @@
             </div>
         </div>
 
-        <!-- STATS ALBUMS -->
-        <div class="section-title">
+        <!-- ══ ALBUMS ══ -->
+        <div class="section-title" style="margin-top:2rem;">
             <i class="bi bi-vinyl" style="color:var(--accent);"></i>
-            Stats Last.fm par album
-            <button class="chart-toggle" style="margin-left:.5rem;" @click="ouvrirStatsAlbums()">
-                <i class="bi bi-bar-chart"></i> Voir le graphique
+            Albums
+            <span style="font-size:.8rem;color:var(--muted);font-weight:400;margin-left:.5rem;"
+                x-text="'(' + albumsFiltres().length + '/' + albums.length + ')'"></span>
+            <button class="chart-toggle" style="margin-left:auto;" @click="ouvrirStatsAlbums()">
+                <i class="bi bi-bar-chart"></i> Vue globale
             </button>
         </div>
+
+        <!-- Barre filtres albums -->
+        <div class="filters-bar" style="margin-bottom:1rem;">
+            <div class="search-wrap">
+                <i class="bi bi-search"></i>
+                <input type="text" x-model="rechercheAlbum" placeholder="Rechercher un album…" />
+                <button class="clear-btn" x-show="rechercheAlbum" @click="rechercheAlbum=''">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <select class="filter-select" x-model="trierAlbumPar">
+                <option value="popularite">Popularité</option>
+                <option value="nom">Nom A→Z</option>
+                <option value="date">Date (récent)</option>
+                <option value="ecoutes">Écoutes Last.fm</option>
+            </select>
+        </div>
+
         <div class="albums-grid" style="margin-bottom:2.5rem;">
-            <template x-for="alb in albums" :key="alb.id">
+            <template x-for="alb in albumsFiltres()" :key="alb.id">
                 <div class="album-card" @click="ouvrirAlbum(alb)" style="cursor:pointer;">
                     <img :src="alb.pochette" :alt="alb.nom" loading="lazy" />
                     <div class="album-info">
                         <div class="album-nom" x-text="alb.nom"></div>
                         <div class="album-artiste" x-text="alb.artiste"></div>
                         <div class="album-meta">
-                            <span class="badge-green" x-text="alb.popularite + '/100'"></span>
                             <span class="badge-gray" x-text="alb.totalTracks + ' titres'"></span>
+                            <template x-if="ecoutesAlbum(alb) > 0">
+                                <span class="badge-green">
+                                    <i class="bi bi-headphones" style="margin-right:.2rem;"></i>
+                                    <span x-text="ecoutesAlbum(alb)"></span>
+                                </span>
+                            </template>
                         </div>
                     </div>
                 </div>
             </template>
         </div>
 
-        <!-- MORCEAUX -->
+        <!-- ══ MORCEAUX ══ -->
         <div class="section-title">
             <i class="bi bi-music-note-list" style="color:var(--accent);"></i>
             Morceaux
+        </div>
+
+        <!-- Onglets Tous / Déjà écoutés -->
+        <div style="display:flex;gap:.5rem;margin-bottom:1rem;">
+            <button class="onglet-btn" :class="ongletMorceaux==='tous' && 'active'"
+                @click="ongletMorceaux='tous'">
+                <i class="bi bi-music-note-list"></i>
+                Tous
+                <span class="onglet-count" x-text="liste.length"></span>
+            </button>
+            <button class="onglet-btn" :class="ongletMorceaux==='ecoutes' && 'active'"
+                @click="ongletMorceaux='ecoutes'">
+                <i class="bi bi-headphones"></i>
+                Déjà écoutés
+                <span class="onglet-count"
+                    x-text="liste.filter(m => (playcounts[m.titre.toLowerCase()+'|'+m.artiste.split(', ')[0].toLowerCase()] ?? 0) > 0).length"></span>
+            </button>
         </div>
 
         <!-- FILTRES -->
@@ -152,6 +194,7 @@
                 <option value="artiste">Artiste</option>
                 <option value="album">Album</option>
                 <option value="popularite">Popularité</option>
+                <option value="ecoutes">Écoutes</option>
                 <option value="genre">Genre</option>
                 <option value="duree">Durée</option>
             </select>
