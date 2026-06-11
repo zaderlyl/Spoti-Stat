@@ -660,6 +660,21 @@ footer span { color: var(--accent); }
 /* ── SPIN ── */
 @keyframes spin { to { transform: rotate(360deg); } }
 
+/* ── SECTIONS REPLIABLES ── */
+.section-title.collapsible {
+  cursor: pointer;
+  user-select: none;
+}
+.section-title.collapsible:hover {
+  color: #fff;
+}
+.collapse-icon {
+  margin-left: auto;
+  font-size: .95rem;
+  color: var(--muted);
+  transition: transform .2s;
+}
+
 /* ── ONGLETS MORCEAUX ── */
 .onglet-btn {
   display: flex;

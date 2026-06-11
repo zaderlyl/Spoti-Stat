@@ -58,109 +58,125 @@
         </div>
 
         <!-- CHARTS ARTISTES + GENRES -->
-        <div class="charts-grid" style="margin-top:2.5rem;">
-            <div class="chart-card">
-                <h3>
-                    <i class="bi bi-bar-chart-horizontal"></i>
-                    <span x-text="tousArtistes ? 'Tous les artistes' : 'Top 10 artistes'"></span>
-                    <button class="chart-toggle" @click="toggleArtistes()">
-                        <i class="bi" :class="tousArtistes ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
-                        <span x-text="tousArtistes ? 'Réduire' : 'Voir tout'"></span>
-                    </button>
-                </h3>
-                <div style="overflow-y:auto;max-height:520px;">
-                    <div style="position:relative;"><canvas id="chartArtistes"></canvas></div>
+        <div class="section-title collapsible" style="margin-top:2.5rem;" @click="sections.chartsArtistesGenres = !sections.chartsArtistesGenres">
+            <i class="bi bi-bar-chart" style="color:var(--accent);"></i>
+            Graphiques
+            <i class="bi collapse-icon" :class="sections.chartsArtistesGenres ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
+        </div>
+        <div x-show="sections.chartsArtistesGenres" x-transition.duration.200ms>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>
+                        <i class="bi bi-bar-chart-horizontal"></i>
+                        <span x-text="tousArtistes ? 'Tous les artistes' : 'Top 10 artistes'"></span>
+                        <button class="chart-toggle" @click.stop="toggleArtistes()">
+                            <i class="bi" :class="tousArtistes ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
+                            <span x-text="tousArtistes ? 'Réduire' : 'Voir tout'"></span>
+                        </button>
+                    </h3>
+                    <div style="overflow-y:auto;max-height:520px;">
+                        <div style="position:relative;"><canvas id="chartArtistes"></canvas></div>
+                    </div>
                 </div>
-            </div>
-            <div class="chart-card" style="display:flex;flex-direction:column;">
-                <h3><i class="bi bi-pie-chart"></i> Distribution des genres</h3>
-                <div style="flex:1;display:flex;align-items:center;justify-content:center;">
-                    <canvas id="chartGenres" style="max-height:340px;"></canvas>
+                <div class="chart-card" style="display:flex;flex-direction:column;">
+                    <h3><i class="bi bi-pie-chart"></i> Distribution des genres</h3>
+                    <div style="flex:1;display:flex;align-items:center;justify-content:center;">
+                        <canvas id="chartGenres" style="max-height:340px;"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- ÉCOUTES PAR JOUR -->
-        <div class="section-title" style="margin-top:2.5rem;">
+        <div class="section-title collapsible" style="margin-top:2.5rem;" @click="sections.ecoutesJour = !sections.ecoutesJour">
             <i class="bi bi-graph-up" style="color:var(--accent);"></i>
             Évolution des écoutes — 30 derniers jours
+            <i class="bi collapse-icon" :class="sections.ecoutesJour ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
         </div>
-        <div class="chart-card" style="margin-bottom:2rem;">
-            <h3>
-                <i class="bi bi-calendar3"></i> Écoutes &amp; temps par jour
-                <button class="chart-toggle" x-show="!statsChargees && !chargementStats"
-                    @click="chargerStatsGlobales()">
-                    <i class="bi bi-play-fill"></i> Charger
-                </button>
-            </h3>
-            <div x-show="chargementStats" style="text-align:center;padding:2rem;color:var(--muted);">
-                <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
-                <p style="margin-top:.5rem;font-size:.85rem;">Récupération des données Last.fm…</p>
-            </div>
-            <div x-show="!statsChargees && !chargementStats"
-                style="text-align:center;padding:2.5rem;color:var(--muted);">
-                <i class="bi bi-graph-up" style="font-size:2rem;opacity:.3;"></i>
-                <p style="margin-top:.5rem;font-size:.85rem;">Clique sur "Charger" pour afficher ton historique</p>
-            </div>
-            <div x-show="statsChargees" style="position:relative;height:280px;">
-                <canvas id="chartEcoutesJour"></canvas>
+        <div x-show="sections.ecoutesJour" x-transition.duration.200ms>
+            <div class="chart-card" style="margin-bottom:2rem;">
+                <h3>
+                    <i class="bi bi-calendar3"></i> Écoutes &amp; temps par jour
+                    <button class="chart-toggle" x-show="!statsChargees && !chargementStats"
+                        @click="chargerStatsGlobales()">
+                        <i class="bi bi-play-fill"></i> Charger
+                    </button>
+                </h3>
+                <div x-show="chargementStats" style="text-align:center;padding:2rem;color:var(--muted);">
+                    <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
+                    <p style="margin-top:.5rem;font-size:.85rem;">Récupération des données Last.fm…</p>
+                </div>
+                <div x-show="!statsChargees && !chargementStats"
+                    style="text-align:center;padding:2.5rem;color:var(--muted);">
+                    <i class="bi bi-graph-up" style="font-size:2rem;opacity:.3;"></i>
+                    <p style="margin-top:.5rem;font-size:.85rem;">Clique sur "Charger" pour afficher ton historique</p>
+                </div>
+                <div x-show="statsChargees" style="position:relative;height:280px;">
+                    <canvas id="chartEcoutesJour"></canvas>
+                </div>
             </div>
         </div>
 
         <!-- ══ ALBUMS ══ -->
-        <div class="section-title" style="margin-top:2rem;">
+        <div class="section-title collapsible" style="margin-top:2rem;" @click="sections.albums = !sections.albums">
             <i class="bi bi-vinyl" style="color:var(--accent);"></i>
             Albums
             <span style="font-size:.8rem;color:var(--muted);font-weight:400;margin-left:.5rem;"
                 x-text="'(' + albumsFiltres().length + '/' + albums.length + ')'"></span>
-            <button class="chart-toggle" style="margin-left:auto;" @click="ouvrirStatsAlbums()">
+            <button class="chart-toggle" @click.stop="ouvrirStatsAlbums()">
                 <i class="bi bi-bar-chart"></i> Vue globale
             </button>
+            <i class="bi collapse-icon" :class="sections.albums ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
         </div>
 
-        <!-- Barre filtres albums -->
-        <div class="filters-bar" style="margin-bottom:1rem;">
-            <div class="search-wrap">
-                <i class="bi bi-search"></i>
-                <input type="text" x-model="rechercheAlbum" placeholder="Rechercher un album…" />
-                <button class="clear-btn" x-show="rechercheAlbum" @click="rechercheAlbum=''">
-                    <i class="bi bi-x-lg"></i>
-                </button>
+        <div x-show="sections.albums" x-transition.duration.200ms>
+            <!-- Barre filtres albums -->
+            <div class="filters-bar" style="margin-bottom:1rem;">
+                <div class="search-wrap">
+                    <i class="bi bi-search"></i>
+                    <input type="text" x-model="rechercheAlbum" placeholder="Rechercher un album…" />
+                    <button class="clear-btn" x-show="rechercheAlbum" @click="rechercheAlbum=''">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+                <select class="filter-select" x-model="trierAlbumPar">
+                    <option value="popularite">Popularité</option>
+                    <option value="nom">Nom A→Z</option>
+                    <option value="date">Date (récent)</option>
+                    <option value="ecoutes">Écoutes Last.fm</option>
+                </select>
             </div>
-            <select class="filter-select" x-model="trierAlbumPar">
-                <option value="popularite">Popularité</option>
-                <option value="nom">Nom A→Z</option>
-                <option value="date">Date (récent)</option>
-                <option value="ecoutes">Écoutes Last.fm</option>
-            </select>
-        </div>
 
-        <div class="albums-grid" style="margin-bottom:2.5rem;">
-            <template x-for="alb in albumsFiltres()" :key="alb.id">
-                <div class="album-card" @click="ouvrirAlbum(alb)" style="cursor:pointer;">
-                    <img :src="alb.pochette" :alt="alb.nom" loading="lazy" />
-                    <div class="album-info">
-                        <div class="album-nom" x-text="alb.nom"></div>
-                        <div class="album-artiste" x-text="alb.artiste"></div>
-                        <div class="album-meta">
-                            <span class="badge-gray" x-text="alb.totalTracks + ' titres'"></span>
-                            <template x-if="ecoutesAlbum(alb) > 0">
-                                <span class="badge-green">
-                                    <i class="bi bi-headphones" style="margin-right:.2rem;"></i>
-                                    <span x-text="ecoutesAlbum(alb)"></span>
-                                </span>
-                            </template>
+            <div class="albums-grid" style="margin-bottom:2.5rem;">
+                <template x-for="alb in albumsFiltres()" :key="alb.id">
+                    <div class="album-card" @click="ouvrirAlbum(alb)" style="cursor:pointer;">
+                        <img :src="alb.pochette" :alt="alb.nom" loading="lazy" />
+                        <div class="album-info">
+                            <div class="album-nom" x-text="alb.nom"></div>
+                            <div class="album-artiste" x-text="alb.artiste"></div>
+                            <div class="album-meta">
+                                <span class="badge-gray" x-text="alb.totalTracks + ' titres'"></span>
+                                <template x-if="ecoutesAlbum(alb) > 0">
+                                    <span class="badge-green">
+                                        <i class="bi bi-headphones" style="margin-right:.2rem;"></i>
+                                        <span x-text="ecoutesAlbum(alb)"></span>
+                                    </span>
+                                </template>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </template>
+                </template>
+            </div>
         </div>
 
         <!-- ══ MORCEAUX ══ -->
-        <div class="section-title">
+        <div class="section-title collapsible" @click="sections.morceaux = !sections.morceaux">
             <i class="bi bi-music-note-list" style="color:var(--accent);"></i>
             Morceaux
+            <i class="bi collapse-icon" :class="sections.morceaux ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
         </div>
+
+        <div x-show="sections.morceaux" x-transition.duration.200ms>
 
         <!-- Onglets Tous / Déjà écoutés -->
         <div style="display:flex;gap:.5rem;margin-bottom:1rem;">
@@ -249,6 +265,8 @@
                 </div>
             </template>
         </div>
+
+        </div><!-- /sections.morceaux -->
 
     </div>
 

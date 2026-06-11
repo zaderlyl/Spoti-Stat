@@ -288,6 +288,14 @@ document.addEventListener('alpine:init', () => {
     albumSelectionne:   null,
     albumPopupLoading:  false,
 
+    // Sections repliables
+    sections: {
+      chartsArtistesGenres: true,
+      ecoutesJour:          true,
+      albums:               true,
+      morceaux:             true,
+    },
+
     // Filtres morceaux
     ongletMorceaux:     'tous',   // 'tous' | 'ecoutes'
 
