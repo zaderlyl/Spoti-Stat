@@ -490,28 +490,13 @@ document.addEventListener('alpine:init', () => {
       this.albumSelectionne  = alb;
       this.albumPopupLoading = true;
 
-      // Tracks de cet album dans le json local
-      const tracksAlbum = this.liste.filter(m => m.album === alb.nom);
+      // Tracks de cet album triées par numéro de piste
+      const tracksAlbum = this.liste
+        .filter(m => m.album === alb.nom)
+        .sort((a, b) => (a.numPiste ?? 0) - (b.numPiste ?? 0));
 
-      // Palette de couleurs pour les lignes
-      const palette = [
-        '#1db954','#60a5fa','#f472b6','#fb923c',
-        '#a78bfa','#f43f5e','#4ade80','#fbbf24',
-        '#34d399','#818cf8','#e879f9','#f97316'
-      ];
-
-      // Préparer 7 jours
-      const jours = [];
-      for (let i = 6; i >= 0; i--) {
-        const d = new Date();
-        d.setHours(0, 0, 0, 0);
-        d.setDate(d.getDate() - i);
-        jours.push(d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' }));
-      }
-
-      // Récupérer les écoutes des 7 derniers jours
-      const now    = Math.floor(Date.now() / 1000);
-      const depuis = now - 7 * 86400;
+      // Récupérer les écoutes des 30 derniers jours depuis Last.fm
+      const depuis = Math.floor(Date.now() / 1000) - 30 * 86400;
       let page = 1, totalPages = 1, toutesEcoutes = [];
 
       do {
@@ -525,36 +510,25 @@ document.addEventListener('alpine:init', () => {
         }
         if (stop) break;
         page++;
-        if (page > 3) break;
+        if (page > 10) break;
       } while (page <= totalPages);
 
-      // Compter par track et par jour
-      const datasets = tracksAlbum.map((m, i) => {
-        const data = jours.map(jour => {
-          return toutesEcoutes.filter(t => {
-            const d   = new Date(parseInt(t.date.uts) * 1000);
-            d.setHours(0, 0, 0, 0);
-            const key = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
-            return key === jour &&
-              t.name.toLowerCase() === m.titre.toLowerCase() &&
-              t.artist['#text'].toLowerCase() === m.artiste.split(', ')[0].toLowerCase();
-          }).length;
-        });
+      // Pour chaque track : compter écoutes + calculer temps (écoutes × durée)
+      const labels  = [];
+      const ecoutes = [];
+      const minutes = [];
 
-        const couleur = palette[i % palette.length];
-        return {
-          label:              m.titre.length > 25 ? m.titre.slice(0, 23) + '…' : m.titre,
-          data,
-          borderColor:        couleur,
-          backgroundColor:    couleur + '18',
-          pointBackgroundColor: couleur,
-          fill:               false,
-          tension:            .4,
-          pointRadius:        4,
-          pointHoverRadius:   6,
-          borderWidth:        2
-        };
-      }).filter(ds => ds.data.some(v => v > 0)); // n'afficher que les tracks écoutées
+      for (const m of tracksAlbum) {
+        const count = toutesEcoutes.filter(t =>
+          t.name.toLowerCase()          === m.titre.toLowerCase() &&
+          t.artist['#text'].toLowerCase() === m.artiste.split(', ')[0].toLowerCase()
+        ).length;
+
+        const titre = m.titre.length > 30 ? m.titre.slice(0, 28) + '…' : m.titre;
+        labels.push(titre);
+        ecoutes.push(count);
+        minutes.push(parseFloat(((count * (m.duree ?? 0)) / 60000).toFixed(1)));
+      }
 
       this.albumPopupLoading = false;
 
@@ -563,22 +537,73 @@ document.addEventListener('alpine:init', () => {
         if (!canvas) return;
         Chart.getChart(canvas)?.destroy();
 
+        // Hauteur dynamique selon le nombre de tracks
+        canvas.parentElement.style.height = Math.max(300, tracksAlbum.length * 42) + 'px';
+
         new Chart(canvas, {
-          type: 'line',
-          data: { labels: jours, datasets },
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [
+              {
+                label:           'Écoutes',
+                data:            ecoutes,
+                backgroundColor: '#1db95499',
+                borderColor:     '#1db954',
+                borderWidth:     1,
+                borderRadius:    4,
+                yAxisID:         'y',
+                xAxisID:         'xEcoutes'
+              },
+              {
+                label:           'Minutes écoutées',
+                data:            minutes,
+                backgroundColor: '#60a5fa55',
+                borderColor:     '#60a5fa',
+                borderWidth:     1,
+                borderRadius:    4,
+                yAxisID:         'y',
+                xAxisID:         'xMinutes'
+              }
+            ]
+          },
           options: {
-            responsive: true,
+            indexAxis:          'y',
+            responsive:         true,
             maintainAspectRatio: false,
-            interaction: { mode: 'index', intersect: false },
+            interaction:        { mode: 'y', intersect: false },
             plugins: {
               legend: {
-                labels: { color: '#e8e8e8', boxWidth: 10, font: { size: 11 }, padding: 10 }
+                labels: { color: '#e8e8e8', boxWidth: 12, font: { size: 12 }, padding: 16 }
               },
-              tooltip: TOOLTIP_DARK
+              tooltip: {
+                ...TOOLTIP_DARK,
+                callbacks: {
+                  label: ctx => ctx.datasetIndex === 0
+                    ? ` ${ctx.raw} écoute${ctx.raw > 1 ? 's' : ''}`
+                    : ` ${ctx.raw} min`
+                }
+              }
             },
             scales: {
-              x: { ticks: { color: '#a0a0a0' }, grid: { color: '#2e2e2e' } },
-              y: { min: 0, ticks: { color: '#e8e8e8', stepSize: 1 }, grid: { color: '#2e2e2e' } }
+              y: {
+                ticks:  { color: '#e8e8e8', font: { size: 11 } },
+                grid:   { color: '#2a2a2a' }
+              },
+              xEcoutes: {
+                position: 'top',
+                min:      0,
+                ticks:    { color: '#1db954', stepSize: 1, font: { size: 11 } },
+                grid:     { color: '#2a2a2a' },
+                title:    { display: true, text: 'Écoutes', color: '#1db954', font: { size: 11 } }
+              },
+              xMinutes: {
+                position: 'bottom',
+                min:      0,
+                ticks:    { color: '#60a5fa', font: { size: 11 } },
+                grid:     { drawOnChartArea: false },
+                title:    { display: true, text: 'Minutes', color: '#60a5fa', font: { size: 11 } }
+              }
             }
           }
         });

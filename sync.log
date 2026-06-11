@@ -678,3 +678,21 @@ Node.js v25.5.0
 
 🎉 88 morceaux ajoutés dans data.json
 📀 Total : 500 morceaux
+🔄 Lecture de data.json…
+📀 500 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Erreur 404 - Reality Not Found"
+🎵 Track manquante dans un album connu : "Silex"
+🎵 Track manquante dans un album connu : "Mauvais"
+🎵 Track manquante dans un album connu : "Café Zèbre"
+🎵 Track manquante dans un album connu : "Can Anyone Relate?"
+🎵 Track manquante dans un album connu : "Il Soldato"
+🎵 Track manquante dans un album connu : "I Wanna Be Like You - The Monkey Song"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 500 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
