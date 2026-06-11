@@ -190807,5 +190807,4349 @@
         }
       ]
     }
+  },
+  {
+    "id": "3835222821",
+    "name": "Du tout au rien",
+    "duration_ms": 137000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/3/0/193861f0ff45475810fa1d44b323ec9d.mp3?hdnea=exp=1781162102~acl=/api/1/1/1/9/3/0/193861f0ff45475810fa1d44b323ec9d.mp3*~data=user_id=0,application_id=42~hmac=e7064876955dfa5a2b51d0118e2af09d243ae23b62bf13870a09217696ece1a0",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222831",
+    "name": "Des millions de vues",
+    "duration_ms": 195000,
+    "explicit": false,
+    "popularity": 15,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/a/0/39ad9ad1590a515225c371661f93753d.mp3?hdnea=exp=1781162102~acl=/api/1/1/3/9/a/0/39ad9ad1590a515225c371661f93753d.mp3*~data=user_id=0,application_id=42~hmac=6998e5313f0ee0325cc08f0cdececb6a417eafe35b5b519b7b1c7989c728f007",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222841",
+    "name": "À la maison",
+    "duration_ms": 194000,
+    "explicit": false,
+    "popularity": 16,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/e/0/c9ed78cde5fff91dce7177806fdc1f76.mp3?hdnea=exp=1781162103~acl=/api/1/1/c/9/e/0/c9ed78cde5fff91dce7177806fdc1f76.mp3*~data=user_id=0,application_id=42~hmac=1b3c9bb7b8540540d3a70595d9939bf60cf92b2a26fee848798447a67b4388a1",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222851",
+    "name": "Pour un regard",
+    "duration_ms": 138000,
+    "explicit": false,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/3/3/0/3338a217002a51f1bf6b886aca6b9cd6.mp3?hdnea=exp=1781162103~acl=/api/1/1/3/3/3/0/3338a217002a51f1bf6b886aca6b9cd6.mp3*~data=user_id=0,application_id=42~hmac=33355715e28b0950ec6105c6cef5c224b6cdba3aeb84ffc39f5331e45c5a2e3c",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222861",
+    "name": "Éternel retour",
+    "duration_ms": 181000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/a/0/28a876cca86dbb494c0e915bfec8c8c7.mp3?hdnea=exp=1781162103~acl=/api/1/1/2/8/a/0/28a876cca86dbb494c0e915bfec8c8c7.mp3*~data=user_id=0,application_id=42~hmac=1837e2330541a1af7c83859008f4e0ff0efd5e0ddbdfa7cb7636a14892a9646e",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222871",
+    "name": "Sans toi",
+    "duration_ms": 124000,
+    "explicit": false,
+    "popularity": 11,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/6/5/0/1656418c6f403572d1da16919f59b5bb.mp3?hdnea=exp=1781162103~acl=/api/1/1/1/6/5/0/1656418c6f403572d1da16919f59b5bb.mp3*~data=user_id=0,application_id=42~hmac=04b30d4ffc94150695a54b9fee47c82336141c078776358ccf730cb6334d9f4e",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222881",
+    "name": "La part des anges",
+    "duration_ms": 195000,
+    "explicit": false,
+    "popularity": 17,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/9/0/519728e1da868cb0aa81b8a5034833b4.mp3?hdnea=exp=1781162103~acl=/api/1/1/5/1/9/0/519728e1da868cb0aa81b8a5034833b4.mp3*~data=user_id=0,application_id=42~hmac=f6449487c5bccea5f9a18f34a55f68f1b1c370e7aaa6f00befcb25cffb19db72",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3835222891",
+    "name": "Fin",
+    "duration_ms": 163000,
+    "explicit": false,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/7/0/8e78cb70ff9e521200b90087c4c41958.mp3?hdnea=exp=1781162104~acl=/api/1/1/8/e/7/0/8e78cb70ff9e521200b90087c4c41958.mp3*~data=user_id=0,application_id=42~hmac=9f8fae2fa74f17b46a5a7496857d31b03e6e0c91f149bd5e3c46c2e9605a8b62",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "915943711",
+      "name": "Une nuit et cinq terres",
+      "release_date": "2026-03-06",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/4067154daf43d90aa3bd77c7b9181738/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2122440977",
+    "name": "Silex 2",
+    "duration_ms": 165000,
+    "explicit": false,
+    "popularity": 29,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/6/0/39644ee4cb3060f95d0675c0c5438ec9.mp3?hdnea=exp=1781162105~acl=/api/1/1/3/9/6/0/39644ee4cb3060f95d0675c0c5438ec9.mp3*~data=user_id=0,application_id=42~hmac=1d331dc2455e9edd0119f1f360fd9faecba90856887675ad0104ca0ef57f26a6",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "400109607",
+      "name": "Silex 2",
+      "release_date": "2023-02-24",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/5c91708ac5ccef1068666627e729652a/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1472645862",
+    "name": "Raccord",
+    "duration_ms": 244000,
+    "explicit": false,
+    "popularity": 18,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/f/0/d3f5e5e1c4b02977739e9656cf26530c.mp3?hdnea=exp=1781162105~acl=/api/1/1/d/3/f/0/d3f5e5e1c4b02977739e9656cf26530c.mp3*~data=user_id=0,application_id=42~hmac=6152adcd5973772e731f9b39d8c593ad9c3c512ae023c2137379b2e22dbe5696",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "253653562",
+      "name": "Une vie",
+      "release_date": "2021-09-03",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/520f6400b7ef69ba463a9d1c8f02ebc7/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1165703082",
+    "name": "Erreur 404 (Reality Not Found)",
+    "duration_ms": 179000,
+    "explicit": true,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/3/0/20359e20bfa34da077d03ae06927fc65.mp3?hdnea=exp=1781162106~acl=/api/1/1/2/0/3/0/20359e20bfa34da077d03ae06927fc65.mp3*~data=user_id=0,application_id=42~hmac=6ba6f5a5a098b90228023634ae0ea3a8537a27bb0de09fb52c5e7b2693fb49ba",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "190923492",
+      "name": "Erreur 404 (Reality Not Found)",
+      "release_date": "2020-11-18",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/5e19d0dbeb84c6607afa91939e6331cb/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2991496241",
+    "name": "13 jours à penser",
+    "duration_ms": 237000,
+    "explicit": false,
+    "popularity": 14,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/b/0/35b112e7dd07bc3a90d6d3b8e1095984.mp3?hdnea=exp=1781162107~acl=/api/1/1/3/5/b/0/35b112e7dd07bc3a90d6d3b8e1095984.mp3*~data=user_id=0,application_id=42~hmac=8dc30b24fa2d7e886e849fb58c8b44f61fb251773f13266062b4bdb71af00518",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "642281861",
+      "name": "13 jours à penser",
+      "release_date": "2024-10-04",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e2e56a489e45dadfa8bcdc38a4ff22ae/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1053206552",
+    "name": "Cramon(s)",
+    "duration_ms": 222000,
+    "explicit": true,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/3/0/4c3ca6db138360feb3648c5c3ce7f02e.mp3?hdnea=exp=1781162108~acl=/api/1/1/4/c/3/0/4c3ca6db138360feb3648c5c3ce7f02e.mp3*~data=user_id=0,application_id=42~hmac=6f70b50c21fa051c3e6b3042516376f9f1d4f51d0ffb881bac137458cfd55ac7",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "167592212",
+      "name": "Eya",
+      "release_date": "2019-07-07",
+      "total_tracks": 5,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/1b2aa3fd5d53e85c60cd2b3dc8738649/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3558133981",
+    "name": "SALE ÉTAT",
+    "duration_ms": 202000,
+    "explicit": true,
+    "popularity": 93,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/a/b/0/4ab40b29529f5e4d6566e08c4cbda1b4.mp3?hdnea=exp=1781162109~acl=/api/1/1/4/a/b/0/4ab40b29529f5e4d6566e08c4cbda1b4.mp3*~data=user_id=0,application_id=42~hmac=b22ecffbbfbeda8a8ac507c505ada0893709b81bae3b676aad3c9bd9e28393a9",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "323311",
+        "name": "RK",
+        "type": "artist",
+        "followers": {
+          "total": 1159460
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 12,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/e7f18a66439a3cd0b3c30358f01b3f47/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "822264171",
+      "name": "SALE ÉTAT",
+      "release_date": "2025-09-26",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f6f1607c123192ce4aa861541f9406/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157782",
+    "name": "Avant Romina",
+    "duration_ms": 176000,
+    "explicit": false,
+    "popularity": 15,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/1/b/0/31bca0624f19383b81262924a22f682f.mp3?hdnea=exp=1781162110~acl=/api/1/1/3/1/b/0/31bca0624f19383b81262924a22f682f.mp3*~data=user_id=0,application_id=42~hmac=7d2092bde49cd0fd414931db59f26a25756499352f044462532a300e9a203a0f",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157792",
+    "name": "Romina I (Remastered)",
+    "duration_ms": 187000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/a/0/f1a28ac690c41db4ea23bce4c88b4de8.mp3?hdnea=exp=1781162110~acl=/api/1/1/f/1/a/0/f1a28ac690c41db4ea23bce4c88b4de8.mp3*~data=user_id=0,application_id=42~hmac=e5e2ce809c1c4ed99fc43ba336b5486198f8e7e8e587ae6db499c3c43081af87",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157802",
+    "name": "Romina II",
+    "duration_ms": 163000,
+    "explicit": false,
+    "popularity": 8,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/8/0/1984c82a0d525b9c5777668a0388daa7.mp3?hdnea=exp=1781162110~acl=/api/1/1/1/9/8/0/1984c82a0d525b9c5777668a0388daa7.mp3*~data=user_id=0,application_id=42~hmac=c55fe6fc30b393fe5ee642891b29fdd41009c3ab0315d87a4bcb1e45af64dfbe",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157812",
+    "name": "Du rêve",
+    "duration_ms": 123000,
+    "explicit": false,
+    "popularity": 6,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/e/0/8ae9212882e0d815beb0c285efd9802f.mp3?hdnea=exp=1781162110~acl=/api/1/1/8/a/e/0/8ae9212882e0d815beb0c285efd9802f.mp3*~data=user_id=0,application_id=42~hmac=27900c9367e62c27dc77141d975b15b5a2c2dd6edb276242339ecf011011c499",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157822",
+    "name": "Romina III",
+    "duration_ms": 152000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/7/0/b67769b31422ebcd185ed27cf00d4690.mp3?hdnea=exp=1781162111~acl=/api/1/1/b/6/7/0/b67769b31422ebcd185ed27cf00d4690.mp3*~data=user_id=0,application_id=42~hmac=02ad645d75f292390283740bf716472366458d8e5669d123b48ecee0cb6580c4",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157832",
+    "name": "De l'inertie",
+    "duration_ms": 95000,
+    "explicit": false,
+    "popularity": 1,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/d/0/8dd419ad05bd55d9150603a7fb5ea373.mp3?hdnea=exp=1781162111~acl=/api/1/1/8/d/d/0/8dd419ad05bd55d9150603a7fb5ea373.mp3*~data=user_id=0,application_id=42~hmac=b415fea2009858266ab335caaebd4fef0936b51b953cd0982f5ef695adc139d8",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157842",
+    "name": "Romina IV",
+    "duration_ms": 154000,
+    "explicit": false,
+    "popularity": 11,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/8/0/1c80a1440f6585e161f0639da38265c7.mp3?hdnea=exp=1781162111~acl=/api/1/1/1/c/8/0/1c80a1440f6585e161f0639da38265c7.mp3*~data=user_id=0,application_id=42~hmac=6f647e3f9dad3bc8e5abf086077500153354de37c2a41ea3b564d760ed074b8b",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157852",
+    "name": "Romina V",
+    "duration_ms": 163000,
+    "explicit": false,
+    "popularity": 11,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/e/0/eae080f4177ff01d56982e3d1aa9ba92.mp3?hdnea=exp=1781162111~acl=/api/1/1/e/a/e/0/eae080f4177ff01d56982e3d1aa9ba92.mp3*~data=user_id=0,application_id=42~hmac=c7098776f32dcf35bb15157fcf9aa06a178e0b36fd6ad5db31514cc5a208c836",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157862",
+    "name": "De la chute",
+    "duration_ms": 49000,
+    "explicit": false,
+    "popularity": 3,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/7/0/ba72b5a454cbba0ea3201bf9eb86ee9f.mp3?hdnea=exp=1781162111~acl=/api/1/1/b/a/7/0/ba72b5a454cbba0ea3201bf9eb86ee9f.mp3*~data=user_id=0,application_id=42~hmac=428ce49f57350727f63a9072bf2af6752e92a3e00b3263b9695262abaa84b6c1",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157872",
+    "name": "Romina X",
+    "duration_ms": 186000,
+    "explicit": false,
+    "popularity": 8,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/b/0/59be7ee8bff7d13016346b0b477527a8.mp3?hdnea=exp=1781162112~acl=/api/1/1/5/9/b/0/59be7ee8bff7d13016346b0b477527a8.mp3*~data=user_id=0,application_id=42~hmac=1b0b4afdd5e7b2298388f1cc786f42287a8415b6ba8f8c8b0e571a4cb073c3a3",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2602157882",
+    "name": "Après Romina",
+    "duration_ms": 172000,
+    "explicit": false,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/a/0/0/4a0fe6ed690631580d4300e6d430c70a.mp3?hdnea=exp=1781162112~acl=/api/1/1/4/a/0/0/4a0fe6ed690631580d4300e6d430c70a.mp3*~data=user_id=0,application_id=42~hmac=1b81f3b9ade63971e5ebbff63e01ccab16f4b4cf8837d5c301062b0b22d72d9a",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64523112",
+        "name": "Eta",
+        "type": "artist",
+        "followers": {
+          "total": 4199
+        },
+        "genres": [],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b378a67c2502ac2b2741eb83ca75395c/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "528961682",
+      "name": "Romina",
+      "release_date": "2024-01-05",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/e760fc075c6266158a3505b457368304/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3098100311",
+    "name": "Mauvais Garçon",
+    "duration_ms": 162000,
+    "explicit": false,
+    "popularity": 97,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/2/0/222c28ff6f1ec8835a4a4accee606956.mp3?hdnea=exp=1781162113~acl=/api/1/1/2/2/2/0/222c28ff6f1ec8835a4a4accee606956.mp3*~data=user_id=0,application_id=42~hmac=8bec608b19f14334d02f1c53d3e18b86509323563847fcf97a2ca084f937fed2",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "258938052",
+        "name": "Helena",
+        "type": "artist",
+        "followers": {
+          "total": 221727
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 2,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/c9213a969f02712aec1e7f3369bdc909/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "671918891",
+      "name": "Mauvais Garçon",
+      "release_date": "2024-11-20",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/1280be231e0df944158fda9f55de0696/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852052",
+    "name": "Humanité",
+    "duration_ms": 447000,
+    "explicit": false,
+    "popularity": 42,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/9/0/8c98fcbb9dfa0a22db76ca99af7e3029.mp3?hdnea=exp=1781162115~acl=/api/1/1/8/c/9/0/8c98fcbb9dfa0a22db76ca99af7e3029.mp3*~data=user_id=0,application_id=42~hmac=9a7d6b49c7aadcb69b8cea02a0c495be5d0cbc19408d62c849f3721bc7d4d9f5",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852062",
+    "name": "Les guerres des mondes",
+    "duration_ms": 443000,
+    "explicit": false,
+    "popularity": 33,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/3/0/d433efab59a849199c7e3304193c4ed6.mp3?hdnea=exp=1781162115~acl=/api/1/1/d/4/3/0/d433efab59a849199c7e3304193c4ed6.mp3*~data=user_id=0,application_id=42~hmac=03795a8e3462e602e51c769855ad4f7f3ee8c74926986cb6917a56e185574216",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852072",
+    "name": "La mort",
+    "duration_ms": 419000,
+    "explicit": false,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/d/0/0/0d041d6e1ed8e2b40ae09e7dbfbd069b.mp3?hdnea=exp=1781162115~acl=/api/1/1/0/d/0/0/0d041d6e1ed8e2b40ae09e7dbfbd069b.mp3*~data=user_id=0,application_id=42~hmac=42d71c134d1ef35299091e40c18ab24e6e9c2cea6e63b52ab5a90f05bc3736bd",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852082",
+    "name": "J'envoie",
+    "duration_ms": 303000,
+    "explicit": false,
+    "popularity": 35,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/6/0/6d6d00146e024e1bae215341013e5731.mp3?hdnea=exp=1781162115~acl=/api/1/1/6/d/6/0/6d6d00146e024e1bae215341013e5731.mp3*~data=user_id=0,application_id=42~hmac=9c30f88b5e610bf8005393c56ee1151d9703cab6c133645f362593eaca40fef9",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852092",
+    "name": "P'tite pute",
+    "duration_ms": 267000,
+    "explicit": true,
+    "popularity": 66,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/9/b/7/0/9b7f713af0ee4c5982183e18a4361318.mp3?hdnea=exp=1781162115~acl=/api/1/1/9/b/7/0/9b7f713af0ee4c5982183e18a4361318.mp3*~data=user_id=0,application_id=42~hmac=a7163224cd2d27b0247262d9b641abe863542abf28e8e4ffd55bc0b0585077b3",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852102",
+    "name": "La belle au bois",
+    "duration_ms": 312000,
+    "explicit": false,
+    "popularity": 70,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/0/0/ee0dffb4c54ea06ea30469d08cb77293.mp3?hdnea=exp=1781162116~acl=/api/1/1/e/e/0/0/ee0dffb4c54ea06ea30469d08cb77293.mp3*~data=user_id=0,application_id=42~hmac=44546c6d3d5f65a63a6d8f37efe930ae50ab499f27a38518daaa76baebf47b55",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852112",
+    "name": "Amour criminel",
+    "duration_ms": 271000,
+    "explicit": false,
+    "popularity": 41,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/d/0/67dfc2bcf91abf173683d73ce4133f94.mp3?hdnea=exp=1781162116~acl=/api/1/1/6/7/d/0/67dfc2bcf91abf173683d73ce4133f94.mp3*~data=user_id=0,application_id=42~hmac=d36d5a1c67a18174bd19eb76921a770eaaba561f0fa67a44ce2e9ffe8f461e47",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852122",
+    "name": "Elle aimait se faire liker",
+    "duration_ms": 226000,
+    "explicit": false,
+    "popularity": 37,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/6/0/b468bb5b4c0471a57be7b131a8d2649c.mp3?hdnea=exp=1781162116~acl=/api/1/1/b/4/6/0/b468bb5b4c0471a57be7b131a8d2649c.mp3*~data=user_id=0,application_id=42~hmac=80fcc882ed9ffba2d4905333a1aa341b512851f7cfcff08c8fe134014a2006ba",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852132",
+    "name": "L'attentat",
+    "duration_ms": 285000,
+    "explicit": false,
+    "popularity": 60,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/5/0/5e5792e297c857c9941aada83464948c.mp3?hdnea=exp=1781162116~acl=/api/1/1/5/e/5/0/5e5792e297c857c9941aada83464948c.mp3*~data=user_id=0,application_id=42~hmac=fe68d6010d249b2f6e44d9e91467b7bda4c351735a641bf1e48f5a3966405bbb",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852142",
+    "name": "Burqa",
+    "duration_ms": 211000,
+    "explicit": false,
+    "popularity": 43,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/3/0/6b3c88ad5350795d51d4091fec1b966d.mp3?hdnea=exp=1781162117~acl=/api/1/1/6/b/3/0/6b3c88ad5350795d51d4091fec1b966d.mp3*~data=user_id=0,application_id=42~hmac=ddb68c59fc1286b539b474a5631fc64d3a18d06e77d9a1b2e6ab4b0a9731245a",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "589852152",
+    "name": "Ma religieuse",
+    "duration_ms": 455000,
+    "explicit": false,
+    "popularity": 55,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/b/9/0/8b95369ea08ca84289465fe942791cfc.mp3?hdnea=exp=1781162117~acl=/api/1/1/8/b/9/0/8b95369ea08ca84289465fe942791cfc.mp3*~data=user_id=0,application_id=42~hmac=62dec6c168b7fdcfbbb2a074688912bffe36e153eb8e7fd99bf4ca77101f600f",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "463",
+        "name": "Saez",
+        "type": "artist",
+        "followers": {
+          "total": 543418
+        },
+        "genres": [
+          "Rock"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4397748747093db764099a8e02e5c275/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "79359772",
+      "name": "#humanité",
+      "release_date": "2018-11-30",
+      "total_tracks": 11,
+      "type": "album",
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/33527cb6fc13aca80f32f2b39b00090d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2096025647",
+    "name": "J'te vois partout",
+    "duration_ms": 288000,
+    "explicit": false,
+    "popularity": 8,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/a/0/d4aee54c4314fc7fa637bec329f47ff0.mp3?hdnea=exp=1781162118~acl=/api/1/1/d/4/a/0/d4aee54c4314fc7fa637bec329f47ff0.mp3*~data=user_id=0,application_id=42~hmac=b601f6645712506a61a5c4f61b5e5924891dfa0539de2257f149439b4bbff4f6",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "200444617",
+        "name": "Clar",
+        "type": "artist",
+        "followers": {
+          "total": 3
+        },
+        "genres": [
+          "Rap/Hip Hop",
+          "Rap français"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/b3be8e988f9aa4b2ba20b7b250ad3328/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "393219867",
+      "name": "J'te vois partout",
+      "release_date": "2023-02-03",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop",
+        "Rap français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b3be8e988f9aa4b2ba20b7b250ad3328/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "587220832",
+    "name": "Periferia",
+    "duration_ms": 187000,
+    "explicit": false,
+    "popularity": 2,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/9/0/6d945b7d41ec44c44744c30a72e5a70a.mp3?hdnea=exp=1781162119~acl=/api/1/1/6/d/9/0/6d945b7d41ec44c44744c30a72e5a70a.mp3*~data=user_id=0,application_id=42~hmac=b43e33868d22bf31cff456c25e01e065c9d88ca2592c75b11c99627608d43dd4",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "53068632",
+        "name": "Michele Venanzoni",
+        "type": "artist",
+        "followers": {
+          "total": 21
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/8366c055c800a1c6bc169067db5ddf7d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "78906442",
+      "name": "Errare umano",
+      "release_date": "2018-11-14",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8366c055c800a1c6bc169067db5ddf7d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1596213372",
+    "name": "Pentagramma dell'acqua",
+    "duration_ms": 244000,
+    "explicit": true,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/9/0/5c9f38daa244aedf3379ca22511dd7e3.mp3?hdnea=exp=1781162119~acl=/api/1/1/5/c/9/0/5c9f38daa244aedf3379ca22511dd7e3.mp3*~data=user_id=0,application_id=42~hmac=31a2fa64c249c621285f9c919ecd1d19a23b731bd05fdfab2d097005bcf114e7",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "4868678",
+        "name": "Murubutu",
+        "type": "artist",
+        "followers": {
+          "total": 5146
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/9b9c8710a1095d52c18943244eaf5db4/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "281645382",
+      "name": "Storie d'amore con pioggia e altri racconti di rovesci e temporali",
+      "release_date": "2022-01-14",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3c8b376f3138d1ea9221a6b073c9c3ba/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2839400322",
+    "name": "Il Soldato (feat. Murubutu)",
+    "duration_ms": 189000,
+    "explicit": false,
+    "popularity": 2,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/6/0/b66a10c3b4cc1f1a78d51da7f34172fc.mp3?hdnea=exp=1781162120~acl=/api/1/1/b/6/6/0/b66a10c3b4cc1f1a78d51da7f34172fc.mp3*~data=user_id=0,application_id=42~hmac=4b8fd8e4bee801e56a02ed566ec031e44a8f47f6d9bc3a6c9d1d76a8a740ffae",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "53068632",
+        "name": "Michele Venanzoni",
+        "type": "artist",
+        "followers": {
+          "total": 21
+        },
+        "genres": [
+          "Singer & Songwriter"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/8366c055c800a1c6bc169067db5ddf7d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "599131192",
+      "name": "Il Soldato (feat. Murubutu)",
+      "release_date": "2024-06-12",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Singer & Songwriter"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/5c748d46e3bc33e3123859f99743af94/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976222",
+    "name": "Un air qui fait",
+    "duration_ms": 220000,
+    "explicit": true,
+    "popularity": 43,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/6/0/8e6490d9910b4ddafb752e8d59ada538.mp3?hdnea=exp=1781162122~acl=/api/1/1/8/e/6/0/8e6490d9910b4ddafb752e8d59ada538.mp3*~data=user_id=0,application_id=42~hmac=1b5877236b3eae72e19591d7b0470a29bf895d3c8e2729c41ac72d2110794692",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976232",
+    "name": "Personne",
+    "duration_ms": 219000,
+    "explicit": true,
+    "popularity": 51,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/2/c/0/32c8951dfcfa314f96f39b09b5487061.mp3?hdnea=exp=1781162122~acl=/api/1/1/3/2/c/0/32c8951dfcfa314f96f39b09b5487061.mp3*~data=user_id=0,application_id=42~hmac=03ffef7c7966f59e846e9b0b1ac8ae765b8174b848cfedff68f3e5b4dece4de3",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976242",
+    "name": "L'adresse",
+    "duration_ms": 222000,
+    "explicit": true,
+    "popularity": 71,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/a/0/ebaef6ab0e1c6d2cbcf67eb4af8a907e.mp3?hdnea=exp=1781162122~acl=/api/1/1/e/b/a/0/ebaef6ab0e1c6d2cbcf67eb4af8a907e.mp3*~data=user_id=0,application_id=42~hmac=61e144c19d829be234efe33009bb0198e69a4f0d669c053800e15913a58065ea",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976252",
+    "name": "On avait dit",
+    "duration_ms": 219000,
+    "explicit": true,
+    "popularity": 72,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/7/0/5c7bc10bb9c4455d0456da2a06ba46e6.mp3?hdnea=exp=1781162123~acl=/api/1/1/5/c/7/0/5c7bc10bb9c4455d0456da2a06ba46e6.mp3*~data=user_id=0,application_id=42~hmac=e483d44de2f84bedfea19eed3425db086574d49b028f7c55710a71966f6db529",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976262",
+    "name": "30",
+    "duration_ms": 209000,
+    "explicit": true,
+    "popularity": 55,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/5/0/1d5ebb872a0531725b121208f44be81d.mp3?hdnea=exp=1781162123~acl=/api/1/1/1/d/5/0/1d5ebb872a0531725b121208f44be81d.mp3*~data=user_id=0,application_id=42~hmac=f6a5d1dab6b89faff2df238731cdb4345a9c7624be2e757bad27ac51a6b31dd4",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976272",
+    "name": "Sans toi",
+    "duration_ms": 298000,
+    "explicit": true,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/7/0/f47131f130510f612f63a4f333cd1e6d.mp3?hdnea=exp=1781162123~acl=/api/1/1/f/4/7/0/f47131f130510f612f63a4f333cd1e6d.mp3*~data=user_id=0,application_id=42~hmac=10780b20e3a3ebd4c28daa2c6fd70e8eab3dde760e8f0d6b49163c25733bdd77",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976282",
+    "name": "Harakiri",
+    "duration_ms": 180000,
+    "explicit": true,
+    "popularity": 51,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/2/0/a62f932d8692afce2c54acc843593afb.mp3?hdnea=exp=1781162123~acl=/api/1/1/a/6/2/0/a62f932d8692afce2c54acc843593afb.mp3*~data=user_id=0,application_id=42~hmac=d39b38acd0e8e9429594560e95292e79138925eaf5ea6d2bc724e73c6e494f21",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976292",
+    "name": "Côte Ouest",
+    "duration_ms": 232000,
+    "explicit": true,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/2/0/3523c78cf895c94bf01733961d6e162a.mp3?hdnea=exp=1781162123~acl=/api/1/1/3/5/2/0/3523c78cf895c94bf01733961d6e162a.mp3*~data=user_id=0,application_id=42~hmac=8225b36b976f15851d869f76ae3c644dc808fada8343b07925ea31579b31f5c3",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976302",
+    "name": "Jamais su",
+    "duration_ms": 189000,
+    "explicit": true,
+    "popularity": 51,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/a/0/8ea5cdc9fb30217faadb5d6943f104f3.mp3?hdnea=exp=1781162124~acl=/api/1/1/8/e/a/0/8ea5cdc9fb30217faadb5d6943f104f3.mp3*~data=user_id=0,application_id=42~hmac=f848e699f6b0388386fd0530ee3f32ddd67c4c5a57313583dc5f4d2651237da5",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976312",
+    "name": "Chaque soir",
+    "duration_ms": 193000,
+    "explicit": true,
+    "popularity": 58,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/9/0/53935ad1d0c91e084f9e26d656fc983b.mp3?hdnea=exp=1781162124~acl=/api/1/1/5/3/9/0/53935ad1d0c91e084f9e26d656fc983b.mp3*~data=user_id=0,application_id=42~hmac=08d4eeb1017babeb98672a47a8e2b423cb02c676b04a405a370ba974cf649a49",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976322",
+    "name": "Laissez-les partir",
+    "duration_ms": 198000,
+    "explicit": true,
+    "popularity": 46,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/6/0/d862601e75f4ca7502de4fe44439b25f.mp3?hdnea=exp=1781162124~acl=/api/1/1/d/8/6/0/d862601e75f4ca7502de4fe44439b25f.mp3*~data=user_id=0,application_id=42~hmac=4f2c06597f90fc7c086a8784b7152a6b54c213f5eced67170283e41665a9f0f3",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976332",
+    "name": "Assieds-toi",
+    "duration_ms": 227000,
+    "explicit": true,
+    "popularity": 44,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/4/0/d4400ad4c23f439a194f3a30472abf61.mp3?hdnea=exp=1781162124~acl=/api/1/1/d/4/4/0/d4400ad4c23f439a194f3a30472abf61.mp3*~data=user_id=0,application_id=42~hmac=58badcbbb873d709d24963f42874e01e3861d1b5b4cda131447236b6f724c25e",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976342",
+    "name": "Soleil noir",
+    "duration_ms": 189000,
+    "explicit": true,
+    "popularity": 43,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/3/0/2535f54f76daa6564d969089d0d9bfbd.mp3?hdnea=exp=1781162125~acl=/api/1/1/2/5/3/0/2535f54f76daa6564d969089d0d9bfbd.mp3*~data=user_id=0,application_id=42~hmac=df4ae63788af23b166ba56814bbd21f94442e06d368926906f09b55d0f342639",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "757976352",
+    "name": "Plus tard",
+    "duration_ms": 252000,
+    "explicit": true,
+    "popularity": 66,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/1/0/1f1021813233995bee5ea70c8b822be5.mp3?hdnea=exp=1781162125~acl=/api/1/1/1/f/1/0/1f1021813233995bee5ea70c8b822be5.mp3*~data=user_id=0,application_id=42~hmac=80a8eee72efb2623d2f3f6cbd27976432d4408102a2579e24619f740c344d238",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "11933635",
+        "name": "47ter",
+        "type": "artist",
+        "followers": {
+          "total": 304584
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 3,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ead322400773b0ea2c82898d2d083421/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "111657432",
+      "name": "L'adresse",
+      "release_date": "2019-10-25",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b7e57dd6ea40655c3c070f1d232fcd7b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837797",
+    "name": "Marqué à vie",
+    "duration_ms": 232000,
+    "explicit": true,
+    "popularity": 35,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/6/0/2d63e0009d367aa974732a3efda3f6da.mp3?hdnea=exp=1781162126~acl=/api/1/1/2/d/6/0/2d63e0009d367aa974732a3efda3f6da.mp3*~data=user_id=0,application_id=42~hmac=ac66dd32a6f22e2194280434b445349c7849a0b910d690b0b92c0a2d4c526c68",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837807",
+    "name": "Jeune de tess",
+    "duration_ms": 309000,
+    "explicit": true,
+    "popularity": 35,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/0/0/3b0aa60e50f9bf520f5cde7294d2134b.mp3?hdnea=exp=1781162126~acl=/api/1/1/3/b/0/0/3b0aa60e50f9bf520f5cde7294d2134b.mp3*~data=user_id=0,application_id=42~hmac=d831031a8b6822f7ab6b4ddd10f24864891a2380168debedbb8e415f386a8ee7",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837817",
+    "name": "Etat sauvage",
+    "duration_ms": 251000,
+    "explicit": true,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/8/0/52889531fca9f12d526666b936f0040a.mp3?hdnea=exp=1781162126~acl=/api/1/1/5/2/8/0/52889531fca9f12d526666b936f0040a.mp3*~data=user_id=0,application_id=42~hmac=05e5c7403f74dda787a3830b0cbc4e13eeb4d08408aa048e1a004f4ffcff5fe3",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837827",
+    "name": "Paris",
+    "duration_ms": 195000,
+    "explicit": true,
+    "popularity": 14,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/a/0/47a4178e9f81f31bee1b9052b426bc25.mp3?hdnea=exp=1781162126~acl=/api/1/1/4/7/a/0/47a4178e9f81f31bee1b9052b426bc25.mp3*~data=user_id=0,application_id=42~hmac=89764deb31b93f0fc72aed6fe6b53c3c4a40f2935c8bd3a6106f44b6441ac1a0",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837847",
+    "name": "Elle donne",
+    "duration_ms": 255000,
+    "explicit": true,
+    "popularity": 40,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/2/0/bd2630430e1c29c7e7e99b3686e59d3e.mp3?hdnea=exp=1781162127~acl=/api/1/1/b/d/2/0/bd2630430e1c29c7e7e99b3686e59d3e.mp3*~data=user_id=0,application_id=42~hmac=39c338a91fc60e2f65362f5a48b632fc70a3ed52c9ef8f95dc4407b26f0b87d0",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837857",
+    "name": "Val de Zoive",
+    "duration_ms": 296000,
+    "explicit": true,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/e/0/41ef89dab2c65592b45f0da7e3393034.mp3?hdnea=exp=1781162127~acl=/api/1/1/4/1/e/0/41ef89dab2c65592b45f0da7e3393034.mp3*~data=user_id=0,application_id=42~hmac=523306ab2d224ba8b858930775cca128aaa4ca58cc7e46493bb9cca843fb91cc",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837867",
+    "name": "Je voulais un monde",
+    "duration_ms": 270000,
+    "explicit": true,
+    "popularity": 28,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/2/0/942626a1c79d61f98df11f7bc160d72b.mp3?hdnea=exp=1781162127~acl=/api/1/1/9/4/2/0/942626a1c79d61f98df11f7bc160d72b.mp3*~data=user_id=0,application_id=42~hmac=82cb5d2f698a39230e74abd9c37a9220ee7b307f1645f5054926ce5680218014",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837877",
+    "name": "Ils nous condamnent",
+    "duration_ms": 259000,
+    "explicit": true,
+    "popularity": 23,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/b/d/0/0bd3ca96d51cb7d93622703d48134a59.mp3?hdnea=exp=1781162127~acl=/api/1/1/0/b/d/0/0bd3ca96d51cb7d93622703d48134a59.mp3*~data=user_id=0,application_id=42~hmac=01f566d0b709a4288c60bd5ca7550cec04f014390b5437525162a65188c4db16",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837887",
+    "name": "Jcvd",
+    "duration_ms": 205000,
+    "explicit": true,
+    "popularity": 19,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/0/0/5408a98ead072bc2cb7e45b0577d9521.mp3?hdnea=exp=1781162128~acl=/api/1/1/5/4/0/0/5408a98ead072bc2cb7e45b0577d9521.mp3*~data=user_id=0,application_id=42~hmac=b0de4384ce24ad9bbb2f0cd31f34af376f6abb0efa796343d011f6bcfad03f0e",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837897",
+    "name": "Fer de lance",
+    "duration_ms": 196000,
+    "explicit": true,
+    "popularity": 18,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/6/0/ed616095fc61b0fd4f48da936be2a0ae.mp3?hdnea=exp=1781162128~acl=/api/1/1/e/d/6/0/ed616095fc61b0fd4f48da936be2a0ae.mp3*~data=user_id=0,application_id=42~hmac=c43641cd9815e4606e561ad8142f5f5888f7170ae4917568b811dd4319ecba74",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837907",
+    "name": "Amour poison",
+    "duration_ms": 292000,
+    "explicit": true,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/9/c/5/0/9c5980d6cffdd44ffd950a5206a3ad86.mp3?hdnea=exp=1781162128~acl=/api/1/1/9/c/5/0/9c5980d6cffdd44ffd950a5206a3ad86.mp3*~data=user_id=0,application_id=42~hmac=8504ba9687cdb9a2372c433133bc6544c413c0590e8825f5570e0e5befd21394",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837917",
+    "name": "Mout",
+    "duration_ms": 244000,
+    "explicit": true,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/1/0/ca12a07e43fb5a106e5cb2bb76976b5e.mp3?hdnea=exp=1781162128~acl=/api/1/1/c/a/1/0/ca12a07e43fb5a106e5cb2bb76976b5e.mp3*~data=user_id=0,application_id=42~hmac=fad72944cc2021332982b1000a2c4badc6f58473008e7a4994a58fa84a4e9bf8",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837927",
+    "name": "Mariage forcé",
+    "duration_ms": 238000,
+    "explicit": true,
+    "popularity": 17,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/5/0/855858806d3914ff9494de55d4de8064.mp3?hdnea=exp=1781162128~acl=/api/1/1/8/5/5/0/855858806d3914ff9494de55d4de8064.mp3*~data=user_id=0,application_id=42~hmac=80285b2e1132034d2d5c3c857375b663b70119720b24bac4c8612bfd8715447c",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837937",
+    "name": "Les oreilles qui sifflent",
+    "duration_ms": 356000,
+    "explicit": true,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/8/0/fe87722222538485cb20550d8d17509e.mp3?hdnea=exp=1781162129~acl=/api/1/1/f/e/8/0/fe87722222538485cb20550d8d17509e.mp3*~data=user_id=0,application_id=42~hmac=68dc02bbf92183bbfee9e08d5831341bd624677ac6d2c4fb62f381c651a5bba9",
+    "track_number": 15,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837947",
+    "name": "Carré",
+    "duration_ms": 312000,
+    "explicit": true,
+    "popularity": 21,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/d/0/04db65dd9303df4cb076721f992d8d1f.mp3?hdnea=exp=1781162129~acl=/api/1/1/0/4/d/0/04db65dd9303df4cb076721f992d8d1f.mp3*~data=user_id=0,application_id=42~hmac=d6042db70b96b0a185b5c8510a7b87ad14e0cc2c92bd560cd76d2f35e4e28862",
+    "track_number": 16,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837957",
+    "name": "Si on se disait tout",
+    "duration_ms": 297000,
+    "explicit": true,
+    "popularity": 19,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/e/0/37e836d26bb804c6a921c24e134b4634.mp3?hdnea=exp=1781162129~acl=/api/1/1/3/7/e/0/37e836d26bb804c6a921c24e134b4634.mp3*~data=user_id=0,application_id=42~hmac=937c1a03d0dc11d8c52765b8cadde9604174afcb96a0f011e0d89e9b67c0bdcc",
+    "track_number": 17,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837967",
+    "name": "Je reprends ma place",
+    "duration_ms": 184000,
+    "explicit": true,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/3/0/ec35681e91db576887b75e473f4fb39b.mp3?hdnea=exp=1781162129~acl=/api/1/1/e/c/3/0/ec35681e91db576887b75e473f4fb39b.mp3*~data=user_id=0,application_id=42~hmac=a77fb716a268b9bf6be7e8350232749e2c8db406b8fcbd016a696fd72dd13c81",
+    "track_number": 18,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2256837977",
+    "name": "Délire",
+    "duration_ms": 230000,
+    "explicit": true,
+    "popularity": 23,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/3/0/1438d4a56ff4d17cdb4b50107a5eb40b.mp3?hdnea=exp=1781162129~acl=/api/1/1/1/4/3/0/1438d4a56ff4d17cdb4b50107a5eb40b.mp3*~data=user_id=0,application_id=42~hmac=e6356bed6fac58b90e776edacb4196558a5117316ff6ce6942bd8824034ede04",
+    "track_number": 19,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "64085",
+        "name": "Tunisiano",
+        "type": "artist",
+        "followers": {
+          "total": 146859
+        },
+        "genres": [],
+        "popularity": 1,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ca1f2f539331413d08b62b31330b77b7/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "434561727",
+      "name": "Marqué à vie",
+      "release_date": "2023-05-05",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3b3c70154653dcbbe66cce43b0e4669b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555013",
+    "name": "S.N.I",
+    "duration_ms": 263000,
+    "explicit": false,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/1/0/fe13460982b79c31ae0ee4e52428f3ae.mp3?hdnea=exp=1781162131~acl=/api/1/1/f/e/1/0/fe13460982b79c31ae0ee4e52428f3ae.mp3*~data=user_id=0,application_id=42~hmac=cb591770437b525a589a38d632bbafcecb3fb33c093f3b19f1ff17aaba3f1b9c",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555015",
+    "name": "Dans mon monde",
+    "duration_ms": 263000,
+    "explicit": false,
+    "popularity": 51,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/3/0/553da9e6b1cda91a564fbd04ea4afb67.mp3?hdnea=exp=1781162131~acl=/api/1/1/5/5/3/0/553da9e6b1cda91a564fbd04ea4afb67.mp3*~data=user_id=0,application_id=42~hmac=5c8bc3daa4f5dd1b186ae0992f46a02b70732e88327e17ef1cc6a1bd93d89eb5",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555017",
+    "name": "Trait pour trait",
+    "duration_ms": 270000,
+    "explicit": false,
+    "popularity": 62,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/c/0/5dcaf8f3bf037796fe1664bb284ebba3.mp3?hdnea=exp=1781162131~acl=/api/1/1/5/d/c/0/5dcaf8f3bf037796fe1664bb284ebba3.mp3*~data=user_id=0,application_id=42~hmac=dddc135e092edf36474c05a573222ac535c324df00921b055a94e5442f22ee22",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555020",
+    "name": "Eldorado",
+    "duration_ms": 395000,
+    "explicit": false,
+    "popularity": 28,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/d/0/e0deda010c77837d8e155eeedbf4775e.mp3?hdnea=exp=1781162131~acl=/api/1/1/e/0/d/0/e0deda010c77837d8e155eeedbf4775e.mp3*~data=user_id=0,application_id=42~hmac=6c15b9386c398dc936cf7d6274bada4ba589bbb6ef974763106ec6c8577ddbd9",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555022",
+    "name": "Zamalia",
+    "duration_ms": 256000,
+    "explicit": false,
+    "popularity": 37,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/a/0/faa252b72efb26a960741baeb656f6c6.mp3?hdnea=exp=1781162131~acl=/api/1/1/f/a/a/0/faa252b72efb26a960741baeb656f6c6.mp3*~data=user_id=0,application_id=42~hmac=53f78b9c7fe6c08029a7446592a939826cae049e361631e35dbf6ced5c011e1d",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555024",
+    "name": "Génération Tanguy",
+    "duration_ms": 281000,
+    "explicit": false,
+    "popularity": 34,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/a/0/1fa083bc945ae3e059bbf8145dcba0aa.mp3?hdnea=exp=1781162132~acl=/api/1/1/1/f/a/0/1fa083bc945ae3e059bbf8145dcba0aa.mp3*~data=user_id=0,application_id=42~hmac=e8e9a644991c1c4e7429c5930a28a0635abf3dec92e4cd4a1efc2f2b5c3635ac",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555026",
+    "name": "Donne tout",
+    "duration_ms": 272000,
+    "explicit": false,
+    "popularity": 34,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/2/f/0/42f6f9694714a94666d9ef9253f846fd.mp3?hdnea=exp=1781162132~acl=/api/1/1/4/2/f/0/42f6f9694714a94666d9ef9253f846fd.mp3*~data=user_id=0,application_id=42~hmac=0a623bbb7f8261d59c14ddceaae98b32c55d6d2f8f6e0e33d6713b899559c7dc",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555028",
+    "name": "La France, itinéraire d'une polémique",
+    "duration_ms": 401000,
+    "explicit": false,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/f/5/0/2f5d22ed73a6b3ca50e9bd467b54ce49.mp3?hdnea=exp=1781162132~acl=/api/1/1/2/f/5/0/2f5d22ed73a6b3ca50e9bd467b54ce49.mp3*~data=user_id=0,application_id=42~hmac=7909d2e4652841b2428dac5eaf03723c24b539975682144f4bf4916ac119841f",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555030",
+    "name": "Hommes de loi",
+    "duration_ms": 331000,
+    "explicit": false,
+    "popularity": 28,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/a/0/9fa332ad9418376d065e290b1a0fd83d.mp3?hdnea=exp=1781162132~acl=/api/1/1/9/f/a/0/9fa332ad9418376d065e290b1a0fd83d.mp3*~data=user_id=0,application_id=42~hmac=eb140a1ac5b4081c32195a329e3ca388a79500e6d1b1a6ea89950d377bc91534",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555032",
+    "name": "Il était une foi",
+    "duration_ms": 338000,
+    "explicit": false,
+    "popularity": 39,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/9/0/61913eb16b591c368696b5a67a5bce18.mp3?hdnea=exp=1781162132~acl=/api/1/1/6/1/9/0/61913eb16b591c368696b5a67a5bce18.mp3*~data=user_id=0,application_id=42~hmac=abadbb81c4ce1ada1105a0e494eef9a10881a9dfe286668f769f2c3699daf248",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555033",
+    "name": "Radio",
+    "duration_ms": 75000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/0/0/fc005a1887b68c36c4dcb7dda765ef79.mp3?hdnea=exp=1781162133~acl=/api/1/1/f/c/0/0/fc005a1887b68c36c4dcb7dda765ef79.mp3*~data=user_id=0,application_id=42~hmac=aa168389c6ed7c1659f77839bb463babeab53cb5c7afb9b243b10b20e7baa1a0",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555035",
+    "name": "Retour aux sources",
+    "duration_ms": 325000,
+    "explicit": false,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/d/0/a3d26f093345642885dcaf6708feb48d.mp3?hdnea=exp=1781162133~acl=/api/1/1/a/3/d/0/a3d26f093345642885dcaf6708feb48d.mp3*~data=user_id=0,application_id=42~hmac=a56d3e20fa64e8e152b368a5c4e29c55eec6d2b7501605c1da1db6a35969bea2",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555039",
+    "name": "Elle",
+    "duration_ms": 335000,
+    "explicit": false,
+    "popularity": 62,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/d/0/fedb447ff31436581450ec9f33f6563c.mp3?hdnea=exp=1781162133~acl=/api/1/1/f/e/d/0/fedb447ff31436581450ec9f33f6563c.mp3*~data=user_id=0,application_id=42~hmac=50dd33b7e9fd3ce8bba505f6e631924e87069285a0518b5293ccb13de356da4b",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555042",
+    "name": "Brule",
+    "duration_ms": 281000,
+    "explicit": false,
+    "popularity": 54,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/d/0/aadd8d27837f4d659c621344ddce76db.mp3?hdnea=exp=1781162133~acl=/api/1/1/a/a/d/0/aadd8d27837f4d659c621344ddce76db.mp3*~data=user_id=0,application_id=42~hmac=0fe12fe4df21d09154cf7dbe7bb078c466de1d7a18229c798f734c1f741b58b3",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "15555045",
+    "name": "Fallait que je te dise",
+    "duration_ms": 577000,
+    "explicit": false,
+    "popularity": 60,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/4/0/8242ec4b9f34a409e39709607db7a356.mp3?hdnea=exp=1781162134~acl=/api/1/1/8/2/4/0/8242ec4b9f34a409e39709607db7a356.mp3*~data=user_id=0,application_id=42~hmac=96d1c32bcaea9470d8669064cb74b2486cc8632ccae5e432ea9a22cd254ed347",
+    "track_number": 15,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "460",
+        "name": "Sniper",
+        "type": "artist",
+        "followers": {
+          "total": 510664
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/53e0073a8c996f212762190ed7a28c55/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "1437699",
+      "name": "Trait pour trait",
+      "release_date": "2006-05-22",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/40da4bb4dc511f56ac5fb42009bb48b0/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
   }
 ]

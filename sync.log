@@ -536,3 +536,145 @@ Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR 
 }
 
 Node.js v25.5.0
+🔄 Lecture de data.json…
+📀 412 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Une nuit et cinq terres" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Du tout au rien"
+   ✅ 2. "Des millions de vues"
+   ✅ 3. "À la maison"
+   ✅ 4. "Pour un regard"
+   ✅ 5. "Éternel retour"
+   ✅ 6. "Sans toi"
+   ✅ 7. "La part des anges"
+   ✅ 8. "Fin"
+   → 8 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Silex 2" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Silex 2"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Raccord"
+   ✅ Ajout : "Raccord"
+💿 Nouvel album détecté : "Erreur 404 (Reality Not Found)" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Erreur 404 (Reality Not Found)"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "13 jours à penser" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "13 jours à penser"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Cramon(s)"
+   ✅ Ajout : "Cramon(s)"
+💿 Nouvel album détecté : "SALE ÉTAT" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "SALE ÉTAT"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Romina" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Avant Romina"
+   ✅ 2. "Romina I (Remastered)"
+   ✅ 3. "Romina II"
+   ✅ 4. "Du rêve"
+   ✅ 5. "Romina III"
+   ✅ 6. "De l'inertie"
+   ✅ 7. "Romina IV"
+   ✅ 8. "Romina V"
+   ✅ 9. "De la chute"
+   ✅ 10. "Romina X"
+   ✅ 11. "Après Romina"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Mauvais Garçon" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Mauvais Garçon"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Café Zèbre"
+💿 Nouvel album détecté : "#humanité" — Saez
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Humanité"
+   ✅ 2. "Les guerres des mondes"
+   ✅ 3. "La mort"
+   ✅ 4. "J'envoie"
+   ✅ 5. "P'tite pute"
+   ✅ 6. "La belle au bois"
+   ✅ 7. "Amour criminel"
+   ✅ 8. "Elle aimait se faire liker"
+   ✅ 9. "L'attentat"
+   ✅ 10. "Burqa"
+   ✅ 11. "Ma religieuse"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "J'te vois partout" — Clar
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "J'te vois partout"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Can Anyone Relate?"
+🎵 Track manquante dans un album connu : "Periferia"
+   ✅ Ajout : "Periferia"
+🎵 Track manquante dans un album connu : "Pentagramma dell'acqua"
+   ✅ Ajout : "Pentagramma dell'acqua"
+💿 Nouvel album détecté : "Il Soldato (feat. Murubutu)" — Michele Venanzoni
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Il Soldato (feat. Murubutu)"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "I Wanna Be Like You - The Monkey Song"
+💿 Nouvel album détecté : "L'adresse" — 47ter
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Un air qui fait"
+   ✅ 2. "Personne"
+   ✅ 3. "L'adresse"
+   ✅ 4. "On avait dit"
+   ✅ 5. "30"
+   ✅ 6. "Sans toi"
+   ✅ 7. "Harakiri"
+   ✅ 8. "Côte Ouest"
+   ✅ 9. "Jamais su"
+   ✅ 10. "Chaque soir"
+   ✅ 11. "Laissez-les partir"
+   ✅ 12. "Assieds-toi"
+   ✅ 13. "Soleil noir"
+   ✅ 14. "Plus tard"
+   → 14 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Marqué à vie" — Tunisiano
+   🔍 Récupération de toutes les pistes…
+   ✅ 2. "Marqué à vie"
+   ✅ 3. "Jeune de tess"
+   ✅ 4. "Etat sauvage"
+   ✅ 5. "Paris"
+   ✅ 6. "Elle donne"
+   ✅ 7. "Val de Zoive"
+   ✅ 8. "Je voulais un monde"
+   ✅ 9. "Ils nous condamnent"
+   ✅ 10. "Jcvd"
+   ✅ 11. "Fer de lance"
+   ✅ 12. "Amour poison"
+   ✅ 13. "Mout"
+   ✅ 14. "Mariage forcé"
+   ✅ 15. "Les oreilles qui sifflent"
+   ✅ 16. "Carré"
+   ✅ 17. "Si on se disait tout"
+   ✅ 18. "Je reprends ma place"
+   ✅ 19. "Délire"
+   → 18 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Trait pour trait" — Sniper
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "S.N.I"
+   ✅ 2. "Dans mon monde"
+   ✅ 3. "Trait pour trait"
+   ✅ 4. "Eldorado"
+   ✅ 5. "Zamalia"
+   ✅ 6. "Génération Tanguy"
+   ✅ 7. "Donne tout"
+   ✅ 8. "La France, itinéraire d'une polémique"
+   ✅ 9. "Hommes de loi"
+   ✅ 10. "Il était une foi"
+   ✅ 11. "Radio"
+   ✅ 12. "Retour aux sources"
+   ✅ 13. "Elle"
+   ✅ 14. "Brule"
+   ✅ 15. "Fallait que je te dise"
+   → 15 piste(s) ajoutée(s)
+
+🎉 88 morceaux ajoutés dans data.json
+📀 Total : 500 morceaux
