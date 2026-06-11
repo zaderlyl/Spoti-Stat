@@ -1,0 +1,538 @@
+🔄 Lecture de data.json…
+📀 143 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 143 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Dernière musique obscure de la nuit peinte" — Vii
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Nosferatu"
+   ✅ 2. "Milligramme"
+   ✅ 3. "L'usage des armes lentes"
+   ✅ 4. "K (Interlude)"
+   ✅ 5. "L’appareil à spleen"
+   ✅ 6. "Manteau de larmes"
+   ✅ 7. "Les masques (Interlude)"
+   ✅ 8. "Krystal"
+   ✅ 9. "Gom Jabbar"
+   ✅ 10. "Comme un revolver vide"
+   ✅ 11. "Nébula (Interlude)"
+   ✅ 12. "Palmer Eldritch"
+   ✅ 13. "Melmoth"
+   ✅ 14. "Aquarelle"
+   ✅ 15. "Un animal dans le miroir"
+   → 15 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "X" — Vii
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Tempx X (Intro)"
+   ✅ 2. "L'être à venir"
+   ✅ 3. "Pompéi"
+   ✅ 4. "Le ciel capricieux"
+   ✅ 5. "Ubik"
+   ✅ 6. "Uchronie"
+   ✅ 7. "Sorti de crâne de Zeus"
+   ✅ 8. "L'inconnu (Interlude)"
+   ✅ 9. "Cassiopée"
+   ✅ 10. "Mise à jour"
+   ✅ 11. "Eon (L'exégèse)"
+   ✅ 12. "Un homme ça se fabrique"
+   ✅ 13. "Chant de vision"
+   ✅ 14. "Humania (Interlude)"
+   ✅ 15. "Les années-lumière"
+   → 15 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "La mémoire des jours" — Greenfinch
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "La mémoire des jours"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Le sentier de l'écriture"
+   ✅ Ajout : "Le sentier de l'écriture"
+💿 Nouvel album détecté : "Cercueil de peau" — Euphonik
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Cercueil de peau"
+   ✅ 2. "Les anges de l'oubli"
+   ✅ 3. "Déjà vu"
+   ✅ 4. "Lana"
+   ✅ 5. "L'art de la guerre"
+   ✅ 6. "Interlude"
+   ✅ 7. "James, Pt. 1"
+   ✅ 8. "James, Pt. 2"
+   ✅ 9. "Symbiote"
+   ✅ 10. "Paradis artificiel"
+   ✅ 11. "Crève, je t'aime"
+   ✅ 12. "Humain"
+   ✅ 13. "6ème soleil"
+   ✅ 14. "Pomme bleue"
+   ✅ 15. "Outro"
+   → 15 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Trilogie (Tome 2)" — Seizur
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Peregrinus"
+   ✅ 2. "Ce matin là"
+   ✅ 3. "S'aimer en enfer"
+   ✅ 4. "1:02"
+   ✅ 5. "Ounga"
+   ✅ 1. "L'audacieux"
+   ✅ 2. "La vie de rêve"
+   ✅ 3. "Décisions"
+   ✅ 4. "Partis de rien"
+   ✅ 5. "La seule"
+   ✅ 6. "Mirus"
+   ✅ 1. "Deus"
+   ✅ 2. "Comme d'habitude"
+   ✅ 3. "J'fais les €"
+   ✅ 4. "#CQTP"
+   ✅ 5. "J'ai trop mal"
+   ✅ 6. "Ma gow"
+   ✅ 1. "Ça va vite"
+   ✅ 2. "Sommet"
+   ✅ 3. "Rappel-toi"
+   → 20 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "La danse des étoiles" — Lil Purpx
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "La danse des étoiles"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Mona Lisa"
+   ✅ Ajout : "Mona Lisa"
+💿 Nouvel album détecté : "MADAME" — TIZMA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "MADAME"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Café Zèbre"
+💿 Nouvel album détecté : "I Wanna Be Like You (The Monkey Song)" — Sid Bader
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "I Wanna Be Like You (The Monkey Song)"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "RUSH!" — Måneskin
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "OWN MY MIND"
+   ✅ 2. "GOSSIP (feat. Tom Morello)"
+   ✅ 3. "TIMEZONE"
+   ✅ 4. "BLA BLA BLA"
+   ✅ 5. "BABY SAID"
+   ✅ 6. "GASOLINE"
+   ✅ 7. "FEEL"
+   ✅ 8. "DON'T WANNA SLEEP"
+   ✅ 9. "KOOL KIDS"
+   ✅ 10. "IF NOT FOR YOU"
+   ✅ 11. "READ YOUR DIARY"
+   ✅ 12. "MARK CHAPMAN"
+   ✅ 13. "LA FINE"
+   ✅ 14. "IL DONO DELLA VITA"
+   ✅ 15. "MAMMAMIA"
+   ✅ 16. "SUPERMODEL"
+   ✅ 17. "THE LONELIEST"
+   → 17 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Beat It"
+   ✅ Ajout : "Beat It"
+🎵 Track manquante dans un album connu : "Si je le veux"
+
+🎉 89 morceaux ajoutés dans data.json
+📀 Total : 232 morceaux
+🔄 Lecture de data.json…
+📀 232 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Dieu est une femme" — Euphonik
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Histoire d'amour"
+   ✅ 2. "Etrange comme je t'aime"
+   ✅ 3. "Il y a ton sourire (Version original)"
+   ✅ 4. "Amour & turbulences"
+   ✅ 5. "Justine"
+   ✅ 6. "Vice et trahisons (Version original)"
+   ✅ 7. "Le syndrome de Narcisse"
+   ✅ 8. "Le voyage de Nina Scarlette"
+   ✅ 9. "Solitaire"
+   ✅ 10. "Elise"
+   ✅ 11. "Petit pays de pluie"
+   ✅ 12. "Mr. Gainsbourg"
+   ✅ 13. "Sakura"
+   ✅ 14. "Vulgaire & cruel"
+   ✅ 15. "La cavalière sans tête"
+   ✅ 16. "Itô noe"
+   ✅ 17. "Tout va bien, je vais mal"
+   ✅ 18. "Les enfants perdus"
+   ✅ 19. "Fantôme"
+   ✅ 20. "Nos jours heureux"
+   → 20 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Âme de femme" — James Deano
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Âme de femme"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Arbre à palabres" — Ywill
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Esprits fracturés"
+   ✅ 2. "Skyline"
+   ✅ 3. "Le mot juste (feat. Dj Sharky)"
+   ✅ 4. "Libre"
+   ✅ 5. "Jeter des ponts (feat. Youssef Swatt's)"
+   ✅ 6. "Là-bas"
+   ✅ 7. "Discipline (feat. Dj Venum)"
+   ✅ 8. "On en reparlera"
+   ✅ 9. "Dédales (feat. Paranoyan)"
+   ✅ 10. "La salle du temps"
+   ✅ 11. "Le sourire de mon boutchou"
+   ✅ 12. "Bientôt demain (feat. VII)"
+   ✅ 13. "Encore une"
+   ✅ 14. "Zik d'ascenseur (feat. La Jonction)"
+   ✅ 15. "Quatre lettres"
+   ✅ 16. "MCII (Greenmix)"
+   ✅ 17. "Arbre à palabres"
+   → 17 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "L'apéro avant la galette" — Le Gouffre
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "A la dérive"
+   ✅ 2. "L'apéro avant la galette"
+   ✅ 3. "Pas de dénouement"
+   ✅ 4. "Sur le terrain"
+   ✅ 5. "Drogue sonore"
+   ✅ 6. "C'est pour le gouffre"
+   ✅ 7. "Le diable nous manipule"
+   ✅ 8. "J'rectifie l'tir"
+   ✅ 9. "En pleine tempête"
+   ✅ 10. "Bouffée d'résine"
+   ✅ 11. "L'odeur remonte"
+   ✅ 12. "J'peux pas croire"
+   ✅ 13. "Burnout"
+   ✅ 14. "Générique 2 fin"
+   → 14 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Vide"
+💿 Nouvel album détecté : "Tout va bien, je vais mal (Freestyle)" — Euphonik
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Tout va bien, je vais mal (Freestyle)"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "MEUF 2 TERRAIN" — Fanny Polly
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Au bord des lèvres"
+   ✅ 2. "Les feuilles mortes"
+   ✅ 3. "C'est trop bon"
+   ✅ 4. "Tata"
+   ✅ 5. "Peu importe"
+   ✅ 6. "Piqués"
+   ✅ 7. "À nos périls et risques"
+   ✅ 8. "Jour de match"
+   ✅ 9. "Chica"
+   ✅ 10. "Fond d'16"
+   ✅ 11. "C'est simple"
+   ✅ 12. "Parce que je le vaux bien"
+   → 12 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Café Zèbre"
+🎵 Track manquante dans un album connu : "I Wanna Be Like You - The Monkey Song"
+
+🎉 65 morceaux ajoutés dans data.json
+📀 Total : 297 morceaux
+🔄 Lecture de data.json…
+📀 297 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Rebeu fragile 2 (Uber Banger #3)" — ICO
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Rebeu fragile 2 (Uber Banger #3)"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Pluwu (Uber Banger #2)" — ICO
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Pluwu (Uber Banger #2)"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Tout tourne autour du Soleil" — Keny Arkana
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro: Tout tourne autour du Soleil"
+   ✅ 2. "Esprits libres"
+   ✅ 3. "Le syndrome de l'exclu (feat. RPZ)"
+   ✅ 4. "Capitale de la rupture"
+   ✅ 5. "Entre les lignes #1: Car nous sommes le monde"
+   ✅ 6. "Vie d'artiste"
+   ✅ 7. "Gens pressés"
+   ✅ 8. "Cynisme vous a tué ?"
+   ✅ 9. "Indignados"
+   ✅ 10. "Casse le schéma"
+   ✅ 11. "J'ai osé"
+   ✅ 12. "Entre les lignes #2: 20.12"
+   ✅ 13. "Ya urgence !"
+   ✅ 14. "Le monde est notre reflet"
+   ✅ 15. "Cherche en toi"
+   ✅ 16. "Fille du vent"
+   ✅ 17. "Tout tourne autour du Soleil"
+   ✅ 18. "Retour à la terre (Outro)"
+   → 18 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Céleste" — Hippocampe Fou
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Las Estrellas"
+   ✅ 2. "Mes échecs"
+   ✅ 3. "Obélix"
+   ✅ 4. "Si j'étais"
+   ✅ 5. "Pubis ennemi"
+   ✅ 6. "Presque Rien"
+   ✅ 7. "La grande évasion"
+   ✅ 8. "Dream"
+   ✅ 9. "Chasse aux sorcières"
+   ✅ 10. "Chorale des orphelins à la langue coupée"
+   ✅ 11. "Arbuste généalogique"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "La mise au poing" — Davodka
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "La mise au poing"
+   ✅ 2. "Ici t'es personne"
+   ✅ 3. "Le vers 2 trop"
+   ✅ 4. "Ligne de conduite"
+   ✅ 5. "Le couteau dans la paix"
+   ✅ 6. "Mise à flow"
+   ✅ 7. "Addiction (Interlude)"
+   ✅ 8. "Toujours les mêmes qui trinquent"
+   ✅ 9. "Manège désenchanté"
+   ✅ 10. "L'ouragan"
+   ✅ 11. "La vérité dérange"
+   ✅ 12. "Poignée de punchlines"
+   ✅ 13. "Les maux de la fin"
+   → 13 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Cha O Ha" — Furax Barbarossa
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro"
+   ✅ 2. "Long fleuve tranquille"
+   ✅ 3. "Crazy horse"
+   ✅ 4. "Flat line"
+   ✅ 5. "Marionnettiste"
+   → 5 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Pas Pour Les Jeunes EP" — Hippocampe Fou
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Pas Pour Les Jeunes"
+   ✅ 2. "La thune de ma femme"
+   ✅ 3. "Swipe Right"
+   ✅ 4. "Wiki Freestyle"
+   ✅ 5. "Tiens-moi la main"
+   → 5 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Les lucioles" — Euphonik
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Tout va bien, je vais mieux"
+   ✅ 2. "Les lucioles"
+   ✅ 3. "Journal d'enfer"
+   ✅ 4. "C'est ainsi"
+   ✅ 5. "Hit pour l'hiver"
+   ✅ 6. "Dragon de miel"
+   ✅ 7. "Né pour mourir"
+   ✅ 8. "Anne"
+   ✅ 9. "Maison hantée"
+   ✅ 10. "Roi démon"
+   ✅ 11. "Sauve-moi"
+   ✅ 12. "Labyrinthe"
+   → 12 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Il y a ton sourire - Version original"
+🎵 Track manquante dans un album connu : "Vide"
+🎵 Track manquante dans un album connu : "Tout va bien, je vais mal - Freestyle"
+
+🎉 66 morceaux ajoutés dans data.json
+📀 Total : 363 morceaux
+🔄 Lecture de data.json…
+📀 363 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Hurricane Carter" — Tunisiano
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Hurricane Carter"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "L'école des points vitaux" — Sexion d'Assaut
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro (en résumé)"
+   ✅ 2. "Casquette à l'envers"
+   ✅ 3. "Mon gars sûr"
+   ✅ 4. "L'école des points vitaux"
+   ✅ 5. "Ils appellent ça"
+   ✅ 6. "Itinéraire d'un chômeur"
+   ✅ 7. "La drogue te donne des ailes"
+   ✅ 8. "Tu l'as fait pour elle"
+   ✅ 9. "Paname lève-toi"
+   ✅ 10. "Tel père tel fils"
+   ✅ 11. "Rien n' t'appartient"
+   ✅ 12. "Changement d'ambiance"
+   ✅ 13. "J'ai pas les Loves"
+   ✅ 14. "Ca chuchote"
+   ✅ 15. "Wati by Night"
+   ✅ 16. "Désolé"
+   → 16 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Sur le drapeau (Extrait du projet 93 Empire)" — Suprême NTM
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Sur le drapeau"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Marie Jeanne - Bonus"
+   ✅ Ajout : "Marie Jeanne (Bonus)"
+💿 Nouvel album détecté : "Désobéissance" — Keny Arkana
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Désobéissance civile"
+   ✅ 2. "Réveillez-vous"
+   ✅ 3. "Ordre mondial"
+   ✅ 4. "La rue nous appartient"
+   ✅ 5. "Alterlude: Le changement viendra d'en bas"
+   ✅ 6. "Les chemins du retour"
+   ✅ 7. "Terre mère n'est pas à vendre"
+   ✅ 8. "Alterlude: Pachamama"
+   ✅ 9. "Cinquième soleil"
+   → 9 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "x raisons" — Saian Supa Crew
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro"
+   ✅ 2. "Ils étaient une fois"
+   ✅ 3. "19, 20 ans"
+   ✅ 4. "Polices"
+   ✅ 5. "Maladie"
+   ✅ 6. "Interlude"
+   ✅ 7. "Du 14.02.2002"
+   ✅ 8. "Voodoo Chile"
+   ✅ 9. "J'entends dire"
+   ✅ 10. "La dernière séance"
+   ✅ 11. "Au nom de quoi"
+   ✅ 12. "Soldat 1"
+   ✅ 13. "Soldat 2"
+   ✅ 14. "À demi-nue"
+   ✅ 15. "Mohammed et Sébastien"
+   ✅ 16. "J'avais"
+   ✅ 17. "Tourner la page"
+   ✅ 18. "... Mitaw tao"
+   ✅ 19. "A co-mow (Hamishow boh)"
+   ✅ 20. "Le chanteur fou"
+   ✅ 21. "X raisons"
+   → 21 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Rebeu fragile 2 - Uber Banger #3"
+🎵 Track manquante dans un album connu : "Pluwu - Uber Banger #2"
+🎵 Track manquante dans un album connu : "Il y a ton sourire - Version original"
+🎵 Track manquante dans un album connu : "Vide"
+🎵 Track manquante dans un album connu : "Tout va bien, je vais mal - Freestyle"
+
+🎉 49 morceaux ajoutés dans data.json
+📀 Total : 412 morceaux
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0

@@ -1,397 +1,423 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spoti'Stat V2</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
-  <link href="style/styleV2.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spoti'Stat V2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="style/styleV2.css" rel="stylesheet" />
 </head>
+
 <body x-data="app" x-init="init()">
 
-  <!-- NOW PLAYING (sticky) -->
-  <div x-show="nowPlaying" x-transition class="now-playing-bar">
-    <div class="container" style="display:flex;align-items:center;gap:1rem;">
-      <div class="np-pulse"></div>
-      <img x-show="nowPlaying?.image" :src="nowPlaying?.image" class="np-cover" />
-      <div class="np-info">
-        <div class="np-label">En ce moment</div>
-        <div class="np-titre" x-text="nowPlaying?.titre"></div>
-        <div class="np-artiste" x-text="nowPlaying?.artiste"></div>
-      </div>
-      <div class="np-bars"><span></span><span></span><span></span><span></span></div>
-    </div>
-  </div>
-
-  <!-- HEADER -->
-  <header class="header">
-    <h1><span>Spoti</span>'Stat</h1>
-    <p>les musiques du Marill — tableau de bord</p>
-  </header>
-
-  <div class="container">
-
-    <!-- STAT CARDS -->
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="icon">🎵</div>
-        <div class="value" x-text="stats.total"></div>
-        <div class="label">Morceaux</div>
-      </div>
-      <div class="stat-card">
-        <div class="icon">🎤</div>
-        <div class="value" x-text="stats.artistes"></div>
-        <div class="label">Artistes uniques</div>
-      </div>
-      <div class="stat-card">
-        <div class="icon">🏷️</div>
-        <div class="value" style="font-size:1rem;padding-top:.3rem;" x-text="stats.topGenre"></div>
-        <div class="label">Genre dominant</div>
-      </div>
-      <div class="stat-card">
-        <div class="icon">🔥</div>
-        <div class="value" style="font-size:.9rem;padding-top:.3rem;" x-text="stats.topEcoute"></div>
-        <div class="label">+ écoutée (Last.fm)</div>
-      </div>
-    </div>
-
-    <!-- CHARTS ARTISTES + GENRES -->
-    <div class="charts-grid" style="margin-top:2.5rem;">
-      <div class="chart-card">
-        <h3>
-          <i class="bi bi-bar-chart-horizontal"></i>
-          <span x-text="tousArtistes ? 'Tous les artistes' : 'Top 10 artistes'"></span>
-          <button class="chart-toggle" @click="toggleArtistes()">
-            <i class="bi" :class="tousArtistes ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
-            <span x-text="tousArtistes ? 'Réduire' : 'Voir tout'"></span>
-          </button>
-        </h3>
-        <div style="overflow-y:auto;max-height:520px;">
-          <div style="position:relative;"><canvas id="chartArtistes"></canvas></div>
-        </div>
-      </div>
-      <div class="chart-card" style="display:flex;flex-direction:column;">
-        <h3><i class="bi bi-pie-chart"></i> Distribution des genres</h3>
-        <div style="flex:1;display:flex;align-items:center;justify-content:center;">
-          <canvas id="chartGenres" style="max-height:340px;"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <!-- ÉCOUTES PAR JOUR -->
-    <div class="section-title" style="margin-top:2.5rem;">
-      <i class="bi bi-graph-up" style="color:var(--accent);"></i>
-      Évolution des écoutes — 30 derniers jours
-    </div>
-    <div class="chart-card" style="margin-bottom:2rem;">
-      <h3>
-        <i class="bi bi-calendar3"></i> Écoutes &amp; temps par jour
-        <button class="chart-toggle" x-show="!statsChargees && !chargementStats" @click="chargerStatsGlobales()">
-          <i class="bi bi-play-fill"></i> Charger
-        </button>
-      </h3>
-      <div x-show="chargementStats" style="text-align:center;padding:2rem;color:var(--muted);">
-        <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
-        <p style="margin-top:.5rem;font-size:.85rem;">Récupération des données Last.fm…</p>
-      </div>
-      <div x-show="!statsChargees && !chargementStats" style="text-align:center;padding:2.5rem;color:var(--muted);">
-        <i class="bi bi-graph-up" style="font-size:2rem;opacity:.3;"></i>
-        <p style="margin-top:.5rem;font-size:.85rem;">Clique sur "Charger" pour afficher ton historique</p>
-      </div>
-      <div x-show="statsChargees" style="position:relative;height:280px;">
-        <canvas id="chartEcoutesJour"></canvas>
-      </div>
-    </div>
-
-    <!-- STATS ALBUMS -->
-    <div class="section-title">
-      <i class="bi bi-vinyl" style="color:var(--accent);"></i>
-      Stats Last.fm par album
-      <button class="chart-toggle" style="margin-left:.5rem;" @click="ouvrirStatsAlbums()">
-        <i class="bi bi-bar-chart"></i> Voir le graphique
-      </button>
-    </div>
-    <div class="albums-grid" style="margin-bottom:2.5rem;">
-      <template x-for="alb in albums" :key="alb.id">
-        <div class="album-card" @click="ouvrirAlbum(alb)" style="cursor:pointer;">
-          <img :src="alb.pochette" :alt="alb.nom" loading="lazy" />
-          <div class="album-info">
-            <div class="album-nom" x-text="alb.nom"></div>
-            <div class="album-artiste" x-text="alb.artiste"></div>
-            <div class="album-meta">
-              <span class="badge-green" x-text="alb.popularite + '/100'"></span>
-              <span class="badge-gray" x-text="alb.totalTracks + ' titres'"></span>
+    <!-- NOW PLAYING (sticky) -->
+    <div x-show="nowPlaying" x-transition class="now-playing-bar">
+        <div class="container" style="display:flex;align-items:center;gap:1rem;">
+            <div class="np-pulse"></div>
+            <img x-show="nowPlaying?.image" :src="nowPlaying?.image" class="np-cover" />
+            <div class="np-info">
+                <div class="np-label">En ce moment</div>
+                <div class="np-titre" x-text="nowPlaying?.titre"></div>
+                <div class="np-artiste" x-text="nowPlaying?.artiste"></div>
             </div>
-          </div>
+            <div class="np-bars"><span></span><span></span><span></span><span></span></div>
         </div>
-      </template>
     </div>
 
-    <!-- MORCEAUX -->
-    <div class="section-title">
-      <i class="bi bi-music-note-list" style="color:var(--accent);"></i>
-      Morceaux
-    </div>
+    <!-- HEADER -->
+    <header class="header">
+        <h1><span>Spoti</span>'Stat</h1>
+        <p>les musiques du Marill — tableau de bord</p>
+    </header>
 
-    <!-- FILTRES -->
-    <div class="filters-bar">
-      <div class="search-wrap">
-        <i class="bi bi-search"></i>
-        <input type="text" x-model="recherche" placeholder="Titre, artiste, album…" />
-        <button class="clear-btn" x-show="recherche" @click="recherche = ''">
-          <i class="bi bi-x-lg"></i>
-        </button>
-      </div>
-      <select class="filter-select" x-model="trierPar">
-        <option value="defaut">Trier par…</option>
-        <option value="titre">Titre</option>
-        <option value="artiste">Artiste</option>
-        <option value="album">Album</option>
-        <option value="popularite">Popularité</option>
-        <option value="genre">Genre</option>
-        <option value="duree">Durée</option>
-      </select>
-      <button class="order-btn" :class="!ordreAsc && 'active'" @click="toggleOrdre()">
-        <i class="bi" :class="ordreAsc ? 'bi-sort-alpha-down' : 'bi-sort-alpha-up-alt'"></i>
-        <span x-text="ordreAsc ? 'Croissant' : 'Décroissant'"></span>
-      </button>
-      <select class="filter-select" x-model="filtreGenre">
-        <option value="">Tous les genres</option>
-        <template x-for="g in genresDisponibles()" :key="g">
-          <option :value="g" x-text="g"></option>
-        </template>
-      </select>
-      <span class="filters-count" x-text="filtre().length + ' résultat' + (filtre().length > 1 ? 's' : '')"></span>
-      <button class="reset-btn" x-show="recherche || trierPar !== 'defaut' || filtreGenre"
-        @click="recherche=''; trierPar='defaut'; filtreGenre=''; ordreAsc=true">
-        <i class="bi bi-arrow-counterclockwise"></i> Reset
-      </button>
-    </div>
+    <div class="container">
 
-    <!-- GRILLE MORCEAUX -->
-    <div class="tracks-grid" style="margin-bottom:3rem;">
-      <template x-if="liste.length === 0">
-        <div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--muted);">
-          <i class="bi bi-vinyl" style="font-size:2rem;"></i>
-          <p style="margin-top:.5rem;">Chargement…</p>
-        </div>
-      </template>
-      <template x-for="m in filtre()" :key="m.id">
-        <div class="track-card" @click="ouvrirDetails(m)">
-          <template x-if="m.pochette">
-            <img class="cover" :src="m.pochette" :alt="m.titre" loading="lazy" />
-          </template>
-          <template x-if="!m.pochette">
-            <div class="cover-placeholder"><i class="bi bi-music-note"></i></div>
-          </template>
-          <div class="info">
-            <div class="titre" x-text="m.titre"></div>
-            <div class="artiste" x-text="m.artiste"></div>
-            <div class="footer">
-              <span class="popularite" x-text="m.popularite + '/100'"></span>
-              <span class="duree" x-text="formatDuree(m.duree)"></span>
+        <!-- STAT CARDS -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="icon">🎵</div>
+                <div class="value" x-text="stats.total"></div>
+                <div class="label">Morceaux</div>
             </div>
-            <template x-if="getPlaycount(m)">
-              <div class="playcount-badge">
-                <i class="bi bi-headphones"></i>
-                <span x-text="getPlaycount(m) + ' écoute' + (getPlaycount(m) > 1 ? 's' : '')"></span>
-              </div>
-            </template>
-          </div>
+            <div class="stat-card">
+                <div class="icon">🎤</div>
+                <div class="value" x-text="stats.artistes"></div>
+                <div class="label">Artistes uniques</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🏷️</div>
+                <div class="value" style="font-size:1rem;padding-top:.3rem;" x-text="stats.topGenre"></div>
+                <div class="label">Genre dominant</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🔥</div>
+                <div class="value" style="font-size:.9rem;padding-top:.3rem;" x-text="stats.topEcoute"></div>
+                <div class="label">+ écoutée (Last.fm)</div>
+            </div>
         </div>
-      </template>
-    </div>
 
-  </div>
-
-  <!-- FOOTER -->
-  <footer><span>Spoti'Stat V2</span> — Projet Étudiant MMI 2025</footer>
-
-  <!-- ═══ MODAL DÉTAILS MORCEAU ═══ -->
-  <template x-teleport="body">
-    <div class="modal-backdrop-custom" x-show="morceauSelectionne" @click.self="fermerDetails()" x-transition>
-      <template x-if="morceauSelectionne">
-        <div class="modal-box">
-
-          <div style="position:relative;height:180px;overflow:hidden;border-radius:20px 20px 0 0;">
-            <img :src="morceauSelectionne.pochette" style="width:100%;height:100%;object-fit:cover;filter:brightness(.5);" />
-            <div class="modal-cover-overlay"></div>
-            <img :src="morceauSelectionne.pochette" class="modal-cover-art" />
-          </div>
-          <button class="modal-close" @click="fermerDetails()"><i class="bi bi-x-lg"></i></button>
-
-          <div class="modal-body-pad">
-            <div class="modal-titre" x-text="morceauSelectionne.titre"></div>
-            <div class="modal-artiste" x-text="morceauSelectionne.artiste"></div>
-
-            <template x-if="morceauSelectionne.previewUrl">
-              <div style="margin-top:1.2rem;">
-                <div class="section-label">Preview 30s</div>
-                <audio controls :src="morceauSelectionne.previewUrl"></audio>
-              </div>
-            </template>
-
-            <div style="margin-top:1.2rem;">
-              <div class="section-label">Informations</div>
-              <div class="info-row"><span class="key">Durée</span><span class="val" x-text="formatDuree(morceauSelectionne.duree)"></span></div>
-              <div class="info-row">
-                <span class="key">Popularité</span>
-                <div style="display:flex;align-items:center;flex:1;justify-content:flex-end;gap:.5rem;">
-                  <div class="progress-bar-custom"><div class="progress-fill" :style="'width:'+morceauSelectionne.popularite+'%'"></div></div>
-                  <span class="val" x-text="morceauSelectionne.popularite+'/100'"></span>
+        <!-- CHARTS ARTISTES + GENRES -->
+        <div class="charts-grid" style="margin-top:2.5rem;">
+            <div class="chart-card">
+                <h3>
+                    <i class="bi bi-bar-chart-horizontal"></i>
+                    <span x-text="tousArtistes ? 'Tous les artistes' : 'Top 10 artistes'"></span>
+                    <button class="chart-toggle" @click="toggleArtistes()">
+                        <i class="bi" :class="tousArtistes ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
+                        <span x-text="tousArtistes ? 'Réduire' : 'Voir tout'"></span>
+                    </button>
+                </h3>
+                <div style="overflow-y:auto;max-height:520px;">
+                    <div style="position:relative;"><canvas id="chartArtistes"></canvas></div>
                 </div>
-              </div>
-              <div class="info-row"><span class="key">Album</span><span class="val" x-text="morceauSelectionne.album"></span></div>
-              <div class="info-row"><span class="key">Date de sortie</span><span class="val" x-text="morceauSelectionne.albumDate"></span></div>
-              <div class="info-row"><span class="key">Piste n°</span><span class="val" x-text="morceauSelectionne.numPiste"></span></div>
-              <div class="info-row"><span class="key">Explicit</span><span class="val" x-text="morceauSelectionne.explicit ? '🔞 Oui' : 'Non'"></span></div>
             </div>
-
-            <div style="margin-top:1.2rem;">
-              <div class="section-label">Artistes</div>
-              <template x-for="a in morceauSelectionne.artistes" :key="a.nom">
-                <div class="artist-row">
-                  <img :src="a.image || 'https://placehold.co/44x44/1a1a1a/a0a0a0'" :alt="a.nom" />
-                  <div>
-                    <div class="a-name" x-text="a.nom"></div>
-                    <div class="a-meta" x-text="'Pop. '+a.popularite+'/100  •  '+a.followers.toLocaleString('fr-FR')+' followers'"></div>
-                  </div>
+            <div class="chart-card" style="display:flex;flex-direction:column;">
+                <h3><i class="bi bi-pie-chart"></i> Distribution des genres</h3>
+                <div style="flex:1;display:flex;align-items:center;justify-content:center;">
+                    <canvas id="chartGenres" style="max-height:340px;"></canvas>
                 </div>
-              </template>
             </div>
+        </div>
 
-            <div style="margin-top:1.2rem;">
-              <div class="section-label">Genres</div>
-              <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
-                <template x-if="morceauSelectionne.genres.length === 0">
-                  <span class="genre-pill" style="color:var(--muted);">Aucun genre</span>
-                </template>
-                <template x-for="g in morceauSelectionne.genres" :key="g">
-                  <span class="genre-pill" x-text="g"></span>
-                </template>
-              </div>
-            </div>
-
-            <!-- ── STATS LAST.FM DU MORCEAU ── -->
-            <div style="margin-top:1.5rem;">
-              <div class="section-label">Mes stats Last.fm — 7 derniers jours</div>
-
-              <div x-show="!trackStatsVisible">
-                <button class="stats-btn" @click="ouvrirStatsTrack(morceauSelectionne)">
-                  <i class="bi bi-bar-chart-line"></i> Voir mes écoutes
+        <!-- ÉCOUTES PAR JOUR -->
+        <div class="section-title" style="margin-top:2.5rem;">
+            <i class="bi bi-graph-up" style="color:var(--accent);"></i>
+            Évolution des écoutes — 30 derniers jours
+        </div>
+        <div class="chart-card" style="margin-bottom:2rem;">
+            <h3>
+                <i class="bi bi-calendar3"></i> Écoutes &amp; temps par jour
+                <button class="chart-toggle" x-show="!statsChargees && !chargementStats"
+                    @click="chargerStatsGlobales()">
+                    <i class="bi bi-play-fill"></i> Charger
                 </button>
-              </div>
-
-              <div x-show="trackStatsLoading" style="text-align:center;padding:1rem;color:var(--muted);font-size:.85rem;">
-                <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;"></i> Chargement…
-              </div>
-
-              <div x-show="trackStatsVisible && !trackStatsLoading">
-                <div style="display:flex;gap:1.5rem;margin-bottom:.75rem;flex-wrap:wrap;">
-                  <div class="mini-stat">
-                    <span class="mini-val" x-text="trackStatsTotalPlays"></span>
-                    <span class="mini-label">écoutes cette semaine</span>
-                  </div>
-                  <div class="mini-stat">
-                    <span class="mini-val" x-text="trackStatsTotalMin + ' min'"></span>
-                    <span class="mini-label">temps d'écoute</span>
-                  </div>
-                </div>
-                <div style="height:140px;position:relative;">
-                  <canvas id="chartTrackWeekly"></canvas>
-                </div>
-              </div>
+            </h3>
+            <div x-show="chargementStats" style="text-align:center;padding:2rem;color:var(--muted);">
+                <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
+                <p style="margin-top:.5rem;font-size:.85rem;">Récupération des données Last.fm…</p>
             </div>
-
-            <div style="margin-top:1.5rem;display:flex;justify-content:flex-end;gap:.75rem;">
-              <template x-if="morceauSelectionne.spotifyUrl">
-                <a :href="morceauSelectionne.spotifyUrl" target="_blank" class="spotify-btn">
-                  <i class="bi bi-spotify"></i> Ouvrir dans Spotify
-                </a>
-              </template>
+            <div x-show="!statsChargees && !chargementStats"
+                style="text-align:center;padding:2.5rem;color:var(--muted);">
+                <i class="bi bi-graph-up" style="font-size:2rem;opacity:.3;"></i>
+                <p style="margin-top:.5rem;font-size:.85rem;">Clique sur "Charger" pour afficher ton historique</p>
             </div>
-          </div>
+            <div x-show="statsChargees" style="position:relative;height:280px;">
+                <canvas id="chartEcoutesJour"></canvas>
+            </div>
         </div>
-      </template>
-    </div>
-  </template>
 
-  <!-- ═══ MODAL STATS ALBUMS ═══ -->
-  <template x-teleport="body">
-    <div class="modal-backdrop-custom" x-show="albumStatsVisible" @click.self="fermerStatsAlbums()" x-transition>
-      <div class="modal-box" style="width:min(900px,95vw);">
-        <button class="modal-close" @click="fermerStatsAlbums()"><i class="bi bi-x-lg"></i></button>
-        <div class="modal-body-pad">
-          <div style="font-size:1.1rem;font-weight:800;margin-bottom:1.2rem;">
-            <i class="bi bi-vinyl" style="color:var(--accent);margin-right:.5rem;"></i>
-            Mes écoutes par album — Last.fm
-          </div>
-          <div x-show="albumStatsLoading" style="text-align:center;padding:3rem;color:var(--muted);">
-            <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
-            <p style="margin-top:.5rem;font-size:.85rem;">Récupération depuis Last.fm…</p>
-          </div>
-          <div x-show="!albumStatsLoading" style="height:380px;position:relative;">
-            <canvas id="chartAlbumsStats"></canvas>
-          </div>
-          <p style="font-size:.75rem;color:var(--muted);margin-top:.75rem;">
-            Vert = nombre d'écoutes · Bleu = temps estimé en minutes (écoutes × durée moyenne)
-          </p>
+        <!-- STATS ALBUMS -->
+        <div class="section-title">
+            <i class="bi bi-vinyl" style="color:var(--accent);"></i>
+            Stats Last.fm par album
+            <button class="chart-toggle" style="margin-left:.5rem;" @click="ouvrirStatsAlbums()">
+                <i class="bi bi-bar-chart"></i> Voir le graphique
+            </button>
         </div>
-      </div>
-    </div>
-  </template>
-
-  <!-- ═══ MODAL ALBUM POPUP ═══ -->
-  <template x-teleport="body">
-    <div class="modal-backdrop-custom" x-show="albumSelectionne !== null" @click.self="fermerAlbum()" x-transition>
-      <div class="modal-box" style="width:min(860px,95vw);">
-        <button class="modal-close" @click="fermerAlbum()"><i class="bi bi-x-lg"></i></button>
-        <template x-if="albumSelectionne">
-          <div class="modal-body-pad">
-
-            <!-- En-tête album -->
-            <div style="display:flex;gap:1.2rem;align-items:center;margin-bottom:1.4rem;">
-              <img :src="albumSelectionne.pochette" :alt="albumSelectionne.nom"
-                   style="width:90px;height:90px;border-radius:10px;object-fit:cover;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5);" />
-              <div>
-                <div style="font-size:1.25rem;font-weight:800;color:#fff;" x-text="albumSelectionne.nom"></div>
-                <div style="color:var(--muted);font-size:.9rem;margin-top:.25rem;" x-text="albumSelectionne.artiste"></div>
-                <div style="display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap;">
-                  <span class="badge-green" x-text="albumSelectionne.totalTracks + ' titres'"></span>
-                  <span class="badge-gray" x-text="albumSelectionne.date ? albumSelectionne.date.slice(0,4) : ''"></span>
+        <div class="albums-grid" style="margin-bottom:2.5rem;">
+            <template x-for="alb in albums" :key="alb.id">
+                <div class="album-card" @click="ouvrirAlbum(alb)" style="cursor:pointer;">
+                    <img :src="alb.pochette" :alt="alb.nom" loading="lazy" />
+                    <div class="album-info">
+                        <div class="album-nom" x-text="alb.nom"></div>
+                        <div class="album-artiste" x-text="alb.artiste"></div>
+                        <div class="album-meta">
+                            <span class="badge-green" x-text="alb.popularite + '/100'"></span>
+                            <span class="badge-gray" x-text="alb.totalTracks + ' titres'"></span>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
+            </template>
+        </div>
 
-            <!-- Titre graphique -->
-            <div style="font-size:.85rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.8rem;">
-              <i class="bi bi-graph-up" style="color:var(--accent);margin-right:.4rem;"></i>
-              Écoutes par morceau — 7 derniers jours
-            </div>
+        <!-- MORCEAUX -->
+        <div class="section-title">
+            <i class="bi bi-music-note-list" style="color:var(--accent);"></i>
+            Morceaux
+        </div>
 
-            <!-- Loader -->
-            <div x-show="albumPopupLoading" style="text-align:center;padding:3rem;color:var(--muted);">
-              <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
-              <p style="margin-top:.5rem;font-size:.85rem;">Chargement depuis Last.fm…</p>
+        <!-- FILTRES -->
+        <div class="filters-bar">
+            <div class="search-wrap">
+                <i class="bi bi-search"></i>
+                <input type="text" x-model="recherche" placeholder="Titre, artiste, album…" />
+                <button class="clear-btn" x-show="recherche" @click="recherche = ''">
+                    <i class="bi bi-x-lg"></i>
+                </button>
             </div>
+            <select class="filter-select" x-model="trierPar">
+                <option value="defaut">Trier par…</option>
+                <option value="titre">Titre</option>
+                <option value="artiste">Artiste</option>
+                <option value="album">Album</option>
+                <option value="popularite">Popularité</option>
+                <option value="genre">Genre</option>
+                <option value="duree">Durée</option>
+            </select>
+            <button class="order-btn" :class="!ordreAsc && 'active'" @click="toggleOrdre()">
+                <i class="bi" :class="ordreAsc ? 'bi-sort-alpha-down' : 'bi-sort-alpha-up-alt'"></i>
+                <span x-text="ordreAsc ? 'Croissant' : 'Décroissant'"></span>
+            </button>
+            <select class="filter-select" x-model="filtreGenre">
+                <option value="">Tous les genres</option>
+                <template x-for="g in genresDisponibles()" :key="g">
+                    <option :value="g" x-text="g"></option>
+                </template>
+            </select>
+            <span class="filters-count"
+                x-text="filtre().length + ' résultat' + (filtre().length > 1 ? 's' : '')"></span>
+            <button class="reset-btn" x-show="recherche || trierPar !== 'defaut' || filtreGenre"
+                @click="recherche=''; trierPar='defaut'; filtreGenre=''; ordreAsc=true">
+                <i class="bi bi-arrow-counterclockwise"></i> Reset
+            </button>
+        </div>
 
-            <!-- Graphique -->
-            <div x-show="!albumPopupLoading" style="height:340px;position:relative;">
-              <canvas id="chartAlbumPopup"></canvas>
-            </div>
+        <!-- GRILLE MORCEAUX -->
+        <div class="tracks-grid" style="margin-bottom:3rem;">
+            <template x-if="liste.length === 0">
+                <div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--muted);">
+                    <i class="bi bi-vinyl" style="font-size:2rem;"></i>
+                    <p style="margin-top:.5rem;">Chargement…</p>
+                </div>
+            </template>
+            <template x-for="m in filtre()" :key="m.id">
+                <div class="track-card" @click="ouvrirDetails(m)">
+                    <template x-if="m.pochette">
+                        <img class="cover" :src="m.pochette" :alt="m.titre" loading="lazy" />
+                    </template>
+                    <template x-if="!m.pochette">
+                        <div class="cover-placeholder"><i class="bi bi-music-note"></i></div>
+                    </template>
+                    <div class="info">
+                        <div class="titre" x-text="m.titre"></div>
+                        <div class="artiste" x-text="m.artiste"></div>
+                        <div class="footer">
+                            <span class="popularite" x-text="m.popularite + '/100'"></span>
+                            <span class="duree" x-text="formatDuree(m.duree)"></span>
+                        </div>
+                        <template x-if="getPlaycount(m)">
+                            <div class="playcount-badge">
+                                <i class="bi bi-headphones"></i>
+                                <span x-text="getPlaycount(m) + ' écoute' + (getPlaycount(m) > 1 ? 's' : '')"></span>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </template>
+        </div>
 
-            <p style="font-size:.73rem;color:var(--muted);margin-top:.75rem;">
-              Seules les musiques ayant au moins une écoute sur la période sont affichées.
-            </p>
-          </div>
-        </template>
-      </div>
     </div>
-  </template>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
-  <script src="script/scriptV2.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- FOOTER -->
+    <footer><span>Spoti'Stat V2</span> — Projet Étudiant MMI 2025</footer>
+
+    <!-- ═══ MODAL DÉTAILS MORCEAU ═══ -->
+    <template x-teleport="body">
+        <div class="modal-backdrop-custom" x-show="morceauSelectionne" @click.self="fermerDetails()" x-transition>
+            <template x-if="morceauSelectionne">
+                <div class="modal-box">
+
+                    <div style="position:relative;height:180px;overflow:hidden;border-radius:20px 20px 0 0;">
+                        <img :src="morceauSelectionne.pochette"
+                            style="width:100%;height:100%;object-fit:cover;filter:brightness(.5);" />
+                        <div class="modal-cover-overlay"></div>
+                        <img :src="morceauSelectionne.pochette" class="modal-cover-art" />
+                    </div>
+                    <button class="modal-close" @click="fermerDetails()"><i class="bi bi-x-lg"></i></button>
+
+                    <div class="modal-body-pad">
+                        <div class="modal-titre" x-text="morceauSelectionne.titre"></div>
+                        <div class="modal-artiste" x-text="morceauSelectionne.artiste"></div>
+
+                        <template x-if="morceauSelectionne.previewUrl">
+                            <div style="margin-top:1.2rem;">
+                                <div class="section-label">Preview 30s</div>
+                                <audio controls :src="morceauSelectionne.previewUrl"></audio>
+                            </div>
+                        </template>
+
+                        <div style="margin-top:1.2rem;">
+                            <div class="section-label">Informations</div>
+                            <div class="info-row"><span class="key">Durée</span><span class="val"
+                                    x-text="formatDuree(morceauSelectionne.duree)"></span></div>
+                            <div class="info-row">
+                                <span class="key">Popularité</span>
+                                <div style="display:flex;align-items:center;flex:1;justify-content:flex-end;gap:.5rem;">
+                                    <div class="progress-bar-custom">
+                                        <div class="progress-fill" :style="'width:'+morceauSelectionne.popularite+'%'">
+                                        </div>
+                                    </div>
+                                    <span class="val" x-text="morceauSelectionne.popularite+'/100'"></span>
+                                </div>
+                            </div>
+                            <div class="info-row"><span class="key">Album</span><span class="val"
+                                    x-text="morceauSelectionne.album"></span></div>
+                            <div class="info-row"><span class="key">Date de sortie</span><span class="val"
+                                    x-text="morceauSelectionne.albumDate"></span></div>
+                            <div class="info-row"><span class="key">Piste n°</span><span class="val"
+                                    x-text="morceauSelectionne.numPiste"></span></div>
+                            <div class="info-row"><span class="key">Explicit</span><span class="val"
+                                    x-text="morceauSelectionne.explicit ? '🔞 Oui' : 'Non'"></span></div>
+                        </div>
+
+                        <div style="margin-top:1.2rem;">
+                            <div class="section-label">Artistes</div>
+                            <template x-for="a in morceauSelectionne.artistes" :key="a.nom">
+                                <div class="artist-row">
+                                    <img :src="a.image || 'https://placehold.co/44x44/1a1a1a/a0a0a0'" :alt="a.nom" />
+                                    <div>
+                                        <div class="a-name" x-text="a.nom"></div>
+                                        <div class="a-meta"
+                                            x-text="'Pop. '+a.popularite+'/100  •  '+a.followers.toLocaleString('fr-FR')+' followers'">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+                        <div style="margin-top:1.2rem;">
+                            <div class="section-label">Genres</div>
+                            <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
+                                <template x-if="morceauSelectionne.genres.length === 0">
+                                    <span class="genre-pill" style="color:var(--muted);">Aucun genre</span>
+                                </template>
+                                <template x-for="g in morceauSelectionne.genres" :key="g">
+                                    <span class="genre-pill" x-text="g"></span>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- ── STATS LAST.FM DU MORCEAU ── -->
+                        <div style="margin-top:1.5rem;">
+                            <div class="section-label">Mes stats Last.fm — 7 derniers jours</div>
+
+                            <div x-show="!trackStatsVisible">
+                                <button class="stats-btn" @click="ouvrirStatsTrack(morceauSelectionne)">
+                                    <i class="bi bi-bar-chart-line"></i> Voir mes écoutes
+                                </button>
+                            </div>
+
+                            <div x-show="trackStatsLoading"
+                                style="text-align:center;padding:1rem;color:var(--muted);font-size:.85rem;">
+                                <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;"></i>
+                                Chargement…
+                            </div>
+
+                            <div x-show="trackStatsVisible && !trackStatsLoading">
+                                <div style="display:flex;gap:1.5rem;margin-bottom:.75rem;flex-wrap:wrap;">
+                                    <div class="mini-stat">
+                                        <span class="mini-val" x-text="trackStatsTotalPlays"></span>
+                                        <span class="mini-label">écoutes cette semaine</span>
+                                    </div>
+                                    <div class="mini-stat">
+                                        <span class="mini-val" x-text="trackStatsTotalMin + ' min'"></span>
+                                        <span class="mini-label">temps d'écoute</span>
+                                    </div>
+                                </div>
+                                <div style="height:140px;position:relative;">
+                                    <canvas id="chartTrackWeekly"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top:1.5rem;display:flex;justify-content:flex-end;gap:.75rem;">
+                            <template x-if="morceauSelectionne.spotifyUrl">
+                                <a :href="morceauSelectionne.spotifyUrl" target="_blank" class="spotify-btn">
+                                    <i class="bi bi-spotify"></i> Ouvrir dans Spotify
+                                </a>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </template>
+
+    <!-- ═══ MODAL STATS ALBUMS ═══ -->
+    <template x-teleport="body">
+        <div class="modal-backdrop-custom" x-show="albumStatsVisible" @click.self="fermerStatsAlbums()" x-transition>
+            <div class="modal-box" style="width:min(900px,95vw);">
+                <button class="modal-close" @click="fermerStatsAlbums()"><i class="bi bi-x-lg"></i></button>
+                <div class="modal-body-pad">
+
+
+                    <div style="font-size:1.1rem;font-weight:800;margin-bottom:1.2rem;">
+                        <i class="bi bi-vinyl" style="color:var(--accent);margin-right:.5rem;"></i>
+                        Mes écoutes par album — Last.fm
+                    </div>
+                    <div x-show="albumStatsLoading" style="text-align:center;padding:3rem;color:var(--muted);">
+                        <i class="bi bi-arrow-repeat" style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
+                        <p style="margin-top:.5rem;font-size:.85rem;">Récupération depuis Last.fm…</p>
+                    </div>
+                    <div x-show="!albumStatsLoading" style="height:380px;position:relative;">
+                        <canvas id="chartAlbumsStats"></canvas>
+                    </div>
+                    <p style="font-size:.75rem;color:var(--muted);margin-top:.75rem;">
+                        Vert = nombre d'écoutes · Bleu = temps estimé en minutes (écoutes × durée moyenne)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- ═══ MODAL ALBUM POPUP ═══ -->
+    <template x-teleport="body">
+        <div class="modal-backdrop-custom" x-show="albumSelectionne !== null" @click.self="fermerAlbum()" x-transition>
+            <div class="modal-box" style="width:min(860px,95vw);">
+                <button class="modal-close" @click="fermerAlbum()"><i class="bi bi-x-lg"></i></button>
+                <template x-if="albumSelectionne">
+                    <div class="modal-body-pad">
+
+                        <!-- En-tête album -->
+                        <div style="display:flex;gap:1.2rem;align-items:center;margin-bottom:1.4rem;">
+                            <img :src="albumSelectionne.pochette" :alt="albumSelectionne.nom"
+                                style="width:90px;height:90px;border-radius:10px;object-fit:cover;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5);" />
+                            <div>
+                                <div style="font-size:1.25rem;font-weight:800;color:#fff;"
+                                    x-text="albumSelectionne.nom"></div>
+                                <div style="color:var(--muted);font-size:.9rem;margin-top:.25rem;"
+                                    x-text="albumSelectionne.artiste"></div>
+                                <div style="display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap;">
+                                    <span class="badge-green" x-text="albumSelectionne.totalTracks + ' titres'"></span>
+                                    <span class="badge-gray"
+                                        x-text="albumSelectionne.date ? albumSelectionne.date.slice(0,4) : ''"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Titre graphique -->
+                        <div
+                            style="font-size:.85rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.8rem;">
+                            <i class="bi bi-graph-up" style="color:var(--accent);margin-right:.4rem;"></i>
+                            Écoutes par morceau — 7 derniers jours
+                        </div>
+
+                        <!-- Loader -->
+                        <div x-show="albumPopupLoading" style="text-align:center;padding:3rem;color:var(--muted);">
+                            <i class="bi bi-arrow-repeat"
+                                style="animation:spin 1s linear infinite;font-size:1.5rem;"></i>
+                            <p style="margin-top:.5rem;font-size:.85rem;">Chargement depuis Last.fm…</p>
+                        </div>
+
+                        <!-- Graphique -->
+                        <div x-show="!albumPopupLoading" style="height:340px;position:relative;">
+                            <canvas id="chartAlbumPopup"></canvas>
+                        </div>
+
+                        <p style="font-size:.73rem;color:var(--muted);margin-top:.75rem;">
+                            Seules les musiques ayant au moins une écoute sur la période sont affichées.
+                        </p>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="script/scriptV2.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 </body>
+
 </html>
