@@ -336,7 +336,7 @@ document.addEventListener('alpine:init', () => {
           numPiste:    t.track_number ?? '',
           explicit:    t.explicit ?? false,
           spotifyUrl:  t.external_urls?.spotify ?? '',
-          artistes:    t.artists.map(a => ({ nom: a.name, popularite: a.popularity ?? 0, followers: a.followers?.total ?? 0, image: a.images?.[0]?.url ?? '' }))
+          artistes:    t.artists.map(a => ({ nom: a.name, popularite: a.popularity ?? 0, followers: a.followers?.total ?? 0, image: (a.images?.slice().sort((x,y)=>(y.height||0)-(x.height||0))[0]?.url ?? '').replace(/\/\d+x\d+-/, '/500x500-') }))
         };
       });
 
