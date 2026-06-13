@@ -278,6 +278,8 @@ document.addEventListener('alpine:init', () => {
     nowPlaying:         null,
     playcounts:         {},
     _pollTimer:         null,
+    _playcountTimer:    null,
+    dernierRefresh:     null,
 
     // Stats globales
     chargementStats:    false,
@@ -326,7 +328,7 @@ document.addEventListener('alpine:init', () => {
           album:       t.album.name,
           albumDate:   t.album.release_date ?? '',
           albumTracks: t.album.total_tracks ?? 0,
-          pochette:    t.album.images?.[0]?.url ?? '',
+          pochette:    (t.album.images?.slice().sort((a,b)=>(b.height||0)-(a.height||0))[0]?.url ?? '').replace(/\/\d+x\d+-/, '/1000x1000-'),
           genres,
           duree:       t.duration_ms ?? 0,
           popularite:  t.popularity ?? 0,
@@ -342,7 +344,7 @@ document.addEventListener('alpine:init', () => {
       for (const t of brut) {
         const a = t.album;
         if (!albumsMap[a.id]) {
-          albumsMap[a.id] = { id: a.id, nom: a.name, artiste: t.artists[0]?.name ?? '', date: a.release_date ?? '', totalTracks: a.total_tracks ?? 0, pochette: a.images?.[0]?.url ?? '', popularite: t.popularity ?? 0 };
+          albumsMap[a.id] = { id: a.id, nom: a.name, artiste: t.artists[0]?.name ?? '', date: a.release_date ?? '', totalTracks: a.total_tracks ?? 0, pochette: (a.images?.slice().sort((a,b)=>(b.height||0)-(a.height||0))[0]?.url ?? '').replace(/\/\d+x\d+-/, '/1000x1000-'), popularite: t.popularity ?? 0 };
         } else {
           albumsMap[a.id].popularite = Math.max(albumsMap[a.id].popularite, t.popularity ?? 0);
         }
@@ -353,7 +355,15 @@ document.addEventListener('alpine:init', () => {
 
       await this.chargerPlaycounts();
       await this.rafraichirNowPlaying();
+
+      // Now Playing : toutes les 30s
       this._pollTimer = setInterval(() => this.rafraichirNowPlaying(), 30000);
+
+      // Playcounts : toutes les 2 minutes
+      this._playcountTimer = setInterval(async () => {
+        await this.chargerPlaycounts();
+        this.dernierRefresh = new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      }, 120000);
     },
 
     // ── LAST.FM NOW PLAYING ──
@@ -663,21 +673,32 @@ document.addEventListener('alpine:init', () => {
     // ── UTILS ──
     get stats() {
       const artistes = new Set(this.liste.flatMap(m => m.artiste.split(', ')));
-      const sorted   = [...this.liste].sort((a, b) => b.popularite - a.popularite);
       const genres   = {};
       for (const m of this.liste) { const c = categoriser(m.genres, m.artiste); genres[c] = (genres[c] ?? 0) + 1; }
       // Morceau le plus écouté via Last.fm playcounts
-      let topEcoute = '—';
+      let topEcoute      = '—';
+      let topEcouteTrack = null;
+      let topEcouteCount = 0;
       if (Object.keys(this.playcounts).length > 0) {
-        const meilleurCle = Object.entries(this.playcounts).sort((a, b) => b[1] - a[1])[0]?.[0];
-        topEcoute = meilleurCle ? meilleurCle.split('|')[0] : '—';
+        const [meilleurCle, count] = Object.entries(this.playcounts).sort((a, b) => b[1] - a[1])[0] ?? [];
+        if (meilleurCle) {
+          topEcoute      = meilleurCle.split('|')[0];
+          topEcouteCount = count;
+          const [nom, art] = meilleurCle.split('|');
+          topEcouteTrack = this.liste.find(m =>
+            m.titre.toLowerCase() === nom &&
+            m.artiste.split(', ')[0].toLowerCase() === art
+          ) ?? null;
+        }
       }
 
       return {
         total:     this.liste.length,
         artistes:  artistes.size,
         topGenre:  Object.entries(genres).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '—',
-        topEcoute
+        topEcoute,
+        topEcouteTrack,
+        topEcouteCount
       };
     },
 

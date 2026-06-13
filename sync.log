@@ -714,3 +714,1017 @@ Node.js v25.5.0
 📀 500 morceaux dans data.json
 📡 Récupération des écoutes Last.fm (50 dernières)…
 ❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 500 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Des fleurs" — Gaël Faye
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Balade brésilienne"
+   ✅ 2. "Jackie Jacky Jack"
+   ✅ 3. "By"
+   ✅ 4. "Tropical"
+   ✅ 5. "Dinosaures"
+   → 5 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Le chemin" — Kyo
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Le chemin (feat. Sita)"
+   ✅ 2. "Je cours"
+   ✅ 3. "Dernière danse"
+   ✅ 4. "Tout envoyer en l'air"
+   ✅ 5. "Chaque seconde"
+   ✅ 6. "Comment te dire"
+   ✅ 7. "Je saigne encore"
+   ✅ 8. "Je te vends mon âme"
+   ✅ 9. "Pardonné"
+   ✅ 10. "Sur nos lèvres"
+   ✅ 11. "Tout reste à faire"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Il suffit d'y croire (Version deluxe)" — Hoshi
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Comment je vais faire"
+   ✅ 2. "Te parler pour rien"
+   ✅ 3. "Ta marinière"
+   ✅ 4. "Je vous trouve un charme fou"
+   ✅ 5. "Femme à la mer"
+   ✅ 6. "Manège à trois"
+   ✅ 7. "Elle rêve encore"
+   ✅ 8. "Il suffit d'y croire"
+   ✅ 9. "Ma merveille"
+   ✅ 10. "Après coups"
+   ✅ 11. "Poupée russe"
+   ✅ 12. "Je pense à toi"
+   ✅ 13. "Parking sonne"
+   ✅ 14. "En gros tout est gris"
+   ✅ 15. "Comment je vais faire (Version acoustique)"
+   ✅ 16. "Ta marinière (Version acoustique)"
+   ✅ 17. "Je vous trouve un charme fou (En duo avec Gaëtan Roussel)"
+   ✅ 18. "Femme à la mer (Radio Edit)"
+   → 18 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Je t'accuse" — Suzane
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Je t'accuse"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Cure" — Eddy De Pretto
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Début"
+   ✅ 4. "Jimmy"
+   ✅ 5. "Beaulieue"
+   ✅ 6. "Quartier des lunes"
+   ✅ 7. "Desmurs"
+   ✅ 8. "Kid"
+   ✅ 9. "Normal"
+   ✅ 10. "Honey"
+   ✅ 11. "Genre"
+   ✅ 12. "Ego"
+   ✅ 13. "Mamere"
+   ✅ 14. "Fête de trop"
+   ✅ 15. "Musique basse"
+   → 13 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Les yeux plus gros que le monde" — Black M
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro"
+   ✅ 2. "Ailleurs"
+   ✅ 3. "Spectateur"
+   ✅ 4. "Mme Pavoshko"
+   ✅ 5. "A la vôtre (feat. Jr O Crom, Dry & Big Ali)"
+   ✅ 6. "A force d'être"
+   ✅ 7. "C'est tout moi"
+   ✅ 8. "Pour oublier"
+   ✅ 9. "La légende Black (feat. Dr. Beriz)"
+   ✅ 10. "Interlude"
+   ✅ 11. "Money"
+   ✅ 12. "Jessica"
+   ✅ 13. "Je ne dirai rien (feat. The Shin Sekaï & Doomams)"
+   ✅ 14. "Qataris"
+   ✅ 15. "Casse pas ton dos"
+   ✅ 16. "Le regard des gens"
+   ✅ 17. "Solitaire"
+   ✅ 18. "Blacklines"
+   ✅ 19. "Sur ma route"
+   → 19 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Le cimetière des anges" — ETA
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Le cimetière des anges"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Erreur 404 - Reality Not Found"
+🎵 Track manquante dans un album connu : "Silex"
+🎵 Track manquante dans un album connu : "Mauvais"
+🎵 Track manquante dans un album connu : "Café Zèbre"
+🎵 Track manquante dans un album connu : "Can Anyone Relate?"
+🎵 Track manquante dans un album connu : "Il Soldato"
+🎵 Track manquante dans un album connu : "I Wanna Be Like You - The Monkey Song"
+
+🎉 68 morceaux ajoutés dans data.json
+📀 Total : 568 morceaux
+🔄 Lecture de data.json…
+📀 568 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Éphémère" — Grand Corps Malade
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "On a pris le temps"
+   ✅ 2. "Tailler la route"
+   ✅ 3. "Sous mes paupières"
+   ✅ 4. "Qui a kidnappé Benjamin Biolay ?"
+   ✅ 5. "La cause"
+   ✅ 6. "Besoin de rien"
+   ✅ 7. "Éphémère"
+   → 7 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Mauve Jacaranda" — Gaël Faye
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Taxiphone"
+   ✅ 2. "Nuit sans lune"
+   ✅ 3. "Des graines"
+   ✅ 4. "Marée Haute"
+   ✅ 5. "Butare"
+   → 5 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Lundi Méchant" — Gaël Faye
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Kerozen"
+   ✅ 2. "Respire"
+   ✅ 3. "Chalouper"
+   ✅ 4. "Boomer"
+   ✅ 5. "Only Way Is Up"
+   ✅ 6. "Lundi Méchant"
+   ✅ 7. "C'est cool"
+   ✅ 8. "Seuls et vaincus"
+   ✅ 9. "Lueurs"
+   ✅ 10. "Histoire d'amour"
+   ✅ 11. "NYC"
+   ✅ 12. "JITL"
+   ✅ 13. "Zanzibar"
+   ✅ 14. "Kwibuka"
+   → 14 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Rythmes et botanique" — Gaël Faye
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Tôt le matin"
+   ✅ 2. "Solstice"
+   ✅ 3. "Irruption"
+   ✅ 4. "Paris métèque"
+   ✅ 5. "À trop courir"
+   → 5 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Pili pili sur un croissant au beurre" — Gaël Faye
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "A-France"
+   ✅ 2. "Je pars"
+   ✅ 3. "Ma femme"
+   ✅ 4. "Slowoperation"
+   ✅ 5. "Qwerty"
+   ✅ 6. "Blend"
+   ✅ 7. "Charivari"
+   ✅ 8. "Fils du hip-hop"
+   ✅ 9. "Isimbi"
+   ✅ 10. "Métis"
+   ✅ 11. "Président"
+   ✅ 12. "Petit pays"
+   ✅ 13. "Bouge a buja"
+   ✅ 14. "Pili pili sur un croissant au beurre"
+   ✅ 15. "L'ennui des après-midi sans fin"
+   → 15 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Earthquake (Edition Deluxe)" — Kolinga
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Earthquake"
+   ✅ 2. "Wild Child"
+   ✅ 3. "We Are One"
+   ✅ 4. "Tender Rain"
+   ✅ 5. "Petit Homme"
+   ✅ 6. "Kozala"
+   ✅ 7. "Kongo"
+   ✅ 8. "Breath Of Love (Live)"
+   ✅ 9. "Earthquake (Acoustique)"
+   ✅ 11. "Time"
+   ✅ 12. "Paper Dolls"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Si on sombre ce sera beau" — Solann
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Préambule"
+   ✅ 2. "Mayrig"
+   ✅ 3. "Insomnie"
+   ✅ 4. "Rome"
+   ✅ 5. "Noctambule"
+   ✅ 6. "Les ogres"
+   ✅ 7. "Comme les animaux"
+   ✅ 8. "Appelle-moi sorcière"
+   ✅ 9. "Les draps"
+   ✅ 10. "Petit Corps"
+   ✅ 11. "Tout cramer"
+   ✅ 12. "L'oiseau"
+   ✅ 13. "Marcher droit"
+   → 13 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Millénium" — Suzane
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Marche ou rêve"
+   ✅ 2. "T'as raté"
+   ✅ 3. "Virile"
+   ✅ 4. "Humanoïdes"
+   ✅ 5. "Champagne"
+   ✅ 7. "Un sens à tout ça"
+   ✅ 8. "Plus que moi"
+   ✅ 9. "Dégaine"
+   ✅ 10. "Lendemain de fête"
+   ✅ 11. "Au grand jour"
+   ✅ 12. "Millénium"
+   ✅ 13. "À la vie"
+   → 12 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "racine carrée" — Stromae
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Ta fête"
+   ✅ 2. "Papaoutai"
+   ✅ 3. "bâtard"
+   ✅ 4. "ave cesaria"
+   ✅ 5. "Tous les mêmes"
+   ✅ 6. "Formidable"
+   ✅ 7. "moules frites"
+   ✅ 8. "carmen"
+   ✅ 9. "humain à l'eau"
+   ✅ 10. "quand c'est ?"
+   ✅ 11. "sommeil"
+   ✅ 12. "merci"
+   ✅ 13. "avf"
+   → 13 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Mr/Mme" — Loïc Nottet
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Mr/Mme"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Erreur 404 - Reality Not Found"
+🎵 Track manquante dans un album connu : "Silex"
+🎵 Track manquante dans un album connu : "Mauvais"
+🎵 Track manquante dans un album connu : "Café Zèbre"
+🎵 Track manquante dans un album connu : "Can Anyone Relate?"
+
+🎉 96 morceaux ajoutés dans data.json
+📀 Total : 664 morceaux
+🔄 Lecture de data.json…
+📀 664 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Qu'en restera-t-il ?" — Tim Dup
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Après eux"
+   ✅ 2. "Le visage de la nuit"
+   ✅ 3. "Une autre histoire d'amour"
+   ✅ 4. "L'aventure"
+   ✅ 5. "Songes"
+   ✅ 6. "Place espoir"
+   ✅ 7. "Porte du soleil"
+   ✅ 8. "Rhum coca"
+   ✅ 9. "Refuge"
+   ✅ 10. "Je te laisse"
+   ✅ 11. "Pertusato"
+   ✅ 12. "Qu'en restera-t-il ?"
+   ✅ 13. "Vendredi soir"
+   → 13 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Erreur 404 - Reality Not Found"
+🎵 Track manquante dans un album connu : "Silex"
+🎵 Track manquante dans un album connu : "Mauvais"
+
+🎉 13 morceaux ajoutés dans data.json
+📀 Total : 677 morceaux
+🔄 Lecture de data.json…
+📀 677 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Je Vis"
+   ✅ Ajout : "Je vis"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+💿 Nouvel album détecté : "Inferno 3 (Mémoires d’outre-tombe)" — Vii
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "H.P. Lovecraft Théorie"
+   ✅ 2. "Post Mortem"
+   ✅ 3. "À deux pas du néant"
+   ✅ 4. "Psychose"
+   ✅ 5. "L'étoile du matin"
+   ✅ 6. "Trois jours de ténèbres"
+   ✅ 7. "La Métamorphose"
+   ✅ 8. "Limbes"
+   ✅ 9. "Ex-Nihilo"
+   ✅ 10. "Requiem pour un massacre"
+   ✅ 11. "Des rats dans les murs"
+   ✅ 12. "La peau sur les os"
+   → 12 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Le grand chaos" — Vii
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "09 août 1969"
+   ✅ 2. "La famille"
+   ✅ 3. "Je t'enseignerai la haine"
+   ✅ 4. "Roulette russe"
+   ✅ 5. "Domination"
+   ✅ 6. "Peau de chagrin"
+   ✅ 7. "Le brouillard"
+   ✅ 8. "Funérailles électriques"
+   ✅ 9. "Appartement 42"
+   ✅ 10. "Bientôt des anges"
+   ✅ 11. "La chambre des tourments"
+   ✅ 12. "Le sang et le pain"
+   ✅ 13. "Cette voix dans ma tête"
+   ✅ 14. "Derniers sacrements"
+   → 14 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Fenêtre de sagesse" — Vii
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Fenêtre de sagesse"
+   → 1 piste(s) ajoutée(s)
+
+🎉 28 morceaux ajoutés dans data.json
+📀 Total : 705 morceaux
+🔄 Lecture de data.json…
+📀 705 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Elle(s)"
+   ✅ Ajout : "Elle(s)"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 706 morceaux
+🔄 Lecture de data.json…
+📀 706 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Premières Fois"
+   ✅ Ajout : "Premières fois (feat. Beat Assailant)"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 707 morceaux
+🔄 Lecture de data.json…
+📀 707 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "88" — Guillaume Poncelet
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Morning Roots"
+   ✅ 2. "Duty"
+   ✅ 3. "Reverse"
+   ✅ 4. "Gus Song"
+   ✅ 5. "Homo Erectus"
+   ✅ 6. "Le cahier"
+   ✅ 7. "Après"
+   ✅ 8. "Au bout du souffle"
+   ✅ 9. "Derrière la porte"
+   ✅ 10. "Teano"
+   ✅ 11. "L'ennui"
+   ✅ 12. "Iceberg"
+   ✅ 13. "Othello"
+   ✅ 14. "The Two of Me"
+   ✅ 15. "Last Breath"
+   ✅ 16. "Mon terroir"
+   → 16 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Hope Anthem"
+   ✅ Ajout : "Hope Anthem (feat. Jali)"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 17 morceaux ajoutés dans data.json
+📀 Total : 724 morceaux
+🔄 Lecture de data.json…
+📀 724 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "VIEUX FRÈRES - Partie 1" — FAUVE
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "VOYOUS (feat. Georgio)"
+   ✅ 2. "REQUIN-TIGRE"
+   ✅ 3. "JEUNESSE TALKING BLUES"
+   ✅ 4. "RAG #3"
+   ✅ 5. "INFIRMIÈRE"
+   ✅ 6. "DE CEUX"
+   ✅ 7. "RAG #4"
+   ✅ 8. "TUNNEL"
+   ✅ 9. "VIEUX FRÈRES"
+   ✅ 10. "LETTRE À ZOÉ"
+   ✅ 11. "LOTERIE"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "BLIZZARD" — FAUVE
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "BLIZZARD"
+   ✅ 2. "COCK MUSIC SMART MUSIC / RAG #1"
+   ✅ 3. "NUITS FAUVES"
+   ✅ 4. "HAUT LES CŒURS / RAG #2"
+   ✅ 5. "KANÉ"
+   ✅ 6. "RUB A DUB"
+   → 6 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "35%" — Jansi
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Chère industrie musicale"
+   ✅ 2. "25 ans"
+   ✅ 3. "Pourquoi"
+   ✅ 4. "Le forum de l'emploi"
+   ✅ 5. "C'est par où"
+   ✅ 6. "Je suis une belle personne"
+   ✅ 7. "Mélange des coeurs abîmés"
+   → 7 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Au revoir" — Jansi
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Au revoir"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Terre Rouge" — Lubiana
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Terre Rouge"
+   ✅ 2. "Farafina Mousso"
+   ✅ 3. "Bien-aimée"
+   ✅ 4. "Djali"
+   ✅ 5. "La Blanche"
+   ✅ 6. "Rivière des cœurs blessés"
+   ✅ 7. "Mali"
+   ✅ 8. "Echo"
+   ✅ 9. "Grand-père"
+   ✅ 10. "Ancestors"
+   → 10 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 35 morceaux ajoutés dans data.json
+📀 Total : 759 morceaux
+🔄 Lecture de data.json…
+📀 759 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Légende (Expansion)" — 47ter
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Ensemble"
+   ✅ 2. "Doss"
+   ✅ 3. "Rêver d'elles"
+   ✅ 4. "Mindset"
+   ✅ 5. "Futur moi"
+   ✅ 6. "Nouvel épisode"
+   ✅ 7. "La seule (Maquette 2018)"
+   ✅ 8. "Légende"
+   ✅ 9. "Vivre"
+   ✅ 10. "J'essaie"
+   ✅ 11. "Avec toi"
+   ✅ 12. "Comme Avant"
+   ✅ 13. "Sommeil Noir"
+   ✅ 14. "1, 2, 3, 4"
+   ✅ 15. "La seule"
+   ✅ 16. "Nous les autres"
+   ✅ 17. "Ella"
+   ✅ 18. "Ne t'en fais pas"
+   ✅ 19. "Maintenant"
+   → 19 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Sans Couleur" — Blam'S
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Seul"
+   ✅ 2. "Fissure"
+   ✅ 3. "Cadavres"
+   ✅ 4. "Coup de foudre"
+   ✅ 5. "La rage au ventre"
+   ✅ 6. "Ma colère"
+   → 6 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Coeur noir #EnAttendantLAlbum" — Blam'S
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Coeur noir #EnAttendantLAlbum"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Allo" — Blam'S
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "J'attends"
+   ✅ 2. "Casser le pas"
+   ✅ 3. "Le pouvoir de l'or"
+   ✅ 4. "Mon idole"
+   ✅ 5. "Que du sexe (feat. Douki)"
+   ✅ 6. "Allo"
+   → 6 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Rose Noire" — Douki
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Rose Noire"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Je saigne" — Blam'S
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Je saigne"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "4.000 ÎLES" — FAUVE
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "4.000 ÎLES"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "VIEUX FRÈRES - Partie 2" — FAUVE
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "JUILLET (1998)"
+   ✅ 2. "PARAFFINE"
+   ✅ 3. "RAG #5"
+   ✅ 4. "TALLULAH"
+   ✅ 5. "BERMUDES"
+   ✅ 6. "AZULEJOS"
+   ✅ 7. "SOUS LES ARCADES"
+   ✅ 8. "T.R.W."
+   ✅ 9. "RAG #6"
+   ✅ 10. "RÉVÉRENCE"
+   ✅ 11. "LES HAUTES LUMIÈRES"
+   → 11 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 46 morceaux ajoutés dans data.json
+📀 Total : 805 morceaux
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Hope Anthem"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 805 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "you seem pretty sad for a girl so in love" — Olivia Rodrigo
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "drop dead"
+   ✅ 2. "stupid song"
+   ✅ 3. "honeybee"
+   ✅ 4. "maggots for brains"
+   ✅ 5. "u + me = <3"
+   ✅ 6. "my way"
+   ✅ 7. "purple"
+   ✅ 8. "the cure"
+   ✅ 9. "begged"
+   ✅ 10. "what’s wrong with me"
+   ✅ 11. "less"
+   ✅ 12. "expectations"
+   ✅ 13. "cigarette smoke"
+   → 13 piste(s) ajoutée(s)
+
+🎉 13 morceaux ajoutés dans data.json
+📀 Total : 818 morceaux
+🔄 Lecture de data.json…
+📀 818 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+node:fs:555
+  return binding.open(
+                 ^
+
+Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs'
+    at Object.openSync (node:fs:555:18)
+    at readFileSync (node:fs:439:35)
+    at getSourceSync (node:internal/modules/esm/load:37:14)
+    at defaultLoadSync (node:internal/modules/esm/load:153:34)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:790:12)
+    at #loadSync (node:internal/modules/esm/loader:810:49)
+    at ModuleLoader.load (node:internal/modules/esm/loader:775:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:520:31)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)
+    at afterResolve (node:internal/modules/esm/loader:619:52) {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: "/Users/liliancornet/Documents/COUR MMI/MMI 1/SEMESTRE 2/MMI1 - R2.12 Intégration/TP MARILL/Spoti'Stat/sync.mjs"
+}
+
+Node.js v25.5.0
+🔄 Lecture de data.json…
+📀 818 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 818 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Prévu, Pas Prévu"
+   ✅ Ajout : "Prévu, pas prévu"
+💿 Nouvel album détecté : "Le Temps est compté" — Blacko
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Le temps est compté"
+   ✅ 2. "Préviens-les"
+   ✅ 3. "Accroché à mes rêves"
+   ✅ 4. "Choisis"
+   ✅ 5. "Dépasse tes limites (starring Joey Starr)"
+   ✅ 6. "Le nerf de la guerre"
+   ✅ 7. "La rue c'est pas ma mère"
+   → 7 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Dualité" — Blacko
+   🔍 Récupération de toutes les pistes…
+   ✅ 2. "Equilibre"
+   ✅ 3. "Ma reine"
+   ✅ 4. "Je suis ce que je suis"
+   ✅ 5. "Rare sont les vrais amis"
+   ✅ 7. "Que Dieu me pardonne"
+   ✅ 8. "Le mur du silence"
+   ✅ 9. "S.O.S"
+   ✅ 11. "Je m'isole"
+   ✅ 12. "Ainsi va la vie"
+   ✅ 13. "Rêveur"
+   ✅ 15. "I'm not rich - The King's Son feat. Blacko (Bonus Track)"
+   → 11 piste(s) ajoutée(s)
+
+🎉 19 morceaux ajoutés dans data.json
+📀 Total : 837 morceaux

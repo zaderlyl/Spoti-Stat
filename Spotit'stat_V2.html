@@ -11,50 +11,157 @@
 
 <body x-data="app" x-init="init()">
 
-    <!-- NOW PLAYING (sticky) -->
-    <div x-show="nowPlaying" x-transition class="now-playing-bar">
-        <div class="container" style="display:flex;align-items:center;gap:1rem;">
-            <div class="np-pulse"></div>
-            <img x-show="nowPlaying?.image" :src="nowPlaying?.image" class="np-cover" />
-            <div class="np-info">
-                <div class="np-label">En ce moment</div>
-                <div class="np-titre" x-text="nowPlaying?.titre"></div>
-                <div class="np-artiste" x-text="nowPlaying?.artiste"></div>
-            </div>
-            <div class="np-bars"><span></span><span></span><span></span><span></span></div>
-        </div>
-    </div>
 
     <!-- HEADER -->
     <header class="header">
         <h1><span>Spoti</span>'Stat</h1>
         <p>les musiques du Marill — tableau de bord</p>
+        <div class="refresh-indicator">
+            <span class="refresh-dot"></span>
+            <span x-text="dernierRefresh ? 'Mis à jour ' + dernierRefresh : 'Live — rafraîchissement auto toutes les 2 min'"></span>
+        </div>
     </header>
 
     <div class="container">
 
-        <!-- STAT CARDS -->
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="icon">🎵</div>
-                <div class="value" x-text="stats.total"></div>
-                <div class="label">Morceaux</div>
+        <!-- HERO : stats + top track -->
+        <div class="hero-grid">
+
+            <!-- ── Colonne gauche ── -->
+            <div class="hero-left">
+
+                <!-- 3 stat cards -->
+                <div class="stat-card stat-card--green">
+                    <div class="stat-card__icon"><i class="bi bi-music-note-beamed"></i></div>
+                    <div class="stat-card__body">
+                        <div class="stat-card__value" x-text="stats.total"></div>
+                        <div class="stat-card__label">Morceaux</div>
+                    </div>
+                    <div class="stat-card__glow"></div>
+                </div>
+                <div class="stat-card stat-card--blue">
+                    <div class="stat-card__icon"><i class="bi bi-person-fill"></i></div>
+                    <div class="stat-card__body">
+                        <div class="stat-card__value" x-text="stats.artistes"></div>
+                        <div class="stat-card__label">Artistes uniques</div>
+                    </div>
+                    <div class="stat-card__glow"></div>
+                </div>
+                <div class="stat-card stat-card--purple">
+                    <div class="stat-card__icon"><i class="bi bi-tag-fill"></i></div>
+                    <div class="stat-card__body">
+                        <div class="stat-card__value stat-card__value--sm" x-text="stats.topGenre"></div>
+                        <div class="stat-card__label">Genre dominant</div>
+                    </div>
+                    <div class="stat-card__glow"></div>
+                </div>
+
+                <!-- Now playing mini card -->
+                <div class="np-mini-card" x-show="nowPlaying" x-transition>
+                    <div class="np-mini-card__bar">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <img :src="nowPlaying?.image" class="np-mini-card__img" x-show="nowPlaying?.image" />
+                    <div class="np-mini-card__info">
+                        <div class="np-mini-card__label">En cours</div>
+                        <div class="np-mini-card__titre" x-text="nowPlaying?.titre"></div>
+                        <div class="np-mini-card__artiste" x-text="nowPlaying?.artiste"></div>
+                    </div>
+                </div>
+                <div class="np-mini-card np-mini-card--off" x-show="!nowPlaying" x-transition>
+                    <i class="bi bi-soundwave" style="font-size:1.3rem;color:var(--muted);flex-shrink:0;"></i>
+                    <div style="color:var(--muted);font-size:.82rem;">Rien en cours de lecture</div>
+                </div>
+
             </div>
-            <div class="stat-card">
-                <div class="icon">🎤</div>
-                <div class="value" x-text="stats.artistes"></div>
-                <div class="label">Artistes uniques</div>
+
+            <!-- ── Colonne droite : top track ── -->
+            <div class="ttc-wrap">
+                <template x-if="stats.topEcouteTrack">
+                    <div class="ttc" x-data="{ t: stats.topEcouteTrack, pc: stats.topEcouteCount }">
+
+                        <!-- Pochette + dégradé -->
+                        <div class="ttc__art">
+                            <img :src="t.pochette" :alt="t.titre" class="ttc__art-img" />
+                            <div class="ttc__art-fade"></div>
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="ttc__body">
+                            <div class="ttc__badge"><i class="bi bi-fire"></i> Morceau le plus écouté</div>
+
+                            <div class="ttc__titre" x-text="t.titre"></div>
+
+                            <!-- Artistes avec photo -->
+                            <div class="ttc__artists">
+                                <template x-for="a in t.artistes" :key="a.nom">
+                                    <div class="ttc__artist">
+                                        <img :src="a.image || 'https://placehold.co/32x32/1a1a1a/555?text=?'" />
+                                        <span x-text="a.nom"></span>
+                                    </div>
+                                </template>
+                            </div>
+
+                            <!-- Album -->
+                            <div class="ttc__album">
+                                <i class="bi bi-vinyl-fill"></i>
+                                <span x-text="t.album"></span>
+                                <span class="ttc__dot">·</span>
+                                <span x-text="t.albumDate"></span>
+                            </div>
+
+                            <!-- Pills infos -->
+                            <div class="ttc__pills">
+                                <div class="ttc__pill ttc__pill--fire">
+                                    <i class="bi bi-headphones-fill"></i>
+                                    <strong x-text="pc"></strong> écoutes
+                                </div>
+                                <div class="ttc__pill">
+                                    <i class="bi bi-clock"></i>
+                                    <span x-text="formatDuree(t.duree)"></span>
+                                </div>
+                                <div class="ttc__pill">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span x-text="t.popularite + '/100'"></span>
+                                </div>
+                                <div class="ttc__pill">
+                                    <i class="bi bi-music-note-list"></i>
+                                    <span x-text="'Piste ' + t.numPiste"></span>
+                                </div>
+                                <template x-if="t.explicit">
+                                    <div class="ttc__pill ttc__pill--red">
+                                        <i class="bi bi-explicit-fill"></i> Explicit
+                                    </div>
+                                </template>
+                            </div>
+
+                            <!-- Genres -->
+                            <div class="ttc__genres" x-show="t.genres.length > 0">
+                                <template x-for="g in t.genres" :key="g">
+                                    <span class="genre-tag" x-text="g"></span>
+                                </template>
+                            </div>
+
+                            <!-- Preview -->
+                            <template x-if="t.previewUrl">
+                                <div class="ttc__preview">
+                                    <div class="section-label" style="margin-bottom:.3rem;font-size:.65rem;">Preview 30s</div>
+                                    <audio controls :src="t.previewUrl" style="width:100%;height:32px;"></audio>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Placeholder -->
+                <template x-if="!stats.topEcouteTrack">
+                    <div class="ttc ttc--empty">
+                        <i class="bi bi-headphones" style="font-size:2rem;color:var(--muted);"></i>
+                        <span style="color:var(--muted);font-size:.85rem;">Pas encore de données Last.fm</span>
+                    </div>
+                </template>
             </div>
-            <div class="stat-card">
-                <div class="icon">🏷️</div>
-                <div class="value" style="font-size:1rem;padding-top:.3rem;" x-text="stats.topGenre"></div>
-                <div class="label">Genre dominant</div>
-            </div>
-            <div class="stat-card">
-                <div class="icon">🔥</div>
-                <div class="value" style="font-size:.9rem;padding-top:.3rem;" x-text="stats.topEcoute"></div>
-                <div class="label">+ écoutée (Last.fm)</div>
-            </div>
+
         </div>
 
         <!-- CHARTS ARTISTES + GENRES -->
@@ -290,6 +397,15 @@
                     <div class="modal-body-pad">
                         <div class="modal-titre" x-text="morceauSelectionne.titre"></div>
                         <div class="modal-artiste" x-text="morceauSelectionne.artiste"></div>
+
+                        <!-- Badge écoutes Last.fm -->
+                        <template x-if="playcounts[morceauSelectionne.titre.toLowerCase()+'|'+morceauSelectionne.artiste.split(', ')[0].toLowerCase()]">
+                            <div class="lastfm-plays-badge">
+                                <i class="bi bi-headphones-fill"></i>
+                                <span x-text="playcounts[morceauSelectionne.titre.toLowerCase()+'|'+morceauSelectionne.artiste.split(', ')[0].toLowerCase()]"></span>
+                                écoutes au total (Last.fm)
+                            </div>
+                        </template>
 
                         <template x-if="morceauSelectionne.previewUrl">
                             <div style="margin-top:1.2rem;">
