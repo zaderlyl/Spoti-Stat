@@ -212512,5 +212512,56 @@
         }
       ]
     }
+  },
+  {
+    "id": "3744239662",
+    "name": "Rise Up (feat. Tumi and the Volume)",
+    "duration_ms": 236000,
+    "explicit": false,
+    "popularity": 30,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/7/0/c57dcf07a951a293d368a5d9e3e376a9.mp3?hdnea=exp=1781352901~acl=/api/1/1/c/5/7/0/c57dcf07a951a293d368a5d9e3e376a9.mp3*~data=user_id=0,application_id=42~hmac=f2ad26810eed8a90bfebae135c2826f266167545b5420b5cbcb62dd176501422",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "5392269",
+        "name": "Milk Coffee & Sugar",
+        "type": "artist",
+        "followers": {
+          "total": 711
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/db31355939a14738a1d4ce6d0ea1245f/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "886666902",
+      "name": "Milk Coffee and Sugar",
+      "release_date": "2010-05-10",
+      "total_tracks": 15,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/db31355939a14738a1d4ce6d0ea1245f/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
   }
 ]
