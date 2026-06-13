@@ -301,6 +301,9 @@ document.addEventListener('alpine:init', () => {
     albumSelectionne:   null,
     albumPopupLoading:  false,
 
+    // Featurings du top track (chargés depuis Deezer)
+    topTrackFeats:      [],
+
     // Sections repliables
     sections: {
       chartsArtistesGenres: true,
@@ -387,7 +390,42 @@ document.addEventListener('alpine:init', () => {
         const tracks = data.toptracks?.track ?? [];
         for (const t of tracks)
           this.playcounts[t.name.toLowerCase() + '|' + t.artist.name.toLowerCase()] = parseInt(t.playcount, 10);
+        // Charger les featurings du top track après les playcounts
+        await this.chargerFeaturingsTopTrack();
       } catch {}
+    },
+
+    // ── FEATURINGS DU TOP TRACK (Deezer contributors) ──
+    async chargerFeaturingsTopTrack() {
+      try {
+        const track = this.stats.topEcouteTrack;
+        if (!track) return;
+        // Extraire feats depuis le titre (feat. X, Y)
+        const titleFeats = (() => {
+          const m = track.titre.match(/\(feat\.?\s*([^)]+)\)/i);
+          if (!m) return [];
+          return m[1].split(/[,&]+/).map(s => s.trim()).filter(Boolean);
+        })();
+        // Chercher sur Deezer pour avoir les contributors
+        const deezerId = track.id; // l'id Deezer est stocké dans track.id
+        const res = await fetch(`https://api.deezer.com/track/${deezerId}`);
+        const data = await res.json();
+        const contributors = data.contributors ?? [];
+        // Artistes déjà dans le track
+        const dejaNoms = new Set(track.artistes.map(a => a.nom.toLowerCase()));
+        const feats = contributors
+          .filter(c => !dejaNoms.has(c.name.toLowerCase()))
+          .map(c => ({
+            nom:   c.name,
+            image: c.picture_medium || c.picture || ''
+          }));
+        // Compléter avec feats du titre si pas déjà inclus
+        for (const n of titleFeats) {
+          if (!feats.some(f => f.nom.toLowerCase() === n.toLowerCase()) && !dejaNoms.has(n.toLowerCase()))
+            feats.push({ nom: n, image: '' });
+        }
+        this.topTrackFeats = feats;
+      } catch { this.topTrackFeats = []; }
     },
 
     getPlaycount(morceau) {

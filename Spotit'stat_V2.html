@@ -56,21 +56,21 @@
                     <div class="stat-card__glow"></div>
                 </div>
 
-                <!-- Now playing mini card -->
-                <div class="np-mini-card" x-show="nowPlaying" x-transition>
-                    <div class="np-mini-card__bar">
-                        <span></span><span></span><span></span><span></span>
-                    </div>
-                    <img :src="nowPlaying?.image" class="np-mini-card__img" x-show="nowPlaying?.image" />
-                    <div class="np-mini-card__info">
-                        <div class="np-mini-card__label">En cours</div>
-                        <div class="np-mini-card__titre" x-text="nowPlaying?.titre"></div>
-                        <div class="np-mini-card__artiste" x-text="nowPlaying?.artiste"></div>
+                <!-- Now playing card -->
+                <div class="np-card" x-show="nowPlaying" x-transition>
+                    <img :src="nowPlaying?.image" class="np-card__img" />
+                    <div class="np-card__info">
+                        <div class="np-card__top">
+                            <div class="np-card__bars"><span></span><span></span><span></span><span></span></div>
+                            <span class="np-card__label">En cours</span>
+                        </div>
+                        <div class="np-card__titre" x-text="nowPlaying?.titre"></div>
+                        <div class="np-card__artiste" x-text="nowPlaying?.artiste"></div>
                     </div>
                 </div>
-                <div class="np-mini-card np-mini-card--off" x-show="!nowPlaying" x-transition>
-                    <i class="bi bi-soundwave" style="font-size:1.3rem;color:var(--muted);flex-shrink:0;"></i>
-                    <div style="color:var(--muted);font-size:.82rem;">Rien en cours de lecture</div>
+                <div class="np-card np-card--off" x-show="!nowPlaying" x-transition>
+                    <i class="bi bi-soundwave"></i>
+                    <span>Rien en cours de lecture</span>
                 </div>
 
             </div>
@@ -98,6 +98,16 @@
                                     <div class="ttc__artist">
                                         <img :src="a.image || 'https://placehold.co/32x32/1a1a1a/555?text=?'" />
                                         <span x-text="a.nom"></span>
+                                    </div>
+                                </template>
+                                <template x-for="f in topTrackFeats" :key="f.nom">
+                                    <div class="ttc__artist ttc__artist--feat">
+                                        <div class="ttc__artist-feat-icon">
+                                            <img x-show="f.image" :src="f.image" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" />
+                                            <i x-show="!f.image" class="bi bi-person-fill"></i>
+                                        </div>
+                                        <span x-text="f.nom"></span>
+                                        <span class="ttc__feat-label">feat.</span>
                                     </div>
                                 </template>
                             </div>
