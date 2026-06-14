@@ -1802,3 +1802,602 @@ Error: EPERM: operation not permitted, open '/Users/liliancornet/Documents/COUR 
 }
 
 Node.js v25.5.0
+🔄 Lecture de data.json…
+📀 838 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Crou Anthem"
+   ✅ Ajout : "Crou Anthem"
+💿 Nouvel album détecté : "Stup Forever" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Stup forever"
+   ✅ 2. "Dans ton baladeur (DTB)"
+   ✅ 3. "Cosmos 1999"
+   ✅ 4. "Etranges phénomènes"
+   ✅ 5. "Tellement bon"
+   ✅ 6. "L’truc xplosiff"
+   ✅ 7. "Tensions"
+   ✅ 8. "Les gens qui s’énervent"
+   ✅ 9. "Gluô"
+   ✅ 10. "Les voûtes"
+   ✅ 11. "Sharkattack"
+   ✅ 12. "Pop-Hip le mort-vivant"
+   ✅ 13. "Tiger crane"
+   ✅ 14. "The platform (feat. Cadillac et MC Salo)"
+   ✅ 15. "Vengeance!!!"
+   ✅ 16. "Régions fédérées (feat. MC Salo)"
+   ✅ 17. "Stay positiv’"
+   → 17 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Apocalypse 894" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Apocalypse 894"
+   → 1 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Stupeflip vite !!!" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Stupeflip vite !!!"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Rise Up"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 20 morceaux ajoutés dans data.json
+📀 Total : 858 morceaux
+🔄 Lecture de data.json…
+📀 858 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Stup Religion" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro"
+   ✅ 2. "Krou Kontre attakk"
+   ✅ 3. "La religion du stup"
+   ✅ 4. "Les cles du mystere au chocolat - Interlude"
+   ✅ 5. "Mon style en Crr"
+   ✅ 6. "Le miracle"
+   ✅ 7. "Stup danse"
+   ✅ 8. "Une bonne correction - Interlude"
+   ✅ 9. "Les cages en métal"
+   ✅ 10. "35 animaux morts"
+   ✅ 11. "Pop Hip's Revenge"
+   ✅ 12. "Région Nord (Soulèvement de la)"
+   ✅ 13. "L'enfant fou"
+   ✅ 14. "Stup monastere"
+   ✅ 15. "Salo therapy"
+   ✅ 16. "Ce que tu dois savoir... - Interlude"
+   ✅ 17. "Le cartable (feat. Helene)"
+   ✅ 18. "Argent"
+   ✅ 19. "Une victoire bien meritée - Interlude"
+   ✅ 20. "Ouest region's inquisitors"
+   → 20 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Stupeflip" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Le crou ne mourra jamais - Intro"
+   ✅ 2. "Stupeflip"
+   ✅ 3. "Presentation du crou - Interlude"
+   ✅ 4. "Je fume pu d'shit"
+   ✅ 5. "Je refume du shit"
+   ✅ 6. "Explication No. 1 - Interlude"
+   ✅ 7. "L'épouvantable épouvantail"
+   ✅ 8. "Naissance de la région Sud - Interlude"
+   ✅ 9. "Les monstres"
+   ✅ 10. "Crou nostalgie - Interlude"
+   ✅ 11. "Avertissement - Interlude"
+   ✅ 12. "Carry On"
+   ✅ 13. "Comme les zot"
+   ✅ 14. "Media terror - Interlude"
+   ✅ 15. "L.E.C.R.O.U"
+   ✅ 16. "Creation de la 2eme ère du stup - Interlude"
+   ✅ 17. "A bas la hierarchie"
+   ✅ 18. "La bavure de Pop Hip"
+   ✅ 19. "The Cadillac Theory"
+   ✅ 20. "Passe mon truc"
+   ✅ 21. "Stupeflip - Home version"
+   ✅ 22. "Annexion de la region Sud"
+   → 22 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Sons2Ouf!! (Inédits et remixs 94-2024)" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Jamais"
+   ✅ 2. "(((Stup Lore))) (Antidote remix)"
+   ✅ 3. "Raggalloween (La chanson pour Halloween)"
+   ✅ 4. "L.A.R."
+   ✅ 5. "L'truc xplosiff (Version Grand JD)"
+   ✅ 6. "Stup Virus (Toxic)"
+   ✅ 7. "Esprits frappeurs (2018 c.t.)"
+   ✅ 8. "Mystérieuse Formation (Demter 1970)"
+   ✅ 9. "La menuiserie 2031"
+   ✅ 10. "Sauvé par l'arpegiator (SPA)"
+   ✅ 11. "Sinode Pibouin (Insurrection-Non-Violente)"
+   ✅ 12. "Crou Anthem (Version Grand JD)"
+   ✅ 13. "Le spleen des petits (Faubourg souffrant)"
+   ✅ 14. "Haterz Killah 2024"
+   ✅ 15. "Bordel (2004 c.t.)"
+   ✅ 16. "4577 Tribute (13ème Section)"
+   ✅ 17. "Étranges phénomènes (The chase)"
+   ✅ 18. "Laudela (1994 c.t.)"
+   ✅ 19. "Croucrou Terror (Poltergeist)"
+   ✅ 20. "Déjà tout petit (1995 c.t.)"
+   ✅ 21. "Psycho Girl (FR)"
+   ✅ 22. "Chèvrefeuille (2016 c.t.)"
+   ✅ 23. "Flip Klub"
+   ✅ 24. "L'truc xplosiff (HRK)"
+   ✅ 25. "La formule magique (Version bombecs)"
+   ✅ 26. "Boosters"
+   ✅ 27. "Empires of the Sun"
+   → 27 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Le spleen des petits"
+   ✅ Ajout : "Le spleen des petits"
+🎵 Track manquante dans un album connu : "Lonely Loverz"
+   ✅ Ajout : "Lonely Loverz"
+⏭️  Album déjà traité cette session : Stup Virus
+⏭️  Album déjà traité cette session : The Hypnoflip Invasion
+⏭️  Album déjà traité cette session : Stup Virus
+⏭️  Album déjà traité cette session : The Hypnoflip Invasion
+⏭️  Album déjà traité cette session : The Hypnoflip Invasion
+💿 Nouvel album détecté : "Nan ?.... Si ?" — Stupeflip
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Nan ?... Si ?"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Rise Up"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 72 morceaux ajoutés dans data.json
+📀 Total : 930 morceaux
+🔄 Lecture de data.json…
+📀 930 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Are You Ready?"
+   ✅ Ajout : "Are You Ready?"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+🎵 Track manquante dans un album connu : "La Seule Alternative"
+   ✅ Ajout : "La seule alternative"
+🎵 Track manquante dans un album connu : "Hater's Killah"
+   ✅ Ajout : "Hater's Killah"
+⏭️  Album déjà traité cette session : Stup Virus
+⏭️  Album déjà traité cette session : The Hypnoflip Invasion
+⏭️  Album déjà traité cette session : The Hypnoflip Invasion
+🎵 Track manquante dans un album connu : "Rise Up"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 3 morceaux ajoutés dans data.json
+📀 Total : 933 morceaux
+🔄 Lecture de data.json…
+📀 933 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Lasciami stare"
+   ✅ Ajout : "Lasciami stare"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+🎵 Track manquante dans un album connu : "Understup"
+   ✅ Ajout : "Understup"
+🎵 Track manquante dans un album connu : "Gem lé moch'"
+   ✅ Ajout : "Gem lé moch'"
+⏭️  Album déjà traité cette session : The Hypnoflip Invasion
+🎵 Track manquante dans un album connu : "Rise Up"
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+⏭️  Album déjà traité cette session : Milk Coffee and Sugar
+
+🎉 3 morceaux ajoutés dans data.json
+📀 Total : 936 morceaux
+🔄 Lecture de data.json…
+📀 936 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Immortale (feat. Vegas Jones)"
+   ✅ Ajout : "Immortale (feat. Vegas Jones)"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+💿 Nouvel album détecté : "Morirò da Re" — Måneskin
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Morirò da Re"
+   → 1 piste(s) ajoutée(s)
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+🎵 Track manquante dans un album connu : "Gaëlle"
+   ✅ Ajout : "Gaëlle"
+
+🎉 3 morceaux ajoutés dans data.json
+📀 Total : 939 morceaux
+🔄 Lecture de data.json…
+📀 939 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Fear for Nobody"
+   ✅ Ajout : "Fear for Nobody"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 940 morceaux
+🔄 Lecture de data.json…
+📀 940 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "New Song"
+   ✅ Ajout : "New Song"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 941 morceaux
+🔄 Lecture de data.json…
+📀 941 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Niente da dire"
+   ✅ Ajout : "Niente da dire"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 942 morceaux
+🔄 Lecture de data.json…
+📀 942 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Sh*t Blvd"
+   ✅ Ajout : "Sh*t Blvd"
+⏭️  Album déjà traité cette session : Il ballo della vita
+⏭️  Album déjà traité cette session : Il ballo della vita
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 943 morceaux
+🔄 Lecture de data.json…
+📀 943 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "L'altra dimensione"
+   ✅ Ajout : "L'altra dimensione"
+⏭️  Album déjà traité cette session : Il ballo della vita
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 944 morceaux
+🔄 Lecture de data.json…
+📀 944 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Close to the Top"
+   ✅ Ajout : "Close to the Top"
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 945 morceaux
+🔄 Lecture de data.json…
+📀 945 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 945 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 945 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 945 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Kiai sous la Pluie Noire" — Lucio Bukowski
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Premières cendres"
+   ✅ 2. "Arte Povera"
+   ✅ 3. "Notes d'un souterrain"
+   ✅ 4. "Grand Roque"
+   ✅ 5. "Pâtes au beurre (feat. JP Manova)"
+   ✅ 6. "Kiai sous la Pluie Noire"
+   ✅ 7. "Kokyu"
+   ✅ 8. "Jean, 2, 13-21"
+   ✅ 9. "Transmigration des ânes"
+   ✅ 10. "1% (feat. Ruste Juxx & Skanks)"
+   ✅ 11. "2Pac, Molière et les licornes"
+   ✅ 12. "Transitoriis quaere aeterna"
+   ✅ 13. "Après la pluie"
+   → 13 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "L'art raffiné de l'ecchymose" — Lucio Bukowski
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Satori"
+   ✅ 2. "L'art raffiné de l'ecchymose"
+   ✅ 3. "Don Quichotte"
+   ✅ 4. "Chaque Dimanche"
+   ✅ 5. "Jour de pluie"
+   ✅ 6. "Sisyphe"
+   ✅ 7. "Autre gare, même train"
+   ✅ 8. "Acte V, scène 1"
+   ✅ 9. "Quand je toucherai le fond"
+   ✅ 10. "Mon ardoise"
+   → 10 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "L'homme Vivant" — Lucio Bukowski
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "L'homme Vivant"
+   ✅ 2. "Solitude & Bouddha Bleu"
+   ✅ 3. "Les Faiseurs D'illusions Sortent Des Lapins Morts De Leurs Chapeaux"
+   → 3 piste(s) ajoutée(s)
+
+🎉 26 morceaux ajoutés dans data.json
+📀 Total : 971 morceaux
+🔄 Lecture de data.json…
+📀 971 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 971 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 971 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Tangram Series, Vol. 1" — Scratch Bandits Crew
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Aiwa"
+   ✅ 2. "Philadelphia (Scratch Bandits Crew Remix)"
+   → 2 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Tangram Series" — Scratch Bandits Crew
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intro"
+   ✅ 2. "Cali to France"
+   ✅ 4. "Believe It or Not"
+   ✅ 5. "Dicen Que"
+   ✅ 6. "Loneliness"
+   ✅ 7. "Bang!"
+   ✅ 8. "Need"
+   ✅ 9. "Pour le plaisir"
+   → 8 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Leftoverture (Expanded Edition)" — Kansas
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Carry on Wayward Son"
+   ✅ 2. "The Wall"
+   ✅ 3. "What's on My Mind"
+   ✅ 4. "Miracles out of Nowhere"
+   ✅ 5. "Opus Insert"
+   ✅ 6. "Questions of My Childhood"
+   ✅ 7. "Cheyenne Anthem"
+   ✅ 8. "Magnum Opus: Father Padilla Meets the Perfect Gnat / Howling at the Moon / Man Overboard / Industry on Parade / Release the Beaver"
+   ✅ 9. "Carry on Wayward Son (Live at Pine Knob, Clarkston, MI - July 1978)"
+   ✅ 10. "Cheyenne Anthem (Live at the Palladium, New York, NY - December 1977)"
+   → 10 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Appetite For Destruction (Super Deluxe Edition)" — Guns N' Roses
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Welcome To The Jungle"
+   ✅ 2. "It's So Easy"
+   ✅ 3. "Nightrain"
+   ✅ 4. "Out Ta Get Me"
+   ✅ 5. "Mr. Brownstone"
+   ✅ 6. "Paradise City"
+   ✅ 7. "My Michelle"
+   ✅ 8. "Think About You"
+   ✅ 9. "Sweet Child O' Mine"
+   ✅ 10. "You're Crazy"
+   ✅ 11. "Anything Goes"
+   ✅ 12. "Rocket Queen"
+   ✅ 1. "Reckless Life (Live)"
+   ✅ 2. "Nice Boys (Live)"
+   ✅ 3. "Move To The City (Live)"
+   ✅ 4. "Mama Kin (Live / Edit)"
+   ✅ 5. "Shadow Of Your Love (Live)"
+   ✅ 6. "You're Crazy (Acoustic Version)"
+   ✅ 7. "Patience"
+   ✅ 8. "Used To Love Her"
+   ✅ 10. "It's So Easy (Live At The Marquee Club, London / 1987)"
+   ✅ 11. "Knockin' On Heaven's Door (Live At The Marquee Club, London / 1987)"
+   ✅ 12. "Whole Lotta Rosie (Live At The Marquee Club, London / 1987)"
+   ✅ 1. "Welcome To The Jungle (1986 Sound City Session)"
+   ✅ 2. "Nightrain (1986 Sound City Session)"
+   ✅ 3. "Out Ta Get Me (1986 Sound City Session)"
+   ✅ 4. "Paradise City (1986 Sound City Session)"
+   ✅ 5. "My Michelle (1986 Sound City Session)"
+   ✅ 6. "Think About You (1986 Sound City Session)"
+   ✅ 7. "You're Crazy (1986 Sound City Session)"
+   ✅ 8. "Anything Goes (1986 Sound City Session)"
+   ✅ 9. "Rocket Queen (1986 Sound City Session)"
+   ✅ 10. "Shadow Of Your Love (1986 Sound City Session)"
+   ✅ 11. "Heartbreak Hotel (1986 Sound City Session)"
+   ✅ 12. "Jumpin' Jack Flash (1986 Sound City Session)"
+   ✅ 1. "Shadow Of Your Love"
+   ✅ 2. "Move To The City (1986 Sound City Session)"
+   ✅ 3. "Ain't Goin' Down No More (Instrumental Version \ 1986 Sound City Session)"
+   ✅ 4. "The Plague (1986 Sound City Session)"
+   ✅ 5. "Nice Boys (1986 Sound City Session)"
+   ✅ 6. "Back Off Bitch (1986 Sound City Session)"
+   ✅ 7. "Reckless Life (1986 Sound City Session)"
+   ✅ 8. "Mama Kin (1986 Sound City Session)"
+   ✅ 9. "New Work Tune (1986 Sound City Session)"
+   ✅ 10. "November Rain (Piano Version / 1986 Sound City Session)"
+   ✅ 11. "Move To The City (Acoustic Version / 1986 Sound City Session)"
+   ✅ 12. "You're Crazy (Acoustic Version / 1986 Sound City Session)"
+   ✅ 13. "November Rain (Acoustic Version / 1986 Sound City Session)"
+   ✅ 14. "Jumpin' Jack Flash (Acoustic Version / 1986 Sound City Session)"
+   ✅ 15. "Move To The City (1988 Acoustic Version)"
+   → 50 piste(s) ajoutée(s)
+❌ Introuvable sur Deezer : "Whole Lotta Love - 1990 Remaster" — Led Zeppelin
+💿 Nouvel album détecté : "The Very Best Of Sting And The Police" — The Police
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Message In A Bottle"
+   ✅ 2. "Can't Stand Losing You"
+   ✅ 3. "Englishman In New York"
+   ✅ 4. "Every Breath You Take"
+   ✅ 5. "Seven Days"
+   ✅ 6. "Walking On The Moon"
+   ✅ 7. "Fields Of Gold"
+   ✅ 8. "Fragile"
+   ✅ 9. "Every Little Thing She Does Is Magic"
+   ✅ 10. "De Do Do Do, De Da Da Da"
+   ✅ 11. "If You Love Somebody Set Them Free"
+   ✅ 12. "Brand New Day"
+   ✅ 13. "Desert Rose"
+   ✅ 14. "If I Ever Lose My Faith In You"
+   ✅ 15. "When We Dance"
+   ✅ 16. "Don't Stand So Close To Me"
+   ✅ 17. "Roxanne"
+   ✅ 18. "So Lonely"
+   → 18 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "The Very Best Of Ram Jam" — Ram Jam
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Black Betty"
+   ✅ 2. "Let It All Out"
+   ✅ 3. "Keep Your Hands on the Wheel"
+   ✅ 4. "Right on the Money"
+   ✅ 5. "All for the Love of Rock n' Roll"
+   ✅ 6. "404"
+   ✅ 7. "High Steppin'"
+   ✅ 8. "Overloaded"
+   ✅ 9. "Hey Boogie Woman"
+   ✅ 10. "Too Bad on Your Birthday"
+   ✅ 11. "The Kid Next Door"
+   ✅ 12. "Turnpike"
+   ✅ 13. "Wanna Find Love"
+   ✅ 14. "Just Like Me"
+   ✅ 15. "Hurricane Ride"
+   ✅ 16. "Saturday Night"
+   ✅ 17. "Runway Runaway"
+   ✅ 18. "Please, Please, Please (Please Me)"
+   ✅ 19. "Gone Wild"
+   ✅ 20. "Pretty Poison"
+   → 20 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "The Ultimate Workout Collection: Blood Sweat And Tears" — Motörhead
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Heart Of A Champion"
+   ✅ 2. "Crank That (Soulja Boy) [Travis Barker Remix]"
+   ✅ 3. "Boom Boom Pow"
+   ✅ 4. "Lean Back"
+   ✅ 5. "Last Resort"
+   ✅ 6. "Livin' It Up"
+   ✅ 7. "In Da Club"
+   ✅ 8. "Pump It Up"
+   ✅ 9. "X Gon' Give It To Ya"
+   ✅ 10. "Smooth Criminal"
+   ✅ 11. "Fight Music"
+   ✅ 12. "Shake Down"
+   ✅ 13. "Beg For Mercy"
+   ✅ 14. "On Fire"
+   ✅ 15. "Black Gloves (Album Version Explicit)"
+   ✅ 1. "Higher"
+   ✅ 2. "No One Knows"
+   ✅ 3. "Ace of Spades"
+   ✅ 4. "This Ain't A Scene, It's An Arms Race"
+   ✅ 5. "Gone"
+   ✅ 6. "Prayer Of The Refugee"
+   ✅ 7. "Hip Hop Is Dead"
+   ✅ 8. "Same Direction"
+   ✅ 9. "Stand Up"
+   ✅ 10. "Monster"
+   ✅ 11. "Push It"
+   ✅ 12. "Back Round"
+   ✅ 13. "Leave Me Alone Pt. 2"
+   ✅ 14. "Click Click Boom"
+   ✅ 15. "Now We Are Free (Maximus Mix / From "Gladiator" Soundtrack)"
+   → 30 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Creedence Clearwater Revival - Best Of" — Creedence Clearwater Revival
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Bad Moon Rising (Remastered 1985)"
+   ✅ 2. "Born On The Bayou"
+   ✅ 3. "Proud Mary"
+   ✅ 4. "Travelin' Band"
+   ✅ 5. "Have You Ever Seen The Rain"
+   ✅ 6. "Green River (Remastered 1985)"
+   ✅ 7. "Down On The Corner"
+   ✅ 8. "Lodi (Remastered 1985)"
+   ✅ 9. "Fortunate Son"
+   ✅ 10. "Lookin' Out My Back Door"
+   ✅ 11. "Run Through The Jungle"
+   ✅ 12. "I Put A Spell On You"
+   ✅ 13. "Susie Q (Pt. 2)"
+   ✅ 14. "Sweet Hitch-Hiker"
+   ✅ 15. "It Came Out Of The Sky"
+   ✅ 16. "Who'll Stop The Rain"
+   ✅ 17. "I Heard It Through The Grapevine (Edit)"
+   ✅ 18. "Hey Tonight"
+   ✅ 19. "Cotton Fields (The Cotton Song)"
+   ✅ 20. "Long As I Can See The Light"
+   ✅ 21. "Molina"
+   ✅ 22. "Hello Mary Lou"
+   ✅ 23. "The Midnight Special"
+   ✅ 24. "Up Around The Bend"
+   → 24 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Chuck Berry" — Chuck Berry
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Rock And Roll Music"
+   ✅ 2. "Johnny B. Goode"
+   ✅ 3. "Maybellene"
+   ✅ 4. "Reelin' And Rockin'"
+   ✅ 5. "You Never Can Tell"
+   ✅ 6. "Sweet Little Sixteen"
+   ✅ 7. "Let It Rock"
+   ✅ 8. "Roll Over Beethoven"
+   ✅ 9. "Back In The U.S.A."
+   ✅ 10. "Little Queenie"
+   ✅ 11. "No Particular Place To Go"
+   ✅ 12. "No Money Down"
+   ✅ 13. "Memphis, Tennessee"
+   ✅ 14. "Nadine"
+   ✅ 15. "I Got To Find My Baby"
+   ✅ 16. "School Days"
+   ✅ 17. "Wee Wee Hours"
+   ✅ 18. "Too Much Monkey Business"
+   → 18 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Machine Head (Remastered)" — Deep Purple
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Highway Star (Remastered 2012)"
+   ✅ 2. "Maybe I'm A Leo (Remastered 2012)"
+   ✅ 3. "Pictures Of Home (Remastered 2012)"
+   ✅ 4. "Never Before (Remastered 2012)"
+   ✅ 5. "Smoke On The Water (Remastered 2012)"
+   ✅ 6. "Lazy (Remastered 2012)"
+   ✅ 7. "Space Truckin' (Remastered 2012)"
+   ✅ 8. "When A Blind Man Cries (Remastered)"
+   → 8 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Highway to Hell" — AC/DC
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Highway to Hell"
+   ✅ 2. "Girls Got Rhythm"
+   ✅ 3. "Walk All Over You"
+   ✅ 4. "Touch Too Much"
+   ✅ 5. "Beating Around the Bush"
+   ✅ 6. "Shot Down in Flames"
+   ✅ 7. "Get It Hot"
+   ✅ 8. "If You Want Blood (You've Got It)"
+   ✅ 9. "Love Hungry Man"
+   ✅ 10. "Night Prowler"
+   → 10 piste(s) ajoutée(s)
+
+🎉 198 morceaux ajoutés dans data.json
+📀 Total : 1169 morceaux
