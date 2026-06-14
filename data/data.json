@@ -230374,5 +230374,3785 @@
         }
       ]
     }
+  },
+  {
+    "id": "2625521182",
+    "name": "Lino",
+    "duration_ms": 177000,
+    "explicit": true,
+    "popularity": 21,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/d/0/5cd9a0d97fd0214d00d18afa6ba47707.mp3?hdnea=exp=1781450101~acl=/api/1/1/5/c/d/0/5cd9a0d97fd0214d00d18afa6ba47707.mp3*~data=user_id=0,application_id=42~hmac=43f425ced321af3974ccfe042a6c39b037217dc5deace2a29cfdb0fedd035b03",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22277
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "536531282",
+      "name": "\"La trentaine l'intégrale\"",
+      "release_date": "2024-02-23",
+      "total_tracks": 30,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/ed4f37298624f0bb905b03e54c5b2ad4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "988347162",
+    "name": "J'ai rapé",
+    "duration_ms": 139000,
+    "explicit": true,
+    "popularity": 11,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/9/0/1a9a4cfbc4ae88b21ac1958f07645f54.mp3?hdnea=exp=1781450103~acl=/api/1/1/1/a/9/0/1a9a4cfbc4ae88b21ac1958f07645f54.mp3*~data=user_id=0,application_id=42~hmac=f7ca14b1e72392d7af131615721b332c4b7ca4c0e5ea5b692452a43ab5602d1c",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22277
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "153819952",
+      "name": "J'ai rapé",
+      "release_date": "2020-06-12",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/008d9c984ef12c1ddca1a0f551bdf61d/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3439919891",
+    "name": "Mon dieu",
+    "duration_ms": 160000,
+    "explicit": true,
+    "popularity": 28,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/1/0/8e1be4d7cd36be17fd9c09a1241ed82a.mp3?hdnea=exp=1781450104~acl=/api/1/1/8/e/1/0/8e1be4d7cd36be17fd9c09a1241ed82a.mp3*~data=user_id=0,application_id=42~hmac=188a4d46071ff7b56ca9efd954dc983f12acb06bdda5481faf6424b55e5399d5",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22277
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "781249641",
+      "name": "Mon dieu",
+      "release_date": "2025-07-04",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/3bd6d8c15f77fd22e342c522006ec3c9/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "435595782",
+    "name": "Incompris",
+    "duration_ms": 222000,
+    "explicit": false,
+    "popularity": 46,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/a/0/f1a47784191f08742164a430983ef506.mp3?hdnea=exp=1781450104~acl=/api/1/1/f/1/a/0/f1a47784191f08742164a430983ef506.mp3*~data=user_id=0,application_id=42~hmac=91e90b5613e837a71ea91d57f2c1da1683305ff21dc433054a292d7dda5ef52e",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22277
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "52628812",
+      "name": "Abandon Sauvage",
+      "release_date": "2018-02-02",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/f8a04f6cb353890204c9495a542930c9/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3439919881",
+    "name": "Cantare",
+    "duration_ms": 150000,
+    "explicit": false,
+    "popularity": 21,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/f/0/d6f93e513c5062945194384fa12dba99.mp3?hdnea=exp=1781450105~acl=/api/1/1/d/6/f/0/d6f93e513c5062945194384fa12dba99.mp3*~data=user_id=0,application_id=42~hmac=9cebda65e27fa49f09acc79a4213ab87e662b8cd50b6d11a3d48b9d363bb40e6",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22277
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "781249631",
+      "name": "Cantare",
+      "release_date": "2025-07-18",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b41c0981d71e3a9fd1ab41d5cca7a108/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1740409427",
+    "name": "On a mis les voiles",
+    "duration_ms": 192000,
+    "explicit": true,
+    "popularity": 23,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/9/0/d995ba26176c3ad79c9a2e7267c03c00.mp3?hdnea=exp=1781450106~acl=/api/1/1/d/9/9/0/d995ba26176c3ad79c9a2e7267c03c00.mp3*~data=user_id=0,application_id=42~hmac=8e5ddbdfde0a5402195b098b10a3f1635a0c734132bbe3e8407f7d7b84863074",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1649114",
+        "name": "L'Hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 9429
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4536433d575254f1d060353319f08e8d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "315938507",
+      "name": "Solaire",
+      "release_date": "2022-05-13",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/bb1eedb435db6b9ddb81321ebb04510b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "440041572",
+    "name": "La vingtaine",
+    "duration_ms": 246000,
+    "explicit": false,
+    "popularity": 26,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/3/8/0/8389666f9b413acf8c7d13b2404a3da1.mp3?hdnea=exp=1781450106~acl=/api/1/1/8/3/8/0/8389666f9b413acf8c7d13b2404a3da1.mp3*~data=user_id=0,application_id=42~hmac=74438c4b1231ad85d8a359b5de82188f492dacb34b748e35c5977ba084b1a789",
+    "track_number": 19,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22277
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "53343922",
+      "name": "La vingtaine",
+      "release_date": "2017-12-12",
+      "total_tracks": 20,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/8814f08c5c201c9c24be2c13ce8ce429/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222592",
+    "name": "L'heure des poètes",
+    "duration_ms": 219000,
+    "explicit": false,
+    "popularity": 26,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/f/0/78f2632aec6074c1b9a8c410839b2da2.mp3?hdnea=exp=1781450107~acl=/api/1/1/7/8/f/0/78f2632aec6074c1b9a8c410839b2da2.mp3*~data=user_id=0,application_id=42~hmac=c8b811f232b29fb9dd4ce5b143e3ac2a59c70868d6149db89c5f2ff4c9c65335",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222612",
+    "name": "La résiliation",
+    "duration_ms": 158000,
+    "explicit": false,
+    "popularity": 58,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/c/0/44ceabce7283a56e64433d689632ebaf.mp3?hdnea=exp=1781450108~acl=/api/1/1/4/4/c/0/44ceabce7283a56e64433d689632ebaf.mp3*~data=user_id=0,application_id=42~hmac=e5ce06a052bed4fef30627f61e6d71a958f52103ffaf5dbd1d809269c69408d6",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222622",
+    "name": "Quand nous aurons cent ans",
+    "duration_ms": 178000,
+    "explicit": false,
+    "popularity": 21,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/c/0/c7c835ab09009232996ae91902e3dba0.mp3?hdnea=exp=1781450108~acl=/api/1/1/c/7/c/0/c7c835ab09009232996ae91902e3dba0.mp3*~data=user_id=0,application_id=42~hmac=6932e6eafb66c9483bbcdf0dd29f7a40cada361a4b12a25934b9123a8aca7347",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222642",
+    "name": "Intro \"Ecrire\"",
+    "duration_ms": 23000,
+    "explicit": false,
+    "popularity": 2,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/7/0/8477744869b0298c36cbbaa98118e8d2.mp3?hdnea=exp=1781450108~acl=/api/1/1/8/4/7/0/8477744869b0298c36cbbaa98118e8d2.mp3*~data=user_id=0,application_id=42~hmac=1519b94845879346000bd7810499face4b99ffe2bb94ff8ff992750016d0c884",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222662",
+    "name": "Ecrire",
+    "duration_ms": 151000,
+    "explicit": false,
+    "popularity": 27,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/5/0/af5a4bc68de49385de281916c98cbd9a.mp3?hdnea=exp=1781450108~acl=/api/1/1/a/f/5/0/af5a4bc68de49385de281916c98cbd9a.mp3*~data=user_id=0,application_id=42~hmac=dabef9ba580b4e0a0b1fb734faec94abaf9cd61c59abc866e70b3371c586c23a",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222682",
+    "name": "Cinéma pour aveugle",
+    "duration_ms": 181000,
+    "explicit": false,
+    "popularity": 23,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/3/0/7b3fcd1f2471aa69290937ff1cefc9cb.mp3?hdnea=exp=1781450109~acl=/api/1/1/7/b/3/0/7b3fcd1f2471aa69290937ff1cefc9cb.mp3*~data=user_id=0,application_id=42~hmac=0c5278abdfc6f75e6a1e354ef6c9462479b48fa7718a86cc7591ceb3e9bd3023",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222702",
+    "name": "Interlude \"Spectacle vivant\"",
+    "duration_ms": 42000,
+    "explicit": false,
+    "popularity": 15,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/a/0/b8a62f1a74995afb1ddea8a89c99821a.mp3?hdnea=exp=1781450109~acl=/api/1/1/b/8/a/0/b8a62f1a74995afb1ddea8a89c99821a.mp3*~data=user_id=0,application_id=42~hmac=6803a4d112ed47de69a51a5557dec539091bcaa4d534692861513fd711e10c0c",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222722",
+    "name": "Les années lumières",
+    "duration_ms": 252000,
+    "explicit": false,
+    "popularity": 22,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/8/7/0/687e6522ca76db6ebbb3b10dfaa5a327.mp3?hdnea=exp=1781450109~acl=/api/1/1/6/8/7/0/687e6522ca76db6ebbb3b10dfaa5a327.mp3*~data=user_id=0,application_id=42~hmac=011a593715af64fbdb73c171a15eaa84aa5b834815918515f7b3969a55f48d50",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222732",
+    "name": "Pocahontas",
+    "duration_ms": 215000,
+    "explicit": false,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/9/0/6b96297f2d04c3c9baf6ae803b85b55b.mp3?hdnea=exp=1781450109~acl=/api/1/1/6/b/9/0/6b96297f2d04c3c9baf6ae803b85b55b.mp3*~data=user_id=0,application_id=42~hmac=ab5870cbc334c3464bd18d24ed4081bd545ddcc599c68f82c6b82deea10fc304",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222752",
+    "name": "Le temps des tachyons",
+    "duration_ms": 187000,
+    "explicit": false,
+    "popularity": 23,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/7/f/0/57f47ee2f5a3bc0a31c3109e54968df3.mp3?hdnea=exp=1781450109~acl=/api/1/1/5/7/f/0/57f47ee2f5a3bc0a31c3109e54968df3.mp3*~data=user_id=0,application_id=42~hmac=92317a61b2bb35adc792fac682a5e9cf71f04ba7ba51479bc72876fe54a620d8",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222772",
+    "name": "Nos mots",
+    "duration_ms": 151000,
+    "explicit": false,
+    "popularity": 19,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/a/0/12a1c362440e260d8d0c1d15ff6a227d.mp3?hdnea=exp=1781450110~acl=/api/1/1/1/2/a/0/12a1c362440e260d8d0c1d15ff6a227d.mp3*~data=user_id=0,application_id=42~hmac=9e5a6c0c515b34b278a58ba576c285c58243d20827f249b899c21bdac3095fd9",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222792",
+    "name": "Le banc",
+    "duration_ms": 228000,
+    "explicit": false,
+    "popularity": 22,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/a/0/bca7a5e076d8b4c2a3a60fa7a6d548e5.mp3?hdnea=exp=1781450110~acl=/api/1/1/b/c/a/0/bca7a5e076d8b4c2a3a60fa7a6d548e5.mp3*~data=user_id=0,application_id=42~hmac=cfb15e4d7acb23ae2902a64480b27a720532acd404eadbbe63e8dc37dbedfbd9",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222802",
+    "name": "Bleuette",
+    "duration_ms": 69000,
+    "explicit": false,
+    "popularity": 15,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/c/0/2dce5ad83e3acd67ebeecc06cd7d2c0c.mp3?hdnea=exp=1781450110~acl=/api/1/1/2/d/c/0/2dce5ad83e3acd67ebeecc06cd7d2c0c.mp3*~data=user_id=0,application_id=42~hmac=258304e5bb5d487001528282023558090cef0ac66ebd61b6630c227fc71f7b3a",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222822",
+    "name": "L'ours blanc",
+    "duration_ms": 165000,
+    "explicit": false,
+    "popularity": 9,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/8/9/0/48989ef5b5ed738a2334454b27527f52.mp3?hdnea=exp=1781450110~acl=/api/1/1/4/8/9/0/48989ef5b5ed738a2334454b27527f52.mp3*~data=user_id=0,application_id=42~hmac=0f4a709543a6d372340289f95b6b0b20a1c401045ae675097202a7a0d55c40aa",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222842",
+    "name": "Il nous restera ça",
+    "duration_ms": 177000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/0/d/0/c0d27b5cfe1414010fc1dc4e83d8a192.mp3?hdnea=exp=1781450110~acl=/api/1/1/c/0/d/0/c0d27b5cfe1414010fc1dc4e83d8a192.mp3*~data=user_id=0,application_id=42~hmac=e2958cdca05d43b6bde1af48bd04ab43a626569031046032189d287bf496c5f0",
+    "track_number": 15,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222862",
+    "name": "Face B",
+    "duration_ms": 197000,
+    "explicit": false,
+    "popularity": 15,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/1/b/0/31b80c0d7bc1b511ce780688adc0f1f7.mp3?hdnea=exp=1781450111~acl=/api/1/1/3/1/b/0/31b80c0d7bc1b511ce780688adc0f1f7.mp3*~data=user_id=0,application_id=42~hmac=4de9f88a656f84573ed8d29861eb31ad06a61b3a95049ba0acecd651d1233c52",
+    "track_number": 16,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222882",
+    "name": "A mi-parcours",
+    "duration_ms": 193000,
+    "explicit": false,
+    "popularity": 48,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/b/0/c8bd3c291785245a6f81030518f78346.mp3?hdnea=exp=1781450111~acl=/api/1/1/c/8/b/0/c8bd3c291785245a6f81030518f78346.mp3*~data=user_id=0,application_id=42~hmac=5b8757a93ea5ece4108321af45b3bb09df5c87368ad9bda310d1f4bbc1970c36",
+    "track_number": 17,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "942222892",
+    "name": "Pocahontas (Remix)",
+    "duration_ms": 180000,
+    "explicit": false,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/6/a/0/06af1cf14091433876cb35fbeab8f8d5.mp3?hdnea=exp=1781450111~acl=/api/1/1/0/6/a/0/06af1cf14091433876cb35fbeab8f8d5.mp3*~data=user_id=0,application_id=42~hmac=059c8b7cd6c9e2777704c1dcc132533073b46f12e4707b73dd21838d5c02dfd9",
+    "track_number": 18,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "144486412",
+      "name": "Il nous restera ça (Réédition)",
+      "release_date": "2020-05-01",
+      "total_tracks": 18,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/874f6c933aa11fc98541f58faf35d7f2/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537901",
+    "name": "J'ai vu de la lumière",
+    "duration_ms": 211000,
+    "explicit": false,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/b/0/e2bf7759a750760460278a5222cb8f6b.mp3?hdnea=exp=1781450112~acl=/api/1/1/e/2/b/0/e2bf7759a750760460278a5222cb8f6b.mp3*~data=user_id=0,application_id=42~hmac=e4ec71a17e9c411846f39f632dcbddc59f1d4a2e24ff6100c172feeb9e16257b",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537911",
+    "name": "Reflets",
+    "duration_ms": 172000,
+    "explicit": false,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/f/0/05f5798207ff9a1c29825261dbfcffae.mp3?hdnea=exp=1781450112~acl=/api/1/1/0/5/f/0/05f5798207ff9a1c29825261dbfcffae.mp3*~data=user_id=0,application_id=42~hmac=7f177be9a5da7d923d57a6cca8b97b88490be7f5d0b7554d3d69efbee9a0c289",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537921",
+    "name": "Retiens les rêves",
+    "duration_ms": 219000,
+    "explicit": false,
+    "popularity": 71,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/c/0/4ec761f540cb73b2745a27eb0610b122.mp3?hdnea=exp=1781450113~acl=/api/1/1/4/e/c/0/4ec761f540cb73b2745a27eb0610b122.mp3*~data=user_id=0,application_id=42~hmac=aa9bc83183d7897a321bc9f17be5603c4dc2b273da8fd8aa10d333da619e4cab",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537931",
+    "name": "Le jour d'après",
+    "duration_ms": 199000,
+    "explicit": false,
+    "popularity": 55,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/1/0/c312a8faf8c0b4bda6bc9ab6cce3d487.mp3?hdnea=exp=1781450113~acl=/api/1/1/c/3/1/0/c312a8faf8c0b4bda6bc9ab6cce3d487.mp3*~data=user_id=0,application_id=42~hmac=198a55f4a7b92c851a20d6e8afaf15998350c7ea67f5b6931f90deee71a04e97",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537941",
+    "name": "Autoreflet",
+    "duration_ms": 289000,
+    "explicit": false,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/8/0/568cbe479fafadb0bd5d80db804a6ad3.mp3?hdnea=exp=1781450113~acl=/api/1/1/5/6/8/0/568cbe479fafadb0bd5d80db804a6ad3.mp3*~data=user_id=0,application_id=42~hmac=c9a8fe99b4f235c6b064f5b683c5ffe91e9da42b9e00a5185c302ed0d0302e94",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537951",
+    "name": "Je serai là",
+    "duration_ms": 185000,
+    "explicit": false,
+    "popularity": 53,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/e/0/4be5e9949a4d5cd591ff04fadb72a0ba.mp3?hdnea=exp=1781450113~acl=/api/1/1/4/b/e/0/4be5e9949a4d5cd591ff04fadb72a0ba.mp3*~data=user_id=0,application_id=42~hmac=a1d7d5407845afe353d3842a5eaee5773c4283e2fbaf4651f8602533d3a45b2a",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537961",
+    "name": "Rue La Fayette",
+    "duration_ms": 218000,
+    "explicit": false,
+    "popularity": 45,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/7/0/a17858329bb740de5624117e4ed85cf2.mp3?hdnea=exp=1781450113~acl=/api/1/1/a/1/7/0/a17858329bb740de5624117e4ed85cf2.mp3*~data=user_id=0,application_id=42~hmac=60ff5653bcd4202262038c90b6c4b36c7125345d15eadd44748bcc325a7e2082",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537971",
+    "name": "C'est aujourd'hui que ça se passe",
+    "duration_ms": 167000,
+    "explicit": false,
+    "popularity": 68,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/c/2/0/3c28b27c04ae63f77446b84068c7da3e.mp3?hdnea=exp=1781450114~acl=/api/1/1/3/c/2/0/3c28b27c04ae63f77446b84068c7da3e.mp3*~data=user_id=0,application_id=42~hmac=b95700b91c3e01f181f9ea1e02f20abcfe6df44a1b0f224d9c734783dd07ca31",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537981",
+    "name": "2083",
+    "duration_ms": 227000,
+    "explicit": false,
+    "popularity": 50,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/c/0/cece8b29b8f97e2d4e8112fedb4f14fc.mp3?hdnea=exp=1781450114~acl=/api/1/1/c/e/c/0/cece8b29b8f97e2d4e8112fedb4f14fc.mp3*~data=user_id=0,application_id=42~hmac=edb3cdf025df35985c0c134087bf3c8dca5801144bb05a48462614c645880b95",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493537991",
+    "name": "La Sagesse",
+    "duration_ms": 184000,
+    "explicit": false,
+    "popularity": 55,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/c/0/81c6440006f33eefb20ded7a27eb2b5b.mp3?hdnea=exp=1781450114~acl=/api/1/1/8/1/c/0/81c6440006f33eefb20ded7a27eb2b5b.mp3*~data=user_id=0,application_id=42~hmac=72e770d2caa24bd2adc53e4df0a77a3df4ad4cc3b5817d774ac47c8e739dff86",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493538001",
+    "name": "Deauville",
+    "duration_ms": 184000,
+    "explicit": false,
+    "popularity": 45,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/5/e/0/65eb65c1bf47f156f30bc8af3446eb03.mp3?hdnea=exp=1781450114~acl=/api/1/1/6/5/e/0/65eb65c1bf47f156f30bc8af3446eb03.mp3*~data=user_id=0,application_id=42~hmac=801dd42ad7c58ba2145590e4674ee597887f6b46c4dc021a773358fa14fc0453",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2493538011",
+    "name": "Paroles et Musique",
+    "duration_ms": 237000,
+    "explicit": false,
+    "popularity": 43,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/4/0/f047436d1e8e65cad35a44580ce182d7.mp3?hdnea=exp=1781450114~acl=/api/1/1/f/0/4/0/f047436d1e8e65cad35a44580ce182d7.mp3*~data=user_id=0,application_id=42~hmac=151cc32438f248bc00fc0f76b327e61cabf7fb76bb54b15b91cb94f792db1ff6",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Chanson française"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "498725681",
+      "name": "REFLETS",
+      "release_date": "2023-10-20",
+      "total_tracks": 12,
+      "type": "album",
+      "genres": [
+        "Chanson française"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/b4c4748e51b15ecc3d0abff703278c53/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "4039206391",
+    "name": "J’en ai pas encore fini",
+    "duration_ms": 209000,
+    "explicit": false,
+    "popularity": 84,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/1/0/3012ddc65533805cf3a854881d024ec9.mp3?hdnea=exp=1781450115~acl=/api/1/1/3/0/1/0/3012ddc65533805cf3a854881d024ec9.mp3*~data=user_id=0,application_id=42~hmac=c100ddfab9a2f1566707b8d487ab14b19c19c56056b8314ccf6de31135036993",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206401",
+    "name": "Traces",
+    "duration_ms": 195000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206411",
+    "name": "Mes doutes avec toi",
+    "duration_ms": 205000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206421",
+    "name": "20 ans plus tard",
+    "duration_ms": 216000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206441",
+    "name": "Puissance 4",
+    "duration_ms": 185000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206451",
+    "name": "Ça ira",
+    "duration_ms": 192000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206461",
+    "name": "Je ne changerai rien",
+    "duration_ms": 217000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206471",
+    "name": "Le prochain rêve",
+    "duration_ms": 197000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206481",
+    "name": "Une mélodie",
+    "duration_ms": 196000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206491",
+    "name": "Drôle de lettre",
+    "duration_ms": 179000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206501",
+    "name": "Pas de fatalité",
+    "duration_ms": 174000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206511",
+    "name": "Les failles",
+    "duration_ms": 173000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206521",
+    "name": "On m’appelle artiste",
+    "duration_ms": 175000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206531",
+    "name": "L’hiver",
+    "duration_ms": 210000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206541",
+    "name": "J'sais pas faire sans toi",
+    "duration_ms": 221000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 15,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "4039206551",
+    "name": "Voir la mer",
+    "duration_ms": 230000,
+    "explicit": false,
+    "popularity": 10,
+    "preview_url": "",
+    "track_number": 16,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "989085991",
+      "name": "Voir la mer",
+      "release_date": "2026-09-17",
+      "total_tracks": 16,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": []
+    }
+  },
+  {
+    "id": "576217282",
+    "name": "Plan B",
+    "duration_ms": 136000,
+    "explicit": false,
+    "popularity": 41,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/0/0/2305bd66a3802c1f67e7b17421583138.mp3?hdnea=exp=1781450119~acl=/api/1/1/2/3/0/0/2305bd66a3802c1f67e7b17421583138.mp3*~data=user_id=0,application_id=42~hmac=463d4451c3af41386df05d93ea977c7eef853f923bb8a4bb9eb1c927bc856505",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217292",
+    "name": "Acouphènes",
+    "duration_ms": 215000,
+    "explicit": false,
+    "popularity": 38,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/3/0/c8334808db53442b1cf1295a0fe7c846.mp3?hdnea=exp=1781450120~acl=/api/1/1/c/8/3/0/c8334808db53442b1cf1295a0fe7c846.mp3*~data=user_id=0,application_id=42~hmac=c724f1f9aea8ef341bbf8c5ed5b626be48a5ae3703179b542343b906385d32f9",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217302",
+    "name": "Au feu rouge",
+    "duration_ms": 253000,
+    "explicit": false,
+    "popularity": 38,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/5/0/04587d812fb80d936125d6bfe25aa991.mp3?hdnea=exp=1781450120~acl=/api/1/1/0/4/5/0/04587d812fb80d936125d6bfe25aa991.mp3*~data=user_id=0,application_id=42~hmac=4f4d54d726e9895fb4b78be29893ba05cf1b6e9115e39983824ae020aa6ba575",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217312",
+    "name": "Tu peux déjà",
+    "duration_ms": 245000,
+    "explicit": false,
+    "popularity": 32,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/b/0/ceb01e342cbe810ac8a04edda6b2d9d9.mp3?hdnea=exp=1781450120~acl=/api/1/1/c/e/b/0/ceb01e342cbe810ac8a04edda6b2d9d9.mp3*~data=user_id=0,application_id=42~hmac=235738c9b7d6691887f0679fe91ea5e286c74fe2dde97ecbf8fcb1e0f1387b49",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217322",
+    "name": "Poker",
+    "duration_ms": 214000,
+    "explicit": false,
+    "popularity": 46,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/1/0/021111a2289519d24d978e77df5b9331.mp3?hdnea=exp=1781450120~acl=/api/1/1/0/2/1/0/021111a2289519d24d978e77df5b9331.mp3*~data=user_id=0,application_id=42~hmac=00e35fe99c7f727c8ee6d34084e2f9335b6a9d05df94796246773cdf1761f65c",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217332",
+    "name": "La syllabe au rebond",
+    "duration_ms": 207000,
+    "explicit": false,
+    "popularity": 33,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/5/0/8f5a40ae1ac83f224e023f399467d19a.mp3?hdnea=exp=1781450121~acl=/api/1/1/8/f/5/0/8f5a40ae1ac83f224e023f399467d19a.mp3*~data=user_id=0,application_id=42~hmac=0ad9f4cbf6b49e564ce36f0238dd93b4446303e9036f7312a9affe51f94d78a5",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217342",
+    "name": "J'suis pas rentré",
+    "duration_ms": 215000,
+    "explicit": false,
+    "popularity": 40,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/f/1/0/2f17bb899b557b2f78d3cf4708cfd6e2.mp3?hdnea=exp=1781450121~acl=/api/1/1/2/f/1/0/2f17bb899b557b2f78d3cf4708cfd6e2.mp3*~data=user_id=0,application_id=42~hmac=8bdc5bdac3096aa41c29e430b6134716b4fabf9ce07b45ef9e498ecbaceba699",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217352",
+    "name": "Charades",
+    "duration_ms": 252000,
+    "explicit": false,
+    "popularity": 29,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/3/0/953be43625720275b277ac340786912a.mp3?hdnea=exp=1781450121~acl=/api/1/1/9/5/3/0/953be43625720275b277ac340786912a.mp3*~data=user_id=0,application_id=42~hmac=6d12dad4664822c2632d8ff50a9119ab69ced23e2c42dab99fa187de4fdc6d85",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217362",
+    "name": "Dimanche soir",
+    "duration_ms": 242000,
+    "explicit": false,
+    "popularity": 71,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/7/0/a271d49f278a0f7cc449ef4bb05a3bc9.mp3?hdnea=exp=1781450121~acl=/api/1/1/a/2/7/0/a271d49f278a0f7cc449ef4bb05a3bc9.mp3*~data=user_id=0,application_id=42~hmac=0341fe9bd51a78b82c8b813b53a43bf125d01bce778dbc18f500531178e93b43",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217372",
+    "name": "1000 vies",
+    "duration_ms": 201000,
+    "explicit": false,
+    "popularity": 31,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/8/0/f287230217d82c78396cf8a6722be3cf.mp3?hdnea=exp=1781450121~acl=/api/1/1/f/2/8/0/f287230217d82c78396cf8a6722be3cf.mp3*~data=user_id=0,application_id=42~hmac=5bbcf20320bf6a3140db7148f68a01e055f64e5889a1f9e52c582c0318c382e5",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217382",
+    "name": "Le langage du corps",
+    "duration_ms": 227000,
+    "explicit": false,
+    "popularity": 37,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/6/0/3e6d041c4fb3c164e5e0d9ebb2c9d1f3.mp3?hdnea=exp=1781450122~acl=/api/1/1/3/e/6/0/3e6d041c4fb3c164e5e0d9ebb2c9d1f3.mp3*~data=user_id=0,application_id=42~hmac=2898d4923e16bd75e2e8068e9928d26d8f7e79aeaa6a2c9a918df172f1ec5922",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217392",
+    "name": "Patrick",
+    "duration_ms": 237000,
+    "explicit": false,
+    "popularity": 32,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/1/0/541c70d8bdef47a7c3f78e7b80210a75.mp3?hdnea=exp=1781450122~acl=/api/1/1/5/4/1/0/541c70d8bdef47a7c3f78e7b80210a75.mp3*~data=user_id=0,application_id=42~hmac=1efe2ba5f22e3e8685f0b28f39158695d35fef437b2da7923490d7e718aecdc3",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217402",
+    "name": "Ensemble",
+    "duration_ms": 199000,
+    "explicit": false,
+    "popularity": 46,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/6/0/fa6957e5b4f6af51ab6d0e4ca96590d3.mp3?hdnea=exp=1781450122~acl=/api/1/1/f/a/6/0/fa6957e5b4f6af51ab6d0e4ca96590d3.mp3*~data=user_id=0,application_id=42~hmac=3e57d152df6f6b2f2ebc429cbf888069c49a5c4ff5caab41ad4c09cc1b6d68d2",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217412",
+    "name": "Issam",
+    "duration_ms": 113000,
+    "explicit": false,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/6/0/5d6a2258ccc4cba709104b4665890154.mp3?hdnea=exp=1781450122~acl=/api/1/1/5/d/6/0/5d6a2258ccc4cba709104b4665890154.mp3*~data=user_id=0,application_id=42~hmac=006caf3fc89747a1253c2f547157256e8825be92cc6374b3d8ca35f99753c4ed",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217422",
+    "name": "Espoir adapté",
+    "duration_ms": 199000,
+    "explicit": false,
+    "popularity": 25,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/e/0/6feb64c79fe626e3f53b7569fc14108f.mp3?hdnea=exp=1781450122~acl=/api/1/1/6/f/e/0/6feb64c79fe626e3f53b7569fc14108f.mp3*~data=user_id=0,application_id=42~hmac=3aacc7b3f11a7effabb097175d07397df8ee771920323439db1cc7526edd7164",
+    "track_number": 15,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217432",
+    "name": "Sur la Lune",
+    "duration_ms": 178000,
+    "explicit": false,
+    "popularity": 24,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/a/4/6/0/a46abc1a7b5915265d52a949f7ed107f.mp3?hdnea=exp=1781450123~acl=/api/1/1/a/4/6/0/a46abc1a7b5915265d52a949f7ed107f.mp3*~data=user_id=0,application_id=42~hmac=7856e165393f2c4fc4160a24198affc7f70b818de018264b9598e7a2314c928e",
+    "track_number": 16,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217442",
+    "name": "Je te donne ma parole",
+    "duration_ms": 168000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/6/0/39615123bd5332fbc692d9e78d11f5b0.mp3?hdnea=exp=1781450123~acl=/api/1/1/3/9/6/0/39615123bd5332fbc692d9e78d11f5b0.mp3*~data=user_id=0,application_id=42~hmac=9647138304f42f7032878037d7e5218ff76560a1b26edc140e7662a08b1146cc",
+    "track_number": 17,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217452",
+    "name": "Dimanche soir (Version acoustique)",
+    "duration_ms": 195000,
+    "explicit": false,
+    "popularity": 36,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/8/0/0285f1ac6ef9439cf3d4d85954893518.mp3?hdnea=exp=1781450123~acl=/api/1/1/0/2/8/0/0285f1ac6ef9439cf3d4d85954893518.mp3*~data=user_id=0,application_id=42~hmac=57b7c04e577c779a6f2b8547aacaac1ebc56b6b11b174e693c255850bb05fc4f",
+    "track_number": 18,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "576217462",
+    "name": "J'suis pas rentré (Version concert)",
+    "duration_ms": 204000,
+    "explicit": false,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/1/0/5315879f23e3bb6c544b13b8fbbe5160.mp3?hdnea=exp=1781450123~acl=/api/1/1/5/3/1/0/5315879f23e3bb6c544b13b8fbbe5160.mp3*~data=user_id=0,application_id=42~hmac=6d5647b3733ed396fc8792c40c1163374bcca519cd68b64be1cbf417e2c41908",
+    "track_number": 19,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "2691",
+        "name": "Grand Corps Malade",
+        "type": "artist",
+        "followers": {
+          "total": 1028145
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 10,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/5847115d770f9d712464b59ffae34394/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "77014752",
+      "name": "Plan B (Deluxe)",
+      "release_date": "2018-12-07",
+      "total_tracks": 19,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/177e2aa119105580be1287ccd46a5d2c/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1740409447",
+    "name": "Feu",
+    "duration_ms": 150000,
+    "explicit": true,
+    "popularity": 13,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/0/0/510f74a8bc869991f67eb92775aadbb2.mp3?hdnea=exp=1781453703~acl=/api/1/1/5/1/0/0/510f74a8bc869991f67eb92775aadbb2.mp3*~data=user_id=0,application_id=42~hmac=8de42fe78ac60968c0c4dbde736e48b99f218cc7c46b0a49dfe1333340038ffc",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1649114",
+        "name": "L'Hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 9429
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4536433d575254f1d060353319f08e8d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "315938507",
+      "name": "Solaire",
+      "release_date": "2022-05-13",
+      "total_tracks": 8,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/bb1eedb435db6b9ddb81321ebb04510b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "527117832",
+    "name": "Poète des temps modernes",
+    "duration_ms": 143000,
+    "explicit": false,
+    "popularity": 12,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/2/0/b621f87a319641f751202d6b16281eb2.mp3?hdnea=exp=1781453709~acl=/api/1/1/b/6/2/0/b621f87a319641f751202d6b16281eb2.mp3*~data=user_id=0,application_id=42~hmac=9cdf3e746878ec02d3dd57d6b3ba3e2481d6b789c9f2b19c9d35d2ac2a9ee241",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22278
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "68146232",
+      "name": "Poète des temps modernes",
+      "release_date": "2018-07-12",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/190cdf4dcdd9a78ff98ad7ee1659c5b3/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1716060557",
+    "name": "Nouveau départ (Remix)",
+    "duration_ms": 246000,
+    "explicit": true,
+    "popularity": 7,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/3/0/f6342b18a8f4efdaf558de235063dc6c.mp3?hdnea=exp=1781453711~acl=/api/1/1/f/6/3/0/f6342b18a8f4efdaf558de235063dc6c.mp3*~data=user_id=0,application_id=42~hmac=463a28172f588880c4e6d28f5ef4be35f55c6b98ea50aea1824e19bb65de133a",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1649114",
+        "name": "L'Hexaler",
+        "type": "artist",
+        "followers": {
+          "total": 9429
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4536433d575254f1d060353319f08e8d/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "310067897",
+      "name": "Nouveau départ (Remix)",
+      "release_date": "2022-04-13",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/bb1eedb435db6b9ddb81321ebb04510b/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "2625521172",
+    "name": "Une nuit sans fin",
+    "duration_ms": 212000,
+    "explicit": true,
+    "popularity": 20,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/5/0/6f53d3917b260fe00e9faa6439541a78.mp3?hdnea=exp=1781453712~acl=/api/1/1/6/f/5/0/6f53d3917b260fe00e9faa6439541a78.mp3*~data=user_id=0,application_id=42~hmac=7b6a99dc431e793ed00ec1807d8cf1a2ae1e295d6531e284ad2123a76c188a20",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "1198335",
+        "name": "Melan",
+        "type": "artist",
+        "followers": {
+          "total": 22278
+        },
+        "genres": [
+          "Rap/Hip Hop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/0deea8fee0362bc959f36d4e4cbf52aa/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "536531282",
+      "name": "\"La trentaine l'intégrale\"",
+      "release_date": "2024-02-23",
+      "total_tracks": 30,
+      "type": "album",
+      "genres": [
+        "Rap/Hip Hop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/ed4f37298624f0bb905b03e54c5b2ad4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
   }
 ]
