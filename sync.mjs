@@ -2,10 +2,25 @@ import fs   from 'fs/promises';
 import path  from 'path';
 import { fileURLToPath } from 'url';
 
+// Charger .env manuellement (compatible Node 18+, sans dépendance)
+try {
+  const envPath = new URL('.env', import.meta.url);
+  const lines = (await fs.readFile(envPath, 'utf-8')).split('\n');
+  for (const line of lines) {
+    const [k, ...v] = line.split('=');
+    if (k && v.length) process.env[k.trim()] ??= v.join('=').trim();
+  }
+} catch { /* pas de .env, on continue */ }
+
 const __dir       = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH   = path.join(__dir, 'data', 'data.json');
-const LASTFM_KEY  = 'fe79ae2b67b3b619504d63d7c9829008';
-const LASTFM_USER = 'zaderlyl';
+// Clés lues depuis les variables d'environnement (définies dans .env ou au lancement)
+const LASTFM_KEY  = process.env.LASTFM_KEY;
+const LASTFM_USER = process.env.LASTFM_USER;
+if (!LASTFM_KEY || !LASTFM_USER) {
+  console.error('❌ LASTFM_KEY et LASTFM_USER doivent être définis dans .env');
+  process.exit(1);
+}
 
 // ── Helpers ───────────────────────────────────────────────────
 

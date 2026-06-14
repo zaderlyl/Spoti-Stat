@@ -2401,3 +2401,43 @@ Node.js v25.5.0
 
 🎉 198 morceaux ajoutés dans data.json
 📀 Total : 1169 morceaux
+🔄 Lecture de data.json…
+📀 1169 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Philadelphia - Scratch Bandits Crew Remix"
+⏭️  Album déjà traité cette session : Tangram Series, Vol. 1
+❌ Introuvable sur Deezer : "Whole Lotta Love - 1990 Remaster" — Led Zeppelin
+🎵 Track manquante dans un album connu : "Smoke on the Water - remastered 2012"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1169 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "MESDAMES deluxe" — Grand Corps Malade
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Le sens de la famille"
+   ✅ 2. "Des gens beaux"
+   ✅ 3. "Souvenirs manqués"
+   ✅ 4. "Nos plus belles années"
+   ✅ 1. "Mesdames"
+   ✅ 2. "Derrière le brouillard"
+   ✅ 3. "Un verre à la main"
+   ✅ 4. "Une sœur"
+   ✅ 5. "Pendant 24h"
+   ✅ 6. "Mais je t'aime"
+   ✅ 7. "Chemins de traverse"
+   ✅ 8. "Enfants du désordre"
+   ✅ 9. "Confinés"
+   ✅ 10. "Je ne serai que de trop"
+   → 14 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Philadelphia - Scratch Bandits Crew Remix"
+⏭️  Album déjà traité cette session : Tangram Series, Vol. 1
+❌ Introuvable sur Deezer : "Whole Lotta Love - 1990 Remaster" — Led Zeppelin
+🎵 Track manquante dans un album connu : "Smoke on the Water - remastered 2012"
+
+🎉 14 morceaux ajoutés dans data.json
+📀 Total : 1183 morceaux

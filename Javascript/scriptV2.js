@@ -1,13 +1,10 @@
-const LASTFM_KEY  = 'fe79ae2b67b3b619504d63d7c9829008';
-const LASTFM_USER = 'zaderlyl';
-const LASTFM_BASE = 'https://ws.audioscrobbler.com/2.0/';
+// Proxy Vercel — la clé Last.fm n'est jamais exposée côté client
+const LASTFM_USER = 'zaderlyl'; // nom d'utilisateur public, pas sensible
 
 async function lastfm(method, params = {}) {
-  const url = new URL(LASTFM_BASE);
+  const url = new URL('/api/lastfm', location.origin);
   url.searchParams.set('method', method);
   url.searchParams.set('user', LASTFM_USER);
-  url.searchParams.set('api_key', LASTFM_KEY);
-  url.searchParams.set('format', 'json');
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   const res = await fetch(url);
   return res.json();

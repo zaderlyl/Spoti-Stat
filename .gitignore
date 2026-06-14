@@ -1,0 +1,8 @@
+# Clés API — ne jamais committer
+.env
+Javascript/keys.js
+
+# Node
+node_modules/
+sync.log
+.vercel
