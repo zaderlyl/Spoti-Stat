@@ -3163,3 +3163,62 @@ Node.js v25.5.0
 📀 1613 morceaux dans data.json
 📡 Récupération des écoutes Last.fm (50 dernières)…
 ❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 1613 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "SAINTE ANNE" — FAUVE
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "SAINTE ANNE"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+
+🎉 1 morceau ajouté dans data.json
+📀 Total : 1614 morceaux
+🔄 Lecture de data.json…
+📀 1614 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Paradis" — Ben Mazué
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Tu m'auras tellement plu"
+   ✅ 2. "Quand je marche"
+   ✅ 3. "Divin exil"
+   ✅ 4. "Nulle part"
+   ✅ 5. "Gaffe aux autres"
+   ✅ 6. "Mathis"
+   ✅ 7. "Quarantaine"
+   ✅ 8. "Providence"
+   ✅ 9. "Le coeur nous anime"
+   ✅ 10. "J'écris"
+   ✅ 11. "Parents"
+   ✅ 12. "Semaine A / Semaine B"
+   ✅ 13. "Les jours heureux"
+   ✅ 14. "Pas très original"
+   → 14 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+
+🎉 14 morceaux ajoutés dans data.json
+📀 Total : 1628 morceaux
+🔄 Lecture de data.json…
+📀 1628 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 1628 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1628 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !

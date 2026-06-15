@@ -252438,5 +252438,800 @@
         }
       ]
     }
+  },
+  {
+    "id": "3110784481",
+    "name": "SAINTE ANNE",
+    "duration_ms": 333000,
+    "explicit": false,
+    "popularity": 57,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/d/0/fedf622633ddddfa63932904966e0582.mp3?hdnea=exp=1781514903~acl=/api/1/1/f/e/d/0/fedf622633ddddfa63932904966e0582.mp3*~data=user_id=0,application_id=42~hmac=f0a262e9b8661a98810defaf33f17fd594962df7bd4169be7d0696e3e9f72143",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "56895",
+        "name": "FAUVE",
+        "type": "artist",
+        "followers": {
+          "total": 549079
+        },
+        "genres": [
+          "Rock",
+          "Rock français"
+        ],
+        "popularity": 5,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/4178406e49e25e90ec6282ea564a1409/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "675106091",
+      "name": "SAINTE ANNE",
+      "release_date": "2011-12-06",
+      "total_tracks": 1,
+      "type": "album",
+      "genres": [
+        "Rock",
+        "Rock français"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/d7a02444be048c2121b92addd4875340/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719932",
+    "name": "Tu m'auras tellement plu",
+    "duration_ms": 171000,
+    "explicit": false,
+    "popularity": 70,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/4/3/1/0/431c31883900e658746f6421dddddd4b.mp3?hdnea=exp=1781518503~acl=/api/1/1/4/3/1/0/431c31883900e658746f6421dddddd4b.mp3*~data=user_id=0,application_id=42~hmac=79996aeef17ac5aa8c59922685a5572235c34a5a480cf9c7bde4f469e39ca909",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719942",
+    "name": "Quand je marche",
+    "duration_ms": 233000,
+    "explicit": false,
+    "popularity": 86,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/c/0/02c4e81bfb203e1743ac5c4b322c6aef.mp3?hdnea=exp=1781518503~acl=/api/1/1/0/2/c/0/02c4e81bfb203e1743ac5c4b322c6aef.mp3*~data=user_id=0,application_id=42~hmac=98b56ad8896d5a4df5722a7c9e738ff3c401dcea06aafda826ec09391f4af747",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719952",
+    "name": "Divin exil",
+    "duration_ms": 197000,
+    "explicit": false,
+    "popularity": 52,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/6/2/9/0/629b2ed60642e044c6a114012baf26b9.mp3?hdnea=exp=1781518503~acl=/api/1/1/6/2/9/0/629b2ed60642e044c6a114012baf26b9.mp3*~data=user_id=0,application_id=42~hmac=c61c82bc8ce366a887a2637941ccf330e818b7b1295e8be046567604a35ac369",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719962",
+    "name": "Nulle part",
+    "duration_ms": 191000,
+    "explicit": false,
+    "popularity": 56,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/c/d/0/3cdcf32643e6da3f57a038075d942054.mp3?hdnea=exp=1781518503~acl=/api/1/1/3/c/d/0/3cdcf32643e6da3f57a038075d942054.mp3*~data=user_id=0,application_id=42~hmac=44f89abebc2185b5a7305d5d7d4ea18befe1c65c94f33bfd2978d2a85d999e97",
+    "track_number": 4,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719972",
+    "name": "Gaffe aux autres",
+    "duration_ms": 171000,
+    "explicit": false,
+    "popularity": 78,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/3/0/fc39451e8434dc66d3c45f56f24371db.mp3?hdnea=exp=1781518504~acl=/api/1/1/f/c/3/0/fc39451e8434dc66d3c45f56f24371db.mp3*~data=user_id=0,application_id=42~hmac=08ba77790bd731f16e68ab119a3c2838caa8f62d7a5d7a40ee4383da13863161",
+    "track_number": 5,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719982",
+    "name": "Mathis",
+    "duration_ms": 193000,
+    "explicit": false,
+    "popularity": 53,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/f/0/0cfab4a0b645c3483e1593239e12f273.mp3?hdnea=exp=1781518504~acl=/api/1/1/0/c/f/0/0cfab4a0b645c3483e1593239e12f273.mp3*~data=user_id=0,application_id=42~hmac=da1e0d33a6c2026e7c67a966847ba6ac90aef2cae86c6386a53235cf12ddba07",
+    "track_number": 6,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113719992",
+    "name": "Quarantaine",
+    "duration_ms": 186000,
+    "explicit": false,
+    "popularity": 54,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/7/0/5074863cb494ac28fa4dc1eb1153c859.mp3?hdnea=exp=1781518504~acl=/api/1/1/5/0/7/0/5074863cb494ac28fa4dc1eb1153c859.mp3*~data=user_id=0,application_id=42~hmac=6a1370309d4ca96de7117aa58d2bf8a8d0468376a72d6a9780a93eb045ee83a5",
+    "track_number": 7,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720002",
+    "name": "Providence",
+    "duration_ms": 156000,
+    "explicit": false,
+    "popularity": 48,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/1/6/f/0/16f2c42a439e5e426053221c473c8816.mp3?hdnea=exp=1781518504~acl=/api/1/1/1/6/f/0/16f2c42a439e5e426053221c473c8816.mp3*~data=user_id=0,application_id=42~hmac=04173b60922fa52695f441ca7ef36818a6849d3821a1d151384f3dc2b95d55b0",
+    "track_number": 8,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720012",
+    "name": "Le coeur nous anime",
+    "duration_ms": 164000,
+    "explicit": false,
+    "popularity": 64,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/7/0/ce7c0b8c87cb2719d7c2a4f10e974f80.mp3?hdnea=exp=1781518504~acl=/api/1/1/c/e/7/0/ce7c0b8c87cb2719d7c2a4f10e974f80.mp3*~data=user_id=0,application_id=42~hmac=f8896ddc6a7a281eaf0f0b5f6db95556aebbe3dd960c3f29263224e244733eda",
+    "track_number": 9,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720022",
+    "name": "J'écris",
+    "duration_ms": 184000,
+    "explicit": false,
+    "popularity": 56,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/8/0/5c889048523024522cf04ec365f5f37f.mp3?hdnea=exp=1781518505~acl=/api/1/1/5/c/8/0/5c889048523024522cf04ec365f5f37f.mp3*~data=user_id=0,application_id=42~hmac=414c964c59244a21d3d5fadfea0f2dbe1babe0f744d1c4800a42a3d7dc81be65",
+    "track_number": 10,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720032",
+    "name": "Parents",
+    "duration_ms": 191000,
+    "explicit": false,
+    "popularity": 47,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/6/0/596e89be2b31d3d4e8b84d91d8ed7709.mp3?hdnea=exp=1781518505~acl=/api/1/1/5/9/6/0/596e89be2b31d3d4e8b84d91d8ed7709.mp3*~data=user_id=0,application_id=42~hmac=9de84aeba1af4df190a5a5797ae3ae1f37ae1cb4541efceca64de150a020e435",
+    "track_number": 11,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720042",
+    "name": "Semaine A / Semaine B",
+    "duration_ms": 174000,
+    "explicit": false,
+    "popularity": 58,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/7/0/5e7602b1ea786f70633928bb5c8986a3.mp3?hdnea=exp=1781518505~acl=/api/1/1/5/e/7/0/5e7602b1ea786f70633928bb5c8986a3.mp3*~data=user_id=0,application_id=42~hmac=fa04e25a5d3b26ac19d652dd2706cac46c5e9578faeea22e27eb61e10243c068",
+    "track_number": 12,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720052",
+    "name": "Les jours heureux",
+    "duration_ms": 183000,
+    "explicit": false,
+    "popularity": 66,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/6/0/3b68959064405cfe68c2aaed6cb9cd36.mp3?hdnea=exp=1781518505~acl=/api/1/1/3/b/6/0/3b68959064405cfe68c2aaed6cb9cd36.mp3*~data=user_id=0,application_id=42~hmac=572c7df124edd3f267ae25fee84f2fec02fb86ec6300776e7e411e617faa3488",
+    "track_number": 13,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "1113720062",
+    "name": "Pas très original",
+    "duration_ms": 178000,
+    "explicit": false,
+    "popularity": 46,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/1/0/2819f99edaa0feec6d942fd610f56aec.mp3?hdnea=exp=1781518506~acl=/api/1/1/2/8/1/0/2819f99edaa0feec6d942fd610f56aec.mp3*~data=user_id=0,application_id=42~hmac=04dc1fec38a46d7ee84bbcc321998cdba15222f4e97f74831939c87490d5e49a",
+    "track_number": 14,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "162540",
+        "name": "Ben Mazué",
+        "type": "artist",
+        "followers": {
+          "total": 352045
+        },
+        "genres": [
+          "Chanson française",
+          "Pop"
+        ],
+        "popularity": 4,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/43cc8b9e9fe0918d76573b51a1855fa0/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "180589512",
+      "name": "Paradis",
+      "release_date": "2020-11-06",
+      "total_tracks": 14,
+      "type": "album",
+      "genres": [
+        "Chanson française",
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/58f7091a000c3495abd2898d445ca4e4/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
   }
 ]
