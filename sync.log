@@ -2807,3 +2807,359 @@ Node.js v25.5.0
 
 🎉 43 morceaux ajoutés dans data.json
 📀 Total : 1405 morceaux
+🔄 Lecture de data.json…
+📀 1405 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
+🔄 Lecture de data.json…
+📀 1405 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+💿 Nouvel album détecté : "Coming Out (Standard)" — Les Fatals Picards
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Coming Out"
+   ✅ 2. "Dans mon verre"
+   ✅ 3. "Noir (s)"
+   ✅ 4. "Le retour à la terre"
+   ✅ 5. "Hasta XXL"
+   ✅ 6. "1983"
+   ✅ 7. "Miss France"
+   ✅ 8. "Poupée gonflée"
+   ✅ 9. "Premier de la glace"
+   ✅ 10. "Tonton"
+   ✅ 11. "Par ici la monnaie"
+   ✅ 12. "La France du petit Nicolas"
+   ✅ 13. "Moonboots"
+   → 13 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "J'accuse"
+   ✅ Ajout : "J'accuse"
+💿 Nouvel album détecté : "L'équilibre" — Kyo
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Poupées russes"
+   ✅ 2. "Le Graal"
+   ✅ 3. "L'équilibre"
+   ✅ 4. "Enfant du solstice"
+   ✅ 5. "Les vents contraires"
+   ✅ 6. "Nuits blanches"
+   ✅ 7. "XY"
+   ✅ 8. "Madone"
+   ✅ 9. "Récidiviste"
+   ✅ 10. "On se tourne autour"
+   ✅ 11. "White Trash"
+   ✅ 12. "La route"
+   → 12 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "The Geeks and the Jerkin' Socks" — Shaka Ponk
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Let's Bang"
+   ✅ 2. "I'm Picky"
+   ✅ 3. "Brunette Localicious"
+   ✅ 4. "I'm a Lady"
+   ✅ 5. "Sex Ball"
+   ✅ 6. "My Name Is Stain"
+   ✅ 7. "Shiza Radio"
+   ✅ 8. "Run Run Run"
+   ✅ 9. "Dancing Dead"
+   ✅ 10. "Reset After All"
+   ✅ 11. "Old School Rocka"
+   ✅ 12. "Palabra Mi Amor"
+   → 12 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Un autre monde (Remasterisé en 2015)" — Téléphone
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Les dunes (Remasterisé en 2015)"
+   ✅ 2. "New-York avec toi (Remasterisé en 2015)"
+   ✅ 3. "Loin de toi (un peu trop loin) (Remasterisé en 2015)"
+   ✅ 4. "66 heures (Remasterisé en 2015)"
+   ✅ 5. "Ce que je veux (Remasterisé en 2015)"
+   ✅ 6. "Le garçon d'ascenseur (Remasterisé en 2015)"
+   ✅ 7. "Oublie ça (Remasterisé en 2015)"
+   ✅ 8. "T'as qu'ces mots (Remasterisé en 2015)"
+   ✅ 9. "Le taxi las (Remasterisé en 2015)"
+   ✅ 10. "Electric cité (Remasterisé en 2015)"
+   ✅ 11. "Un autre monde (Remasterisé en 2015)"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "2013" — BB Brunes
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Coups Et Blessures"
+   ✅ 2. "Sois tranquille"
+   ✅ 3. "On Se Fout De Nous"
+   ✅ 4. "M'en Aller (feat. Tal)"
+   ✅ 5. "Don't Wake Me Up"
+   ✅ 6. "Skinny Love"
+   ✅ 7. "Summer Jam (Video Edit)"
+   ✅ 8. "Midnight City"
+   ✅ 9. "Co-Pilot (feat. Kristina Maria)"
+   ✅ 10. "Bara Bara Bere Bere"
+   ✅ 11. "Summer Paradise (feat. Sean Paul)"
+   ✅ 12. "One By One (feat. Mavado)"
+   ✅ 13. "I Rave You"
+   ✅ 14. "Zumba He Zumba Ha (feat. Jessy Matador & Luis Guisao)"
+   ✅ 15. "Call Me a Spaceman (Radio Edit)"
+   ✅ 16. "Work Hard, Play Hard"
+   ✅ 17. "Addicted (feat. Mohombi & Craig David & Greg Parys)"
+   ✅ 18. "Drama queen"
+   ✅ 19. "SUMMERBREEZE"
+   ✅ 20. "Addicted to You"
+   ✅ 1. "We Are Young (feat. Janelle Monáe)"
+   ✅ 2. "Call Me Maybe"
+   ✅ 3. "Wide Awake"
+   ✅ 4. "I Follow Rivers (The Magician Remix)"
+   ✅ 5. "Le Sens De La Vie"
+   ✅ 6. "Whistle"
+   ✅ 7. "I Know (Remix Street feat. Youssoupha)"
+   ✅ 8. "Tacatà"
+   ✅ 9. "DES RICOCHETS"
+   ✅ 10. "Positif (feat. P. Square)"
+   ✅ 11. "Scream"
+   ✅ 12. "Ma Cherie (feat. The Beat Shakers)"
+   ✅ 13. "My name is stain"
+   ✅ 14. "Next to Me"
+   ✅ 15. "Rayos De Sol (Original Mix)"
+   ✅ 16. "Summer of Love (Video Edit)"
+   ✅ 17. "Dreamin (feat. Indila & Skalpovich)"
+   ✅ 18. "Breathing"
+   ✅ 19. "Hold On"
+   ✅ 20. "Ma vie au soleil"
+   ✅ 21. "Baby I'm Yours (feat. Irfrane)"
+   → 41 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Y'a des cigales dans la fourmilière" — La Rue Kétanou
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Les cigales"
+   ✅ 2. "Les hommes que j'aime"
+   ✅ 3. "Dechirer ma memoire"
+   ✅ 4. "Les maisons"
+   ✅ 5. "Sao Loucas"
+   ✅ 6. "Rap'n'roll"
+   ✅ 7. "Le deuil"
+   ✅ 8. "Almarita"
+   ✅ 9. "Laisse ton corps s'exprimer"
+   ✅ 10. "J'ai tout démoli"
+   ✅ 11. "La rumeur"
+   ✅ 12. "Mon oncle"
+   ✅ 13. "Danse"
+   ✅ 14. "On a trop deconné (Texte déclamé de Pierre Henri)"
+   ✅ 15. "Marcher pas droit"
+   → 15 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Chapitre 7" — MC Solaar
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Intreau"
+   ✅ 2. "Carpe Diem"
+   ✅ 3. "Paris Samba"
+   ✅ 4. "CLIC CLIC"
+   ✅ 5. "Da Vinci Claude"
+   ✅ 6. "In God We Trust"
+   ✅ 7. "Un Coup D'Œil Dans Le MÉtro"
+   ✅ 8. "Si On T'demande"
+   ✅ 9. "Au Clair De La Lune"
+   ✅ 10. "Non Merci"
+   ✅ 11. "Sous Les Palmiers"
+   ✅ 12. "Mollah Solaar"
+   ✅ 13. "L'auberge Du Bouleau Blanc"
+   ✅ 14. "Ben Oui !"
+   ✅ 15. "Avec Les Loups"
+   ✅ 16. "Merci"
+   ✅ 17. "Impact Avec Le Diable"
+   ✅ 18. "Outro"
+   → 18 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Paradize" — Indochine
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Paradize"
+   ✅ 2. "Electrastar"
+   ✅ 3. "Punker"
+   ✅ 4. "Mao Boy"
+   ✅ 5. "J'ai demandé à la lune"
+   ✅ 6. "Dunkerque"
+   ✅ 7. "Like a Monster"
+   ✅ 8. "Le grand secret (feat. Melissa Auf der Maur)"
+   ✅ 9. "La nuit des fées"
+   ✅ 10. "Marilyn"
+   ✅ 11. "Le manoir"
+   ✅ 12. "Popstitute"
+   ✅ 13. "Dark"
+   ✅ 14. "Comateen"
+   ✅ 15. "Un singe en hiver"
+   → 15 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Varsovie, L'Alhambra, Paris" — Saez
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Varsovie"
+   ✅ 2. "Ceux qui sont en laisse"
+   ✅ 3. "Je suis le Christ"
+   ✅ 4. "Que tout est noir"
+   ✅ 5. "Dis-moi qui sont ces gens"
+   ✅ 6. "Goraszewska"
+   ✅ 7. "Je suis perdu"
+   ✅ 8. "Anéanti"
+   ✅ 9. "On meurt de toi"
+   ✅ 1. "Chanson pour mon enterrement"
+   ✅ 2. "Au-delà du brouillard"
+   ✅ 3. "Au-delà du brouillard Thème"
+   ✅ 4. "Je cherche encore"
+   ✅ 5. "Les bars du port"
+   ✅ 6. "A l'Alhambra"
+   ✅ 7. "Quand on perd son amour"
+   ✅ 8. "L'abattoir"
+   ✅ 9. "On s'endort sur des braises"
+   ✅ 10. "Tango"
+   ✅ 1. "Jeunesse lève-toi"
+   ✅ 2. "S'en aller"
+   ✅ 3. "On n'a pas la thune"
+   ✅ 4. "Alice"
+   ✅ 5. "Le cavalier sans tête"
+   ✅ 6. "Putains vous m'aurez plus"
+   ✅ 7. "Des marées d'écume"
+   ✅ 8. "Intro"
+   ✅ 9. "Toi tu dis que t'es bien sans moi"
+   ✅ 10. "Kasia"
+   → 29 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Caravane" — Raphaël
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Caravane"
+   ✅ 2. "Ne partons pas fâchés"
+   ✅ 3. "C'est bon aujourd'hui"
+   ✅ 4. "Chanson pour Patrick Dewaere"
+   ✅ 5. "Et dans 150 ans"
+   ✅ 6. "Les petits bâteaux"
+   ✅ 7. "La route de nuit"
+   ✅ 8. "Schengen"
+   ✅ 9. "Peut-être a-t-il rêvé?"
+   ✅ 10. "La ballade du pauvre"
+   ✅ 11. "Funambule"
+   → 11 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Masque de chair" — Scylla
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Qui suis-je?"
+   ✅ 2. "Enchanté"
+   ✅ 3. "L'étoile"
+   ✅ 4. "Vivre"
+   ✅ 5. "Masque De Chair"
+   ✅ 6. "Et toi?"
+   ✅ 7. "Chopin"
+   ✅ 8. "La tête ailleurs"
+   ✅ 9. "Arrête tes couilles!"
+   ✅ 10. "Victimes et bourreaux"
+   ✅ 11. "Esprits fraternels"
+   ✅ 12. "Celui qui va mourir vous salue"
+   ✅ 13. "Le fantôme sous les toits"
+   ✅ 14. "Seul un fou"
+   ✅ 15. "En attendant la prochaine vie"
+   → 15 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+🎉 193 morceaux ajoutés dans data.json
+📀 Total : 1598 morceaux
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !
+🔄 Lecture de data.json…
+📀 1598 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+🎵 50 écoutes récupérées depuis Last.fm
+
+🎵 Track manquante dans un album connu : "Un autre monde - Remasterisé en 2015"
+💿 Nouvel album détecté : "Louise Attaque" — Louise Attaque
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Amours"
+   ✅ 2. "J't'emmène au vent"
+   ✅ 3. "Ton invitation"
+   ✅ 4. "La brune"
+   ✅ 5. "Les nuits parisiennes"
+   ✅ 6. "L'imposture"
+   ✅ 7. "Savoir"
+   ✅ 8. "Arrache-moi"
+   ✅ 9. "Léa"
+   ✅ 10. "Fatigante"
+   ✅ 11. "Tes yeux se moquent"
+   ✅ 12. "Vous avez l'heure"
+   ✅ 13. "Toute cette histoire"
+   ✅ 14. "Cracher nos souhaits"
+   → 14 piste(s) ajoutée(s)
+💿 Nouvel album détecté : "Dis Moi (single digital)" — BB Brunes
+   🔍 Récupération de toutes les pistes…
+   ✅ 1. "Dis-moi"
+   → 1 piste(s) ajoutée(s)
+🎵 Track manquante dans un album connu : "J’ai trouvé ma place"
+
+🎉 15 morceaux ajoutés dans data.json
+📀 Total : 1613 morceaux
+🔄 Lecture de data.json…
+📀 1613 morceaux dans data.json
+📡 Récupération des écoutes Last.fm (50 dernières)…
+❌ Erreur : fetch failed
