@@ -1,11 +1,10 @@
-export default async function handler(req, res) {
-  // CORS — autorise ton domaine uniquement
+module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET');
 
   const params = new URLSearchParams({
     ...req.query,
-    api_key: process.env.LASTFM_KEY,   // stockée dans Vercel, jamais exposée
+    api_key: process.env.LASTFM_KEY,
     format:  'json'
   });
 
@@ -16,4 +15,4 @@ export default async function handler(req, res) {
   } catch (err) {
     res.status(500).json({ error: 'Erreur proxy Last.fm' });
   }
-}
+};

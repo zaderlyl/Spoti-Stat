@@ -317,7 +317,7 @@ document.addEventListener('alpine:init', () => {
     trierAlbumPar:      'popularite', // 'popularite' | 'nom' | 'date' | 'ecoutes'
 
     async init() {
-      const brut = await fetch('data/data.json').then(r => r.json());
+      const brut = await fetch('/api/data').then(r => r.json());
 
       this.liste = brut.map(t => {
         const ga     = t.artists.flatMap(a => a.genres ?? []);

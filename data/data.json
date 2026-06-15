@@ -253233,5 +253233,158 @@
         }
       ]
     }
+  },
+  {
+    "id": "3782953792",
+    "name": "Toy (#NotYourToy Remix)",
+    "duration_ms": 148000,
+    "explicit": false,
+    "popularity": 17,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/7/f/d/0/7fd15a01d55a78ee1b15deef56dd1055.mp3?hdnea=exp=1781532903~acl=/api/1/1/7/f/d/0/7fd15a01d55a78ee1b15deef56dd1055.mp3*~data=user_id=0,application_id=42~hmac=33f0bd78e2a3482d7cf48b763f276cb8ac3755478a0077040224efef643ed6a9",
+    "track_number": 1,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "7132431",
+        "name": "Netta",
+        "type": "artist",
+        "followers": {
+          "total": 2651
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ff6ec35fcdc4fb8acb2dfa0aa5268121/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "900546242",
+      "name": "Toy - #NotYourToy Remix",
+      "release_date": "2026-01-28",
+      "total_tracks": 3,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/71356ff33b7c9062c1377a680e8002f3/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3782953802",
+    "name": "TOY (Eurovision 2018 - Israel)",
+    "duration_ms": 180000,
+    "explicit": false,
+    "popularity": 57,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/a/0/cea9c79976496154bf412eba85d6820a.mp3?hdnea=exp=1781532903~acl=/api/1/1/c/e/a/0/cea9c79976496154bf412eba85d6820a.mp3*~data=user_id=0,application_id=42~hmac=ecf921bd4e97b30b14e8212f541b4ea173a5e93fb99abe099894068007e8695c",
+    "track_number": 2,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "7132431",
+        "name": "Netta",
+        "type": "artist",
+        "followers": {
+          "total": 2651
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ff6ec35fcdc4fb8acb2dfa0aa5268121/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "900546242",
+      "name": "Toy - #NotYourToy Remix",
+      "release_date": "2026-01-28",
+      "total_tracks": 3,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/71356ff33b7c9062c1377a680e8002f3/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": "3782953812",
+    "name": "Cuckoo",
+    "duration_ms": 193000,
+    "explicit": true,
+    "popularity": 2,
+    "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/5/0/ba58e29d71845e6786513e60755290f8.mp3?hdnea=exp=1781532903~acl=/api/1/1/b/a/5/0/ba58e29d71845e6786513e60755290f8.mp3*~data=user_id=0,application_id=42~hmac=85e8c5371851b5e23a05c67e57a279ea90c75526a73456a7506285e37de00db1",
+    "track_number": 3,
+    "type": "track",
+    "external_urls": {
+      "spotify": null
+    },
+    "artists": [
+      {
+        "id": "7132431",
+        "name": "Netta",
+        "type": "artist",
+        "followers": {
+          "total": 2651
+        },
+        "genres": [
+          "Pop"
+        ],
+        "popularity": 0,
+        "images": [
+          {
+            "url": "https://cdn-images.dzcdn.net/images/artist/ff6ec35fcdc4fb8acb2dfa0aa5268121/250x250-000000-80-0-0.jpg",
+            "height": 250,
+            "width": 250
+          }
+        ]
+      }
+    ],
+    "album": {
+      "id": "900546242",
+      "name": "Toy - #NotYourToy Remix",
+      "release_date": "2026-01-28",
+      "total_tracks": 3,
+      "type": "album",
+      "genres": [
+        "Pop"
+      ],
+      "images": [
+        {
+          "url": "https://cdn-images.dzcdn.net/images/cover/71356ff33b7c9062c1377a680e8002f3/250x250-000000-80-0-0.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    }
   }
 ]
