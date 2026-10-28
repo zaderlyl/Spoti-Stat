@@ -335,6 +335,7 @@ document.addEventListener('alpine:init', () => {
           previewUrl:  t.preview_url ?? '',
           numPiste:    t.track_number ?? '',
           explicit:    t.explicit ?? false,
+          ecoute:      t.ecoute ?? false,
           spotifyUrl:  t.external_urls?.spotify ?? '',
           artistes:    t.artists.map(a => ({ nom: a.name, popularite: a.popularity ?? 0, followers: a.followers?.total ?? 0, image: (a.images?.slice().sort((x,y)=>(y.height||0)-(x.height||0))[0]?.url ?? '').replace(/\/\d+x\d+-/, '/500x500-') }))
         };
@@ -351,9 +352,8 @@ document.addEventListener('alpine:init', () => {
       }
       this.albums = Object.values(albumsMap).sort((a, b) => b.popularite - a.popularite);
 
-      this.$nextTick(() => { creerChartArtistes(this.liste); creerChartGenres(this.liste); });
-
       await this.chargerPlaycounts();
+      this.$nextTick(() => { creerChartArtistes(this.listeEcoutes); creerChartGenres(this.listeEcoutes); });
       await this.rafraichirNowPlaying();
 
       // Now Playing : toutes les 30s
@@ -706,10 +706,17 @@ document.addEventListener('alpine:init', () => {
     },
 
     // ── UTILS ──
+    // Morceaux réellement écoutés (marqueur de la synchro ou playcount Last.fm) ; repli sur le catalogue si aucun
+    get listeEcoutes() {
+      const e = this.liste.filter(m => m.ecoute || (this.playcounts[m.titre.toLowerCase() + '|' + m.artiste.split(', ')[0].toLowerCase()] ?? 0) > 0);
+      return e.length ? e : this.liste;
+    },
+
     get stats() {
-      const artistes = new Set(this.liste.flatMap(m => m.artiste.split(', ')));
+      const base     = this.listeEcoutes;
+      const artistes = new Set(base.flatMap(m => m.artiste.split(', ')));
       const genres   = {};
-      for (const m of this.liste) { const c = categoriser(m.genres, m.artiste); genres[c] = (genres[c] ?? 0) + 1; }
+      for (const m of base) { const c = categoriser(m.genres, m.artiste); genres[c] = (genres[c] ?? 0) + 1; }
       // Morceau le plus écouté via Last.fm playcounts
       let topEcoute      = '—';
       let topEcouteTrack = null;
@@ -739,7 +746,7 @@ document.addEventListener('alpine:init', () => {
 
     ouvrirDetails(m) { this.morceauSelectionne = m; this.trackStatsVisible = false; },
     fermerDetails()  { this.morceauSelectionne = null; },
-    toggleArtistes() { this.tousArtistes = !this.tousArtistes; creerChartArtistes(this.liste, this.tousArtistes ? null : 10); },
+    toggleArtistes() { this.tousArtistes = !this.tousArtistes; creerChartArtistes(this.listeEcoutes, this.tousArtistes ? null : 10); },
     toggleOrdre()    { this.ordreAsc = !this.ordreAsc; },
     formatDuree(ms)  { return formatDuree(ms); },
     formatHeures(s)  { return formatHeures(s); },
