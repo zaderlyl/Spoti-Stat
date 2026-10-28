@@ -21,6 +21,8 @@ jobs:
         env:
           LASTFM_KEY: ${{ secrets.LASTFM_KEY }}
           LASTFM_USER: ${{ secrets.LASTFM_USER }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       - name: Commiter si data.json a changé
         run: |
           if git diff --quiet data/data.json; then

@@ -17,6 +17,8 @@ const DATA_PATH   = path.join(__dir, 'data', 'data.json');
 // Clés lues depuis les variables d'environnement (définies dans .env ou au lancement)
 const LASTFM_KEY  = process.env.LASTFM_KEY;
 const LASTFM_USER = process.env.LASTFM_USER;
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 if (!LASTFM_KEY || !LASTFM_USER) {
   console.error('❌ LASTFM_KEY et LASTFM_USER doivent être définis dans .env');
   process.exit(1);
@@ -37,6 +39,32 @@ async function lastfm(method, params = {}) {
   url.searchParams.set('format', 'json');
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   return get(url.toString());
+}
+
+// Envoie les écoutes dans Supabase (les doublons sont ignorés) ; sans clés, on saute
+async function envoyerEcoutes(tracks) {
+  if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
+    console.log('ℹ️  Supabase non configuré : écoutes non enregistrées');
+    return;
+  }
+  const lignes = tracks.map(t => ({
+    played_at: new Date(t.date.uts * 1000).toISOString(),
+    titre:     t.name,
+    artiste:   t.artist['#text'],
+    album:     t.album?.['#text'] || null
+  }));
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/ecoutes`, {
+    method: 'POST',
+    headers: {
+      apikey: SUPABASE_SERVICE_KEY,
+      Authorization: `Bearer ${SUPABASE_SERVICE_KEY}`,
+      'Content-Type': 'application/json',
+      Prefer: 'resolution=ignore-duplicates,return=minimal'
+    },
+    body: JSON.stringify(lignes)
+  });
+  if (!res.ok) throw new Error(`Supabase ${res.status} : ${await res.text()}`);
+  console.log(`🗄️  ${lignes.length} écoutes envoyées dans Supabase`);
 }
 
 async function pause(ms = 200) {
@@ -97,7 +125,9 @@ async function main() {
   const data   = await lastfm('user.getrecenttracks', { limit: 50 });
   const tracks = (data.recenttracks?.track ?? []).filter(t => t.date?.uts);
 
-  console.log(`🎵 ${tracks.length} écoutes récupérées depuis Last.fm\n`);
+  console.log(`🎵 ${tracks.length} écoutes récupérées depuis Last.fm`);
+  await envoyerEcoutes(tracks);
+  console.log();
 
   let ajouts = 0;
   const nouvelles = [];
