@@ -45,16 +45,16 @@ async function pause(ms = 200) {
 
 // ── Deezer : construire un objet track normalisé ──────────────
 
-function buildTrackObject(track, album, artist) {
+function buildTrackObject(track, album, artist, ecoute = false) {
   return {
     id:           String(track.id),
     name:         track.title,
     duration_ms:  track.duration * 1000,
     explicit:     track.explicit_lyrics ?? false,
     popularity:   track.rank ? Math.round(track.rank / 10000) : 0,
-    preview_url:  track.preview ?? null,
     track_number: track.track_position ?? track.disc_number ?? 1,
     type:         'track',
+    ...(ecoute && { ecoute: true }),
     external_urls: { spotify: null },
     artists: [{
       id:         String(artist.id),
@@ -77,57 +77,6 @@ function buildTrackObject(track, album, artist) {
   };
 }
 
-// ── Deezer : chercher une track, puis récupérer TOUT son album ─
-
-async function rechercherEtRecupererAlbum(titre, artiste, idsExistants, titresExistants) {
-  const q   = encodeURIComponent(`${titre} ${artiste}`);
-  const url = `https://api.deezer.com/search?q=${q}&limit=1`;
-
-  try {
-    const data = await get(url);
-    const hit  = data.data?.[0];
-    if (!hit) return [];
-
-    // Infos complètes album + artiste
-    const [album, artist] = await Promise.all([
-      get(`https://api.deezer.com/album/${hit.album.id}`),
-      get(`https://api.deezer.com/artist/${hit.artist.id}`)
-    ]);
-    await pause(150);
-
-    // Toutes les tracks de l'album
-    const albumTracks = await get(`https://api.deezer.com/album/${hit.album.id}/tracks?limit=100`);
-    await pause(150);
-
-    const nouvelles = [];
-
-    for (const t of albumTracks.data ?? []) {
-      if (idsExistants.has(String(t.id))) continue;
-
-      const cle = t.title.toLowerCase() + '|' + artist.name.toLowerCase();
-      if (titresExistants.has(cle)) continue;
-
-      // Détails complets de la track pour avoir rank, preview, etc.
-      let trackDetail;
-      try {
-        trackDetail = await get(`https://api.deezer.com/track/${t.id}`);
-        await pause(120);
-      } catch {
-        trackDetail = t;
-      }
-
-      const obj = buildTrackObject(trackDetail, album, artist);
-      nouvelles.push(obj);
-      idsExistants.add(obj.id);
-      titresExistants.add(cle);
-    }
-
-    return nouvelles;
-  } catch (e) {
-    return [];
-  }
-}
-
 // ── Main ──────────────────────────────────────────────────────
 
 async function main() {
@@ -139,8 +88,8 @@ async function main() {
     existants.map(t => t.name.toLowerCase() + '|' + t.artists[0]?.name.toLowerCase())
   );
 
-  // Albums déjà présents (pour ne pas re-scanner un album entier inutilement)
-  const albumsExistants = new Set(existants.map(t => t.album.id));
+  const parCle = new Map(existants.map(t => [t.name.toLowerCase() + '|' + t.artists[0]?.name.toLowerCase(), t]));
+  let marques = 0;
 
   console.log(`📀 ${existants.length} morceaux dans data.json`);
   console.log('📡 Récupération des écoutes Last.fm (50 dernières)…');
@@ -150,8 +99,6 @@ async function main() {
 
   console.log(`🎵 ${tracks.length} écoutes récupérées depuis Last.fm\n`);
 
-  // Albums déjà traités dans cette session (évite de scanner le même album deux fois)
-  const albumsTraites = new Set();
   let ajouts = 0;
   const nouvelles = [];
 
@@ -160,9 +107,10 @@ async function main() {
     const artiste = t.artist['#text'];
     const cle     = titre.toLowerCase() + '|' + artiste.toLowerCase();
 
-    // Si la track exacte est déjà là, on vérifie quand même si l'album est complet
-    // (cas où la track était là mais pas les autres morceaux de l'album)
+    // Morceau déjà présent : on le marque comme écouté
     if (titresExistants.has(cle)) {
+      const connu = parCle.get(cle);
+      if (connu && !connu.ecoute) { connu.ecoute = true; marques++; }
       continue;
     }
 
@@ -176,65 +124,35 @@ async function main() {
       continue;
     }
 
-    const albumId = String(hit.album.id);
+    // On n'ajoute que le morceau écouté (pas l'album entier)
+    try {
+      const [trackDetail, album, artist] = await Promise.all([
+        get(`https://api.deezer.com/track/${hit.id}`),
+        get(`https://api.deezer.com/album/${hit.album.id}`),
+        get(`https://api.deezer.com/artist/${hit.artist.id}`)
+      ]);
+      await pause(150);
 
-    // Album déjà entièrement scanné dans cette session ou dans data.json
-    if (albumsTraites.has(albumId)) {
-      console.log(`⏭️  Album déjà traité cette session : ${hit.album.title}`);
-      titresExistants.add(cle); // marquer quand même pour ne pas re-chercher
-      continue;
-    }
-
-    albumsTraites.add(albumId);
-
-    if (albumsExistants.has(albumId)) {
-      // L'album est connu mais la track spécifique manque — on l'ajoute seule
-      console.log(`🎵 Track manquante dans un album connu : "${titre}"`);
-      try {
-        const trackDetail = await get(`https://api.deezer.com/track/${hit.id}`);
-        const album       = await get(`https://api.deezer.com/album/${hit.album.id}`);
-        const artist      = await get(`https://api.deezer.com/artist/${hit.artist.id}`);
-        await pause(150);
-
-        if (!idsExistants.has(String(trackDetail.id))) {
-          const obj = buildTrackObject(trackDetail, album, artist);
-          nouvelles.push(obj);
-          idsExistants.add(obj.id);
-          titresExistants.add(cle);
-          ajouts++;
-          console.log(`   ✅ Ajout : "${obj.name}"`);
-        }
-      } catch {
-        console.log(`   ❌ Erreur lors de la récupération de la track`);
-      }
-      continue;
-    }
-
-    // Nouvel album → récupérer TOUTES ses pistes
-    console.log(`💿 Nouvel album détecté : "${hit.album.title}" — ${artiste}`);
-    console.log(`   🔍 Récupération de toutes les pistes…`);
-
-    const tracksAlbum = await rechercherEtRecupererAlbum(titre, artiste, idsExistants, titresExistants);
-
-    if (tracksAlbum.length === 0) {
-      console.log(`   ℹ️  Aucune nouvelle piste à ajouter`);
-    } else {
-      for (const obj of tracksAlbum) {
+      if (!idsExistants.has(String(trackDetail.id))) {
+        const obj = buildTrackObject(trackDetail, album, artist, true);
         nouvelles.push(obj);
+        idsExistants.add(obj.id);
+        titresExistants.add(cle);
         ajouts++;
-        console.log(`   ✅ ${obj.track_number}. "${obj.name}"`);
+        console.log(`✅ Ajout : "${obj.name}" — ${artiste}`);
       }
-      console.log(`   → ${tracksAlbum.length} piste(s) ajoutée(s)`);
+    } catch {
+      console.log(`❌ Erreur lors de la récupération de "${titre}"`);
     }
   }
 
-  if (ajouts === 0) {
+  if (ajouts === 0 && marques === 0) {
     console.log('\n✨ Aucun nouveau morceau à ajouter — tout est déjà à jour !');
     return;
   }
 
   const fusion = [...existants, ...nouvelles];
-  await fs.writeFile(DATA_PATH, JSON.stringify(fusion, null, 2), 'utf-8');
+  await fs.writeFile(DATA_PATH, JSON.stringify(fusion), 'utf-8');
   console.log(`\n🎉 ${ajouts} morceau${ajouts > 1 ? 'x' : ''} ajouté${ajouts > 1 ? 's' : ''} dans data.json`);
   console.log(`📀 Total : ${fusion.length} morceaux`);
 }
