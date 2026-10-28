@@ -10,17 +10,29 @@ async function lastfm(method, params = {}) {
   return res.json();
 }
 
-async function fetchRecentTracks(fromTs, toTs, maxPages = 5) {
-  let tracks = [], page = 1, totalPages = 1;
-  do {
-    const data = await lastfm('user.getrecenttracks', { from: fromTs, to: toTs, limit: 200, page });
-    totalPages = parseInt(data.recenttracks?.['@attr']?.totalPages ?? 1);
-    const batch = data.recenttracks?.track ?? [];
-    tracks.push(...batch.filter(t => t.date?.uts));
-    page++;
-    if (page > maxPages) break;
-  } while (page <= totalPages);
-  return tracks;
+// Supabase — clé publique (lecture seule grâce à la sécurité par ligne)
+const SUPABASE_URL = 'https://ccxrzpouxtqoppwxmjxg.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_bc72nJViD4HjHRGfBZmVvA_GBrUS6pL';
+
+// Lit une table ou une vue Supabase par pages de 1000 lignes
+async function supabaseTout(chemin) {
+  const lignes = [];
+  for (let debut = 0; ; debut += 1000) {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/${chemin}`, {
+      headers: { apikey: SUPABASE_KEY, Range: `${debut}-${debut + 999}` }
+    });
+    if (!res.ok) throw new Error(`Supabase ${res.status}`);
+    const page = await res.json();
+    lignes.push(...page);
+    if (page.length < 1000) return lignes;
+  }
+}
+
+// Écoutes depuis un timestamp (secondes) : [{ titre, artiste, uts }]
+async function fetchEcoutes(depuisTs) {
+  const depuis = encodeURIComponent(new Date(depuisTs * 1000).toISOString());
+  const lignes = await supabaseTout(`ecoutes?select=titre,artiste,played_at&played_at=gte.${depuis}&order=played_at.desc`);
+  return lignes.map(l => ({ titre: l.titre, artiste: l.artiste, uts: Math.floor(new Date(l.played_at) / 1000) }));
 }
 
 function formatDuree(ms) {
@@ -383,10 +395,9 @@ document.addEventListener('alpine:init', () => {
     // ── LAST.FM PLAYCOUNTS ──
     async chargerPlaycounts() {
       try {
-        const data   = await lastfm('user.gettoptracks', { limit: 200, period: 'overall' });
-        const tracks = data.toptracks?.track ?? [];
-        for (const t of tracks)
-          this.playcounts[t.name.toLowerCase() + '|' + t.artist.name.toLowerCase()] = parseInt(t.playcount, 10);
+        const lignes = await supabaseTout('playcounts?select=*');
+        for (const l of lignes)
+          this.playcounts[l.titre + '|' + l.artiste] = l.n;
         // Charger les featurings du top track après les playcounts
         await this.chargerFeaturingsTopTrack();
       } catch {}
@@ -452,32 +463,17 @@ document.addEventListener('alpine:init', () => {
         dateKeys[ts]   = label;
       }
 
-      // Récupérer les tracks page par page sans filtre from/to
-      let page = 1, totalPages = 1;
       const cutoff = Math.floor(Date.now() / 1000) - 30 * 86400;
 
-      do {
-        const data  = await lastfm('user.getrecenttracks', { limit: 200, page });
-        totalPages  = parseInt(data.recenttracks?.['@attr']?.totalPages ?? 1);
-        const batch = (data.recenttracks?.track ?? []).filter(t => t.date?.uts);
-
-        let stop = false;
-        for (const t of batch) {
-          const uts = parseInt(t.date.uts);
-          if (uts < cutoff) { stop = true; break; }
-
-          const d   = new Date(uts * 1000);
-          d.setHours(0, 0, 0, 0);
-          const label = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
-          if (parJour[label] !== undefined) {
-            parJour[label].plays++;
-            parJour[label].sec += dureeMoyenne;
-          }
+      for (const e of await fetchEcoutes(cutoff)) {
+        const d = new Date(e.uts * 1000);
+        d.setHours(0, 0, 0, 0);
+        const label = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
+        if (parJour[label] !== undefined) {
+          parJour[label].plays++;
+          parJour[label].sec += dureeMoyenne;
         }
-        if (stop) break;
-        page++;
-        if (page > 8) break;
-      } while (page <= totalPages);
+      }
 
       const labels  = Object.keys(parJour);
       const plays   = labels.map(k => parJour[k].plays);
@@ -496,9 +492,8 @@ document.addEventListener('alpine:init', () => {
       this.trackStatsTotalPlays = 0;
       this.trackStatsTotalMin   = 0;
 
-      const now    = Math.floor(Date.now() / 1000);
-      const depuis = now - 7 * 86400;
-      const all    = await fetchRecentTracks(depuis, now, 3);
+      const depuis = Math.floor(Date.now() / 1000) - 7 * 86400;
+      const all    = await fetchEcoutes(depuis);
 
       const nomCible     = morceau.titre.toLowerCase();
       const artisteCible = morceau.artiste.split(', ')[0].toLowerCase();
@@ -512,8 +507,8 @@ document.addEventListener('alpine:init', () => {
       }
 
       for (const t of all) {
-        if (t.name.toLowerCase() === nomCible && t.artist['#text'].toLowerCase() === artisteCible) {
-          const d   = new Date(parseInt(t.date.uts) * 1000);
+        if (t.titre.toLowerCase() === nomCible && t.artiste.toLowerCase() === artisteCible) {
+          const d   = new Date(t.uts * 1000);
           const key = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
           if (parJour[key] !== undefined) parJour[key]++;
           this.trackStatsTotalPlays++;
@@ -537,11 +532,10 @@ document.addEventListener('alpine:init', () => {
       this.albumStatsVisible = true;
       this.albumStatsLoading = true;
 
-      const data   = await lastfm('user.gettopalbums', { limit: 20, period: 'overall' });
-      const albums = data.topalbums?.album ?? [];
+      const albums = await supabaseTout('albums_top?select=*&order=n.desc&limit=20');
 
-      const labels = albums.map(a => a.name.length > 20 ? a.name.slice(0, 18) + '…' : a.name);
-      const plays  = albums.map(a => parseInt(a.playcount, 10));
+      const labels = albums.map(a => a.album.length > 20 ? a.album.slice(0, 18) + '…' : a.album);
+      const plays  = albums.map(a => a.n);
 
       // Estimer la durée d'écoute : plays × durée moyenne des morceaux de l'album
       const dureeMoyenne = this.liste.length
@@ -566,23 +560,8 @@ document.addEventListener('alpine:init', () => {
         .filter(m => m.album === alb.nom)
         .sort((a, b) => (a.numPiste ?? 0) - (b.numPiste ?? 0));
 
-      // Récupérer les écoutes des 30 derniers jours depuis Last.fm
-      const depuis = Math.floor(Date.now() / 1000) - 30 * 86400;
-      let page = 1, totalPages = 1, toutesEcoutes = [];
-
-      do {
-        const data  = await lastfm('user.getrecenttracks', { limit: 200, page });
-        totalPages  = parseInt(data.recenttracks?.['@attr']?.totalPages ?? 1);
-        const batch = (data.recenttracks?.track ?? []).filter(t => t.date?.uts);
-        let stop = false;
-        for (const t of batch) {
-          if (parseInt(t.date.uts) < depuis) { stop = true; break; }
-          toutesEcoutes.push(t);
-        }
-        if (stop) break;
-        page++;
-        if (page > 10) break;
-      } while (page <= totalPages);
+      // Écoutes des 30 derniers jours
+      const toutesEcoutes = await fetchEcoutes(Math.floor(Date.now() / 1000) - 30 * 86400);
 
       // Pour chaque track : compter écoutes + calculer temps (écoutes × durée)
       const labels  = [];
@@ -591,8 +570,8 @@ document.addEventListener('alpine:init', () => {
 
       for (const m of tracksAlbum) {
         const count = toutesEcoutes.filter(t =>
-          t.name.toLowerCase()          === m.titre.toLowerCase() &&
-          t.artist['#text'].toLowerCase() === m.artiste.split(', ')[0].toLowerCase()
+          t.titre.toLowerCase()   === m.titre.toLowerCase() &&
+          t.artiste.toLowerCase() === m.artiste.split(', ')[0].toLowerCase()
         ).length;
 
         const titre = m.titre.length > 30 ? m.titre.slice(0, 28) + '…' : m.titre;
